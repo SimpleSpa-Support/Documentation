@@ -1,0 +1,3 @@
+# Reloading Gift Cards/Certificates
+
+Issuing a gift card shouldn't end when a gift card has been used, with our integrated gift card system you can enter or scan an existing gift card an apply a new amount towards the gift card balance, this way you gift cards can also be a form of loyalty for your clients. In the SimpleSpa POS add a new Gift Card to a sale, then hit the ![](<../../.gitbook/assets/Pencil Button 02.webp>) button and there you can enter an existing gift card number, enter the amount that you would like to add and hit Update and complete the sale. The gift card will now have a new adjusted balance reflecting the new amount.

@@ -1,0 +1,5 @@
+# How much does SMS/Text Notifications cost?
+
+We think that our software and pricing should always be simple so we are offering various two simply billing options for SMS/Text Notifications for your scheduled appointments. Pricing is at $5 (USD) per staff member per month, so if you have 2 staff members it will cost you $10 per month _(\*_[_premium SMS currently available in specified countries_](https://www.simplespa.com/sms/) _\*\* SMS plans and pricing are available only for appointment notifications, and are not to be used for marketing. To subscribe to this plan all staff on the account must be subscribed respectively please note that a Fair use policy of 250 SMS allocated monthly p/staff and an active subscription for your business is needed for this service to be enabled. Custom Sender ID if supported is charged separately.)_\
+\
+If you are in a country that the premium plan is not supported, you can subscribe to Text/SMS bundles of 100 messages for $5 (USD) per month (pricing may vary from country, please [contact us](https://www.simplespa.com/contact/) for details)

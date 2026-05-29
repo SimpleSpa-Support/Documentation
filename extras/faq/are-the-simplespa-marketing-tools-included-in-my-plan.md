@@ -1,0 +1,3 @@
+# Are the SimpleSpa Marketing Tools included in my plan?
+
+SimpleSpa includes marketing tools for all their subscribers, you can quickly filter your clients based on certain criteria, and you then have the option to Export as a CSV which works in any Spreadsheet program, PDF, or Printout. To export your clients note that you should expand the viewable rows to the maximum allowed and then export accordingly. Optionally you have the ability to create your own SMS and Email if you would like to send directly from SimpleSpa, based on the number of clients/recipients you are targeting we will quote you on the price to send your campaign out, note that the average turnaround is 48h for an approval for your campaign.

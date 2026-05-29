@@ -1,0 +1,3 @@
+# Is there anything to install?
+
+SimpleSpa is a cloud-based service that simplifies booking and managing spa appointments. Your clients have the flexibility to book appointments online any time, day or night, throughout the week. Additionally, you can access SimpleSpa from any device, be it a computer, tablet, or smartphone, ensuring complete mobility and convenience. There's no need for any installations, allowing you to start using the service immediately. Furthermore, you benefit from automatic updates, ensuring you always have access to the latest features and improvements without any additional effort.
