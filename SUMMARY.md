@@ -41,6 +41,7 @@
     * [Zoom Meetings](fundamentals/appointments/meetings-integration/zoom-meetings.md)
   * [Offline Mode](fundamentals/appointments/offline-mode.md)
   * [Park Appointment](fundamentals/appointments/park-appointment.md)
+  * [Check-In Kiosk](fundamentals/appointments/check-in-kiosk.md)
   * [Checkout Kiosk](fundamentals/appointments/checkout-kiosk.md)
 * [POS](fundamentals/pos/README.md)
   * [Recording a Sale](fundamentals/pos/recording-a-sale.md)
