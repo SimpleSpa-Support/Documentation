@@ -40,6 +40,8 @@
     * [Google Meet](fundamentals/appointments/meetings-integration/google-meet.md)
     * [Zoom Meetings](fundamentals/appointments/meetings-integration/zoom-meetings.md)
   * [Offline Mode](fundamentals/appointments/offline-mode.md)
+  * [Park Appointment](fundamentals/appointments/park-appointment.md)
+  * [Checkout Kiosk](fundamentals/appointments/checkout-kiosk.md)
 * [POS](fundamentals/pos/README.md)
   * [Recording a Sale](fundamentals/pos/recording-a-sale.md)
   * [Balances & Deposits](fundamentals/pos/balances-and-deposits.md)
