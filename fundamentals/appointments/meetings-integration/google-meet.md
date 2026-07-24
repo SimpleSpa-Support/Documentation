@@ -66,19 +66,29 @@ This also ensures that if staff members rotate or switch devices, the meeting li
 
 ### 4. Emailing the Client the Meet Link
 
-Google does not automatically email the meeting link unless you rely on the full Google Calendar invitation workflow.
+When your appointment has a client email on file, SimpleSpa automatically asks Google to send the client a standard Google Calendar invitation. The client receives:
 
-Because SimpleSpa does not manage Google Calendar invites on your behalf, you will see:
+* An email invitation from your Google account (the account you connected)
+* The date and time of the appointment, shown in their own time zone
+* The Google Meet link, ready to join with one click
+* Accept / Decline buttons, just like any Google Calendar invite
 
-* A gentle reminder to manually send the link to the client
-* A clickable link you can easily copy
+There is nothing extra to do — if an email address exists on the appointment, the invitation is sent the moment the meeting is created. The confirmation message will read "Google Meet created — invite emailed to client."
 
-A future update may offer a template email dialog — for now, you can use:
+**If the client has no email on file**
 
-* SimpleSpa’s existing “Send Email” button, or
-* Your email client (Gmail, Outlook, Mail.app)
+The meeting is still created normally, and the Meet link is saved into the appointment notes as usual. You can share it manually using:
 
-The meeting link is ready to paste anywhere.
+* SimpleSpa's existing "Send Email" or messaging tools, or
+* Your own email client (Gmail, Outlook, Mail.app)
+
+The meeting link is ready to copy and paste anywhere.
+
+**Good to know**
+
+* The invitation comes directly from Google, sent on behalf of the connected Google account — not from SimpleSpa. Its appearance and wording are Google's standard invite format and cannot be customized.
+* Because the invite is a real Google Calendar invitation, any changes the client makes (accepting, declining) appear in your Google Calendar, not in SimpleSpa.
+* If you later delete the event in Google Calendar, choose "Send" when Google asks whether to notify guests, so the client receives the cancellation.
 
 ***
 
