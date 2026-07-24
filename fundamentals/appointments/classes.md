@@ -27,7 +27,9 @@ Class bookings follow a simple **full-or-capture** model. Based on your location
 | **Payment required, less than 100% (Stripe)** | The client's card is securely saved (no charge today). You can charge it later per your cancellation / no-show policy. |
 | **Payment not required**                      | The client reserves a seat with no payment step.                                                                       |
 
-\{% hint style="info" %\} **Why no deposits for classes?** Partial deposits on class bookings leave a balance to collect at the front desk for every attendee, every session. To keep check-in fast, classes support only **full payment** or **card capture** — never a partial deposit. \{% endhint %\}
+{% hint style="info" %}
+**Why no deposits for classes?** Partial deposits on class bookings leave a balance to collect at the front desk for every attendee, every session. To keep check-in fast, classes support only **full payment** or **card capture** — never a partial deposit.
+{% endhint %}
 
 #### Payment providers
 
@@ -70,7 +72,9 @@ You can add a walk-in to any class session without creating a client record for 
 * The seat is registered under the shared walk-in record and displays as **WALKIN** on the roster.
 * Walk-ins work the same way here as everywhere else in SimpleSpa (appointments, POS): one shared walk-in record per location, no per-visit names.
 
-\{% hint style="warning" %\} Walk-in seats have no payment attached and no client profile. If the person becomes a regular, create a proper client record and book them by name next time. \{% endhint %\}
+{% hint style="warning" %}
+Walk-in seats have no payment attached and no client profile. If the person becomes a regular, create a proper client record and book them by name next time.
+{% endhint %}
 
 ***
 
@@ -98,4 +102,6 @@ To take payments for class bookings online:
    * Leave payment off to allow free seat reservations.
 3. That's it — the online booking portal, roster, and dashboard pick up the configuration automatically.
 
-\{% hint style="warning" %\} Card capture requires **Stripe**. PayPal cannot save cards for later charging; PayPal-only locations support full payment or free reservation. \{% endhint %\}
+{% hint style="warning" %}
+Card capture requires **Stripe**. PayPal cannot save cards for later charging; PayPal-only locations support full payment or free reservation.
+{% endhint %}
