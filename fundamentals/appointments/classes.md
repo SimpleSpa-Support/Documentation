@@ -87,7 +87,9 @@ The Dashboard now includes a **Classes** card for the selected day.
 * Tap a session to expand its roster inline, including each attendee's payment status.
 * The card refreshes automatically along with the rest of the dashboard when bookings change — no manual reload needed.
 
-\{% hint style="info" %\} The Classes card only appears for locations that have class-type services configured. If you don't use classes, your dashboard is unchanged. \{% endhint %\}
+{% hint style="info" %}
+The Classes card only appears for locations that have class-type services configured. If you don't use classes, your dashboard is unchanged.
+{% endhint %}
 
 ***
 
