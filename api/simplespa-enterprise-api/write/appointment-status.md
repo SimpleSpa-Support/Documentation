@@ -50,7 +50,7 @@ Content-Type: application/json
 ### Example Request
 
 ```bash
-curl -X POST https://my.simplespa.com/api/v1/write/appointment-status.php \
+curl -X POST https://my.simplespa.com/api/v1/write/appointments-status.php \
 -H "Authorization: Bearer YOUR_API_KEY" \
 -H "Content-Type: application/json" \
 -d '{
@@ -76,7 +76,7 @@ curl -X POST https://my.simplespa.com/api/v1/write/appointment-status.php \
 **Example 1 — Mark Appointment as Confirmed**
 
 ```bash
-curl -X POST https://my.simplespa.com/api/v1/write/appointment-status.php \
+curl -X POST https://my.simplespa.com/api/v1/write/appointments-status.php \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -89,7 +89,7 @@ curl -X POST https://my.simplespa.com/api/v1/write/appointment-status.php \
 **Example 2 — Cancel Appointment**
 
 ```bash
-curl -X POST https://my.simplespa.com/api/v1/write/appointment-status.php \
+curl -X POST https://my.simplespa.com/api/v1/write/appointments-status.php \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
