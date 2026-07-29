@@ -24,7 +24,7 @@ Status changes update the internal appointment tables and create corresponding s
 ### Endpoint
 
 ```http
-POST https://my.simplespa.com/api/v1/write/appointment-status.php
+POST https://my.simplespa.com/api/v1/write/appointments-status.php
 ```
 
 ### Authentication
