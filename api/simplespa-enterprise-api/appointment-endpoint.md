@@ -78,6 +78,7 @@ curl -X POST https://my.simplespa.com/api/v1/appointments.php \
       "end": "2025-04-30 10:00:00",
       "status": 20,
       "status_label": "Confirmed",
+      "notes": "Some notes about this appointment",
       "client": {
         "client_id": "1",
         "first_name": "John",
