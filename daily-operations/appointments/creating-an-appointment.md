@@ -33,6 +33,6 @@ Top Left **Plus Button** ![](<../../.gitbook/assets/Plus Button.webp>) this brin
 <figure><img src="../../.gitbook/assets/Screenshot 2024-07-04 at 11.15.43 PM.png" alt=""><figcaption><p>After you will select a date &#x26; time and if a slot is not available there is always an option to overbook if needed</p></figcaption></figure>
 
 **Multi Button** ![](<../../.gitbook/assets/Multi Button.webp>) this was designed as an easy way to create multiple service appointments for the same client from a single window, i.e. a client may want to do both hair and nails, and booking via this window is easier to create that in a single window.\
-&#xNAN;_\* Note if a client is booked for multiple services in the same day your POS/Checkout will automatically detect that and add all the services offered and complete all appointments_
+_\* Note if a client is booked for multiple services in the same day your POS/Checkout will automatically detect that and add all the services offered and complete all appointments_
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-07-04 at 11.17.51 PM.png" alt=""><figcaption><p>The Multi-Appointment Booking prompt </p></figcaption></figure>

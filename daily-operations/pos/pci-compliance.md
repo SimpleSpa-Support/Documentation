@@ -6,7 +6,7 @@
 
 SimpleSpa partners with the largest merchant services, and our unique integration allows you to process using a physical terminal so you can accept a credit card quickly and efficiently, this solution allows you to use one of our certified terminals with SimpleSpa and securely process credit card transactions with SimpleSpa. Our solution is Semi-Integrated, PCI compliance is reduced and in some cases not in scope as no sensitive card account data is sent to the SimpleSpa POS that drives the semi-integrated terminal.\
 \
-&#xNAN;_\*_ Card Present transactions are exclusively facilitated for accounts directly referred to by SimpleSpa _via:_
+_\*_ Card Present transactions are exclusively facilitated for accounts directly referred to by SimpleSpa _via:_
 
 * [_CloverConnect/First Data by Fiserv_](https://isvpartner.fiserv.com/signup/simplespa) _(complete this form to speak with a representative for the SimpleSpa / Clover Integration)_
 * [_PlatinumRelations_](https://platinumrelations.com/simplespa-scheduling-software/) _(complete this form to speak with a representative for the SimpleSpa / PlatinumRelations Integration) if you would like to board directly on PlatinumRelations use_ [_this form_](https://portal.platinumrelations.com/form/information-simplespa-merchant) _to get started and submit all your merchant information - this integration supports SPIn Terminals by Dejavoo_
