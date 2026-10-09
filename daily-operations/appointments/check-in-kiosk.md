@@ -24,8 +24,10 @@ From here you can:
 * **Download** the QR code as a PNG
 * **Print** a print-ready version of the QR code
 
-\{% hint style="warning" %\} **Daily token expiry**\
-The kiosk link contains a security token that expires at midnight each night. Always generate or display the QR code fresh from the Settings page. Clients who scan an expired QR code will see a "Link unavailable" message. \{% endhint %\}
+{% hint style="warning" %}
+**Daily token expiry**\
+The kiosk link contains a security token that expires at midnight each night. Always generate or display the QR code fresh from the Settings page. Clients who scan an expired QR code will see a "Link unavailable" message.
+{% endhint %}
 
 #### Recommended Setup
 
@@ -59,6 +61,14 @@ No staff login is required on the kiosk device. The page is secured by a daily s
 6. Confirmation message appears: _"Checked in! A team member will be right with you."_
 
 The appointment status is updated to Checked In in SimpleSpa, and any enabled staff notifications are triggered.
+
+#### Staff Check-In Emails
+
+When a client taps **I'm here**, the staff member they're booked with receives an email letting them know their client has arrived, including the appointment time, so they can be ready at the front desk.
+
+{% hint style="info" %}
+Check-in emails are only sent to staff who have email notifications turned on in their staff settings.
+{% endhint %}
 
 #### Form Requirements
 
@@ -102,8 +112,10 @@ The client sees a searchable list of active services grouped by category. Tappin
 
 Only services that are **active** and **available online** are shown. Services hidden for this location via the category hide list are excluded.
 
-\{% hint style="info" %\} **Shared-mode businesses**\
-If your business has multiple locations sharing a service catalogue, the service list always shows services for the specific location this kiosk is configured for. Client records are searched across all locations under your business for lookup purposes. \{% endhint %\}
+{% hint style="info" %}
+**Shared-mode businesses**\
+If your business has multiple locations sharing a service catalogue, the service list always shows services for the specific location this kiosk is configured for. Client records are searched across all locations under your business for lookup purposes.
+{% endhint %}
 
 #### Step 4 — Staff Selection
 
