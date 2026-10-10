@@ -29,7 +29,7 @@ _Example:_
 #### 🤖 3. Smart Staff Assistant (AI)
 
 * Let staff type: "Clients who canceled twice in March"
-* AI interprets request, fetches results via API, and crafts a message.
+* AI interprets the request, fetches results via API, and crafts a message.
 
 #### 📊 4. Data & CRM Sync
 
@@ -49,10 +49,10 @@ _Example:_
   * "What services does Jane offer?"
 * AI + your data = instant concierge-level support.
 
-🌐 7. Website Integration
+#### 🌐 7. Website Integration
 
-* Add your services to your website and show a service menu of your current prices
-* Add your staff to your website and display their availability
+* Add your services to your website and show a service menu of your current prices.
+* Add your staff to your website and display their availability.
 
 > ⚠️ IMPORTANT: Never expose your private API key in client-side JavaScript. Always use secure, server-side code to handle sensitive credentials.
 
@@ -74,6 +74,6 @@ If you're ready to:
 
 * Personalize client engagement
 * Improve retention
-* See your data come alive in real-time
+* See your data come alive in real time
 
 Then it's time to go **Enterprise**.

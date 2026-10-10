@@ -1,13 +1,32 @@
-# Assigning Staff during Checkout
+---
+description: >-
+  How staff are assigned to services at checkout and how to change the assigned
+  staff member.
+---
 
-Staff will automatically be assigned if you are checking out directly from an appointment. The POS will allocate the staff that is servicing the appointment automatically. Assigned staff will be applied a commission if they have commissions enabled for the service category or universal commissions & tips will be allocated accordingly based on what has been tipped
+# Assigning Staff During Checkout
 
-To adjust the staff per service, click on the section that either has “NO STAFF ASSIGNED” or the staff name&#x20;
+This page explains how staff are assigned to services in the POS and how to change them.
 
-<figure><img src="../../../.gitbook/assets/image.jpeg" alt=""><figcaption></figcaption></figure>
+## Automatic assignment
 
-This will bring up a prompt to select the staff to apply for the respective service
+When you check out directly from an appointment, the POS automatically assigns the staff member who is servicing the appointment.
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+The assigned staff member receives a commission if they have commissions enabled for the service category or universal commissions. Tips are allocated based on what was tipped.
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+## Changing the assigned staff
+
+1. Click the area that shows either **NO STAFF ASSIGNED** or the staff member's name.
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FBMuhRyQRrAA0KlqK1syE%2Fimage.jpeg?alt=media&#x26;token=2adc3365-c8d4-4650-a132-37fffa8e8798" alt=""><figcaption></figcaption></figure>
+
+2. In the prompt that appears, select the staff member for that service.
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2Fg0qq3QSdWlVMVjQUUOmc%2Fimage.png?alt=media&#x26;token=bbbb7aed-cee9-4d48-880d-d8a9a5761739" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FmmATXYwfBOI9Gcw1Dhgd%2Fimage.png?alt=media&#x26;token=feb681c9-106f-47f4-813e-a00ce4fe73e9" alt=""><figcaption></figcaption></figure>
+
+## Related
+
+* [Commissions Tab](../../staff/commissions-tab.md)
+* [Prompting and Collecting Tips](prompting-and-collecting-tips.md)

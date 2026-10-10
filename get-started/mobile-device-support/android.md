@@ -1,16 +1,34 @@
+---
+description: How to install SimpleSpa on an Android device using Google Chrome.
+---
+
 # Android
 
-On Android devices, SimpleSpa will now show an install button on the top of Google Chrome browser when visiting the login page
+This page shows how to install SimpleSpa on your Android phone or tablet.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-10 at 12.05.51 AM.png" alt=""><figcaption><p>The SimpleSpa login page on Android shows an Install button</p></figcaption></figure>
+## Install from the login page
 
-If the above does not show then follow these instructions to add it to your android device
+On Android, SimpleSpa shows an **Install** button at the top of the Google Chrome browser when you visit the login page.
 
-* To get SimpleSpa on your Android device, navigate to the SimpleSpa [Dashboard](https://my.simplespa.com/) from [Google Chrome](https://play.google.com/store/apps/details?id=com.android.chrome)
-* Login and you will see the dashboard, Click on the three dots on the top right\
-  ![](https://www.simplespa.com/img/screenshots/chrome_android_dashboard.png)
-* From this menu select the "Add to Home screen"\
-  ![](https://www.simplespa.com/img/screenshots/chrome_android_menu.png)
-* You will confirm the App name that you would want to show on your the phone and press Add\
-  ![](https://www.simplespa.com/img/screenshots/chrome_android_menu.png)
-* We automatically show you a prompt to add to Home screen if you or your staff visit the SimpleSpa over two times on their android device using Google Chrome.
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2Fc46A5MiLE9D2nynbUvr9%2FScreenshot%202024-07-10%20at%2012.05.51%E2%80%AFAM.png?alt=media&#x26;token=3a270993-b9fd-4134-855f-77f61682041c" alt=""><figcaption><p>The SimpleSpa login page on Android shows an Install button</p></figcaption></figure>
+
+## Add to Home screen manually
+
+If you don't see the **Install** button, follow these steps:
+
+1. In [Google Chrome](https://play.google.com/store/apps/details?id=com.android.chrome), go to the SimpleSpa [Dashboard](https://my.simplespa.com/).
+2. Log in. When the dashboard appears, tap the three dots in the top-right corner.\
+   ![](https://www.simplespa.com/img/screenshots/chrome_android_dashboard.png)
+3. From the menu, select **Add to Home screen**.\
+   ![](https://www.simplespa.com/img/screenshots/chrome_android_menu.png)
+4. Confirm the app name you want to show on your phone, then tap **Add**.\
+   ![](https://www.simplespa.com/img/screenshots/chrome_android_menu.png)
+
+{% hint style="info" %}
+SimpleSpa automatically shows a prompt to add it to the Home screen when you or your staff visit SimpleSpa more than twice on an Android device using Google Chrome.
+{% endhint %}
+
+## Related
+
+* [Installing PWA](../installing-pwa.md)
+* [iOS (iPhone & iPad)](ios-iphone-and-ipad.md)

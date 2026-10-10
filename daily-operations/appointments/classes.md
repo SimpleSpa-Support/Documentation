@@ -1,8 +1,14 @@
+---
+description: >-
+  Run group classes with online booking, payments or card capture, roster
+  management, walk-ins and a Dashboard card.
+---
+
 # Classes
 
 SimpleSpa Classes lets you run group sessions — fitness classes, yoga, workshops, group treatments — with online booking, payments, roster management, and dashboard visibility built in.
 
-This section covers the latest additions to the Classes module:
+This page covers the latest additions to the Classes module:
 
 * Online class booking with payments (pay in full or card capture)
 * Payment status on the class roster
@@ -13,11 +19,11 @@ This section covers the latest additions to the Classes module:
 
 ***
 
-### Online Class Booking with Payments
+## Online class booking with payments
 
 Clients booking a class through your online booking portal can now be asked to pay — or to securely save a card — before their seat is confirmed.
 
-#### How it works
+### How it works
 
 Class bookings follow a simple **full-or-capture** model. Based on your location's online payment settings, one of three things happens at booking time:
 
@@ -31,22 +37,22 @@ Class bookings follow a simple **full-or-capture** model. Based on your location
 **Why no deposits for classes?** Partial deposits on class bookings leave a balance to collect at the front desk for every attendee, every session. To keep check-in fast, classes support only **full payment** or **card capture** — never a partial deposit.
 {% endhint %}
 
-#### Payment providers
+### Payment providers
 
 * **Stripe** supports both full payment and card capture (card saved securely with Stripe — card numbers never touch your server).
 * **PayPal** supports full payment only. If your location is configured for card capture but only PayPal is connected, class bookings fall back to a free reservation.
 
-#### When a booking can't be completed
+### When a booking can't be completed
 
-Payment is always collected **before** the seat is booked. If the booking is subsequently rejected (for example, the last seat was taken while the client was paying), any payment is automatically voided or refunded — the client is never charged for a seat they didn't get.
+Payment is always collected **before** the seat is booked. If the booking is then rejected (for example, the last seat was taken while the client was paying), any payment is automatically voided or refunded — the client is never charged for a seat they didn't get.
 
 ***
 
-### Class Roster: Payment Status & Cards on File
+## Class roster: payment status & cards on file
 
-The class roster in your back office (Appointments → Classes) now shows you at a glance who has paid, who has a card on file, and who still needs to settle up.
+The class roster in your back office (**Appointments → Classes**) now shows you at a glance who has paid, who has a card on file, and who still needs to settle up.
 
-#### Payment status chips
+### Payment status chips
 
 Each attendee row displays a payment chip based on how they booked:
 
@@ -54,17 +60,17 @@ Each attendee row displays a payment chip based on how they booked:
 * **Card captured** — no charge was made, but a card is securely saved and can be charged per your policy.
 * No chip — the seat was reserved without payment (book-and-pay-at-desk).
 
-#### Card badge
+### Card badge
 
 When an attendee has a card on file, a compact badge appears under their phone number in the roster showing the card brand, last four digits, and expiry (for example, `Visa ***4242 · 12/27`). This works for cards saved during class booking as well as cards already on the client's profile.
 
-#### Client profile links
+### Client profile links
 
 Attendee names in the roster link directly to the client's profile, so you can jump from a class roster to a client's history, cards, and notes in one click. Walk-in entries do not link to a profile.
 
 ***
 
-### Walk-in Bookings for Classes
+## Walk-in bookings for classes
 
 You can add a walk-in to any class session without creating a client record for them.
 
@@ -78,7 +84,7 @@ Walk-in seats have no payment attached and no client profile. If the person beco
 
 ***
 
-### Dashboard: Classes Card
+## Dashboard: Classes card
 
 The Dashboard now includes a **Classes** card for the selected day.
 
@@ -93,7 +99,7 @@ The Classes card only appears for locations that have class-type services config
 
 ***
 
-### Setup Checklist
+## Setup checklist
 
 To take payments for class bookings online:
 
@@ -107,3 +113,8 @@ To take payments for class bookings online:
 {% hint style="warning" %}
 Card capture requires **Stripe**. PayPal cannot save cards for later charging; PayPal-only locations support full payment or free reservation.
 {% endhint %}
+
+## Related
+
+* [Accepting Deposits for Bookings](../../reports-and-marketing/online-booking/accepting-deposits-for-bookings.md)
+* [Cards on File](../pos/cards-on-file.md)

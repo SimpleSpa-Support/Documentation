@@ -1,3 +1,9 @@
+---
+description: >-
+  Set up a front-desk tablet where clients check in for today's appointment or
+  join the walk-in waitlist.
+---
+
 # Check-In Kiosk
 
 The SimpleSpa Check-In Kiosk is a browser-based, touch-friendly page designed to sit on a tablet or shared screen at your front desk. It gives clients two self-service options without requiring staff involvement:
@@ -13,10 +19,10 @@ The SimpleSpa Check-In Kiosk is a browser-based, touch-friendly page designed to
 
 Each location has its own unique kiosk URL and QR code. To access them:
 
-1. Go to **Settings → Locations**
-2. Click on the location you want to configure
-3. Open the **Settings** tab
-4. Scroll to the **Check-In** section
+1. Go to **Settings → Locations**.
+2. Click the location you want to configure.
+3. Open the **Settings** tab.
+4. Scroll to the **Check-In** section.
 
 From here you can:
 
@@ -36,14 +42,14 @@ Any modern tablet or touchscreen with a browser will work. For best results:
 * **Device** — iPad, Android tablet, or Windows touchscreen
 * **Browser** — Safari, Chrome, or Edge (latest version)
 * **Mounting** — countertop stand or wall-mount at comfortable touch height
-* **Kiosk mode** — use Guided Access (iOS) or a kiosk-lock app to prevent clients navigating away
+* **Kiosk mode** — use Guided Access (iOS) or a kiosk-lock app to prevent clients from navigating away
 * **Connectivity** — Wi-Fi or wired Ethernet; the kiosk does not require client-side data
 
 #### Opening the Kiosk
 
-1. Open the kiosk URL in the browser on the dedicated tablet
-2. The page loads with a live clock, your location name, and two mode tabs
-3. Leave the browser open — the page auto-refreshes check-in results and resets the waitlist form after each submission
+1. Open the kiosk URL in the browser on the dedicated tablet.
+2. The page loads with a live clock, your location name, and two mode tabs.
+3. Leave the browser open. The page auto-refreshes check-in results and resets the waitlist form after each submission.
 
 No staff login is required on the kiosk device. The page is secured by a daily signed token; clients cannot access other locations or admin areas from this page.
 
@@ -53,14 +59,14 @@ No staff login is required on the kiosk device. The page is secured by a daily s
 
 #### How It Works
 
-1. Client taps the **Check In** tab (active by default)
-2. Enters the **mobile number** used when booking
-3. Taps **Find appointment**
-4. Today's matching appointments appear as cards
-5. Client taps **I'm here** on the relevant appointment
-6. Confirmation message appears: _"Checked in! A team member will be right with you."_
+1. The client taps the **Check In** tab (active by default).
+2. They enter the **mobile number** used when booking.
+3. They tap **Find appointment**.
+4. Today's matching appointments appear as cards.
+5. The client taps **I'm here** on the relevant appointment.
+6. A confirmation message appears: _"Checked in! A team member will be right with you."_
 
-The appointment status is updated to Checked In in SimpleSpa, and any enabled staff notifications are triggered.
+The appointment status is updated to **Checked In** in SimpleSpa, and any enabled staff notifications are triggered.
 
 #### Staff Check-In Emails
 
@@ -74,9 +80,9 @@ Check-in emails are only sent to staff who have email notifications turned on in
 
 If a client has an outstanding intake form, the **I'm here** button is replaced by a **Complete form** link. The client:
 
-1. Taps the link (opens the form in a new tab)
-2. Fills out and submits the form
-3. Returns to the kiosk tab
+1. Taps the link (the form opens in a new tab).
+2. Fills out and submits the form.
+3. Returns to the kiosk tab.
 
 The kiosk checks for completion every 5 seconds and automatically shows the **I'm here** button once all forms are submitted.
 
@@ -95,7 +101,7 @@ The kiosk checks for completion every 5 seconds and automatically shows the **I'
 
 #### Step 1 — Client Lookup
 
-The client enters their **mobile number** or **email address** and taps Continue.
+The client enters their **mobile number** or **email address** and taps **Continue**.
 
 * **Found** — A masked confirmation card is shown (e.g. "••• 6789") and the client confirms their identity.
 * **Not found** — The client is taken to the Create Profile step to register.
@@ -114,18 +120,18 @@ Only services that are **active** and **available online** are shown. Services h
 
 {% hint style="info" %}
 **Shared-mode businesses**\
-If your business has multiple locations sharing a service catalogue, the service list always shows services for the specific location this kiosk is configured for. Client records are searched across all locations under your business for lookup purposes.
+If your business has multiple locations sharing a service catalog, the service list always shows services for the specific location this kiosk is configured for. Client records are searched across all locations under your business for lookup purposes.
 {% endhint %}
 
 #### Step 4 — Staff Selection
 
 The client sees a grid of available staff filtered to those who perform the selected service category. If no staff match the category, all active staff are shown as a fallback.
 
-The client taps a staff card then taps **Add me to the waitlist**.
+The client taps a staff card, then taps **Add me to the waitlist**.
 
 #### Confirmation & Auto-Reset
 
-On success the client sees:
+On success, the client sees:
 
 * Their queue position (e.g. "#2 of 4 today")
 * A summary of the service and provider chosen
@@ -148,7 +154,7 @@ The waitlist entry appears instantly in the SimpleSpa Waitlist view for this loc
 
 #### Services Not Showing on Waitlist
 
-* Confirm the service is marked **active** in Settings → Services
+* Confirm the service is marked **active** in **Settings → Services**
 * Confirm **Available online** is enabled on the service
 * Confirm the service type is **Standard** (not Package or Add-on)
 * Check the service category is not hidden for this location
@@ -163,5 +169,11 @@ The waitlist entry appears instantly in the SimpleSpa Waitlist view for this loc
 
 * Confirm the kiosk URL is for the correct location
 * Check the appointment is scheduled for today
-* If forms are pending the **I'm here** button will not appear until they are completed
+* If forms are pending, the **I'm here** button will not appear until they are completed
 * Staff can manually update the appointment status from the SimpleSpa dashboard
+
+## Related
+
+* [Checkout Kiosk](checkout-kiosk.md)
+* [Park Appointment](park-appointment.md)
+* [Waitlist](../../reports-and-marketing/online-booking/waitlist.md)

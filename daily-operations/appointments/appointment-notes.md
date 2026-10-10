@@ -1,7 +1,33 @@
+---
+description: >-
+  Add rich-text notes to an appointment and see them carry over to the client's
+  future appointments for the same service.
+---
+
 # Appointment Notes
 
-SimpleSpa supports notes for each respective appointment, click on an appointment from the appointments page and then press Edit to add/edit any notes for the respective appointment. Note are rich text if you would like format the specific notes with bullets, or bold you can do so by pressing the respective buttons on the editor.
+This page explains how to add notes to an appointment and how those notes carry over to future appointments.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-04 at 9.46.03 PM.png" alt=""><figcaption><p>The Appointment Edit tab, this allows you to change the appointment details and also add rich text notes</p></figcaption></figure>
+## Adding or editing notes
 
-It's important to note that notes saved in an appointment will carry over to future appointments, and will show up in the appointment popup window if the client has booked the same service again. This is useful for businesses that need to keep note on recurring services from the same client for the same service i.e. saving a hair coloring "formula", where you save this on the first appointment and it will appear for future appointments
+1. Click an appointment on the appointments page.
+2. Press **Edit** to add or edit notes for that appointment.
+
+Notes are rich text. To format a note with bullets or bold, use the buttons in the editor.
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2F6XwiShWhuQI2eyDndLNt%2FScreenshot%202024-07-04%20at%209.46.03%E2%80%AFPM.png?alt=media&#x26;token=ef2ec5db-b286-46b0-a9d3-89201c39d75b" alt=""><figcaption><p>The appointment Edit tab, where you can change the appointment details and add rich-text notes</p></figcaption></figure>
+
+{% hint style="info" %}
+If you use the [Appointment Editor](appointment-editor.md), notes have their own **Notes** tab.
+{% endhint %}
+
+## How notes carry over
+
+Notes saved in an appointment carry over to future appointments. They show up in the appointment popup window when the client books the same service again.
+
+This is useful when you need to keep notes on a recurring service for the same client. For example, save a hair coloring "formula" on the first appointment, and it appears on future appointments.
+
+## Related
+
+* [Appointment Photos and Markup](appointment-photos-and-markup.md)
+* [Client Notes](../clients/notes.md)

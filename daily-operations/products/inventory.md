@@ -1,15 +1,50 @@
+---
+description: Track stock for each product and record inventory purchases and adjustments.
+---
+
 # Inventory
 
-Each product can have its own set inventory/stock regarding the qty/units in stock and for each recorded inventory purchase the purchase cost per unit can be added for the respective date of purchase.
+This page explains how to add and remove stock for a product.
+
+Each product can have its own inventory (the number of units in stock). For each inventory purchase you record, you can add the cost per unit and the date of purchase.
 
 ## Adding Inventory
 
-When stock is turned on, you can set the initial inventory on hand for that product. After the first inventory has been added, to add more inventory click the ![](<../../.gitbook/assets/Record a Purchase.webp>) button to add to your existing inventory. Fields required are the Vendor (add a vendor if this has been done so already)/or use the Adjustment button to put an Adjustment as a vendor. The QTY - this will add against the existing QTY (note that a negative QTY will reduce from the existing QTY), the cost per unit for the new products to be added, and the date which this addition to the inventory took place (i.e. when you received the inventory order)
+When stock is turned on, you can set the initial inventory on hand for the product. To add more inventory after that:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-13 at 5.41.48 PM.png" alt=""><figcaption><p>Adding 10 items to the standing inventory of the selected Product</p></figcaption></figure>
+{% stepper %}
+{% step %}
+### Open the purchase prompt
+
+Click the ![](https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FUoPVp92Bab38DuUlLgJa%2FRecord%20a%20Purchase.webp?alt=media\&token=b35df034-c9fe-4af9-ad98-94efd82749cf) button.
+{% endstep %}
+
+{% step %}
+### Choose a vendor
+
+Select the **Vendor** (if you have already added one), or use the **Adjustment** button to set "Adjustment" as the vendor.
+{% endstep %}
+
+{% step %}
+### Enter the quantity, cost and date
+
+* **QTY**: the quantity is added to the existing quantity. A negative quantity reduces the existing quantity.
+* **Cost per unit**: the cost of each new unit you are adding.
+* **Date**: the date this inventory was added (for example, when you received the order).
+{% endstep %}
+{% endstepper %}
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2F528zdr8TJPM5fXdVyrfl%2FScreenshot%202024-07-13%20at%205.41.48%E2%80%AFPM.png?alt=media&#x26;token=f59ed354-bc9b-49f5-b33a-3365b945cd05" alt=""><figcaption><p>Adding 10 items to the standing inventory of the selected product</p></figcaption></figure>
 
 ## Removing Inventory
 
-Click the ![](<../../.gitbook/assets/Record a Purchase.webp>) and then select the Adjustment button to set a vendor called Adjustment
+1. Click the ![](https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FUoPVp92Bab38DuUlLgJa%2FRecord%20a%20Purchase.webp?alt=media\&token=b35df034-c9fe-4af9-ad98-94efd82749cf) button.
+2. Select the **Adjustment** button to set a vendor called "Adjustment", then enter a negative quantity.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-13 at 5.42.21 PM.png" alt=""><figcaption><p>Removing 10 items by entering a -10QTY a vendor is not assigned when the Adjustment button is selected</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FX2khuaDAGy48496ST9xf%2FScreenshot%202024-07-13%20at%205.42.21%E2%80%AFPM.png?alt=media&#x26;token=369a3af0-225b-4ffc-b6ec-d9fede77c7a2" alt=""><figcaption><p>Removing 10 items by entering a QTY of -10. No vendor is assigned when the Adjustment button is selected.</p></figcaption></figure>
+
+## Related
+
+* [Orders](orders.md)
+* [Vendors](vendors.md)
+* [Fields and Products Settings](product-fields-and-settings.md)

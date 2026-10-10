@@ -1,6 +1,21 @@
+---
+description: >-
+  Monthly plans can be canceled anytime; annual plans are paid upfront for 12
+  months.
+---
+
 # Do plans have a minimum contract?
 
-#### Subscription Terms
+Monthly plans have no minimum term and can be canceled anytime. Annual plans require upfront payment for 12 months.
 
-* **Monthly Plans**: Billed monthly, these subscriptions can be cancelled anytime.
-* **Annual Plans**: Billed annually, these require upfront payment for 12 months, and refunds are not available for cancellations within the term.
+## Subscription terms
+
+| Plan              | Billing                                        | Cancellation                                                |
+| ----------------- | ---------------------------------------------- | ----------------------------------------------------------- |
+| **Monthly Plans** | Billed monthly                                 | Can be canceled anytime                                     |
+| **Annual Plans**  | Billed annually; upfront payment for 12 months | Refunds are not available for cancellations within the term |
+
+## Related
+
+* [Can I downgrade my plan?](can-i-downgrade-my-plan.md)
+* [How much does SimpleSpa cost?](how-much-does-simplespa-cost.md)

@@ -91,7 +91,7 @@ After 5 incorrect codes you'll be signed out and see **Too many incorrect codes.
 
 ## Signing in with Google or Apple
 
-Users can also sign in with their Google or Apple account. On the **Users** page, an icon next to each user shows when Google or Apple sign-in is connected. See [Manage Users](manage-users.md).
+Users can also sign in with their Google or Apple account. On the **Users** page, an icon next to each user shows when Google or Apple sign-in is connected. See [Manage Users](managing-users.md).
 
 {% hint style="info" %}
 Lost your phone or can't get a code? Ask an admin on your account or contact SimpleSpa support to reset your 2-step sign-in.

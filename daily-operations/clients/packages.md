@@ -1,5 +1,27 @@
+---
+description: >-
+  View a client's packages, edit package balances and see package uses from the
+  client's Packages tab.
+---
+
 # Packages
 
-Clients that have allocated packages will populate and can be accessed quickly and easily directly from the Client > Packages Tab when selecting a client to edit, this will display the name of the package, the price, qty originally credited, remaining balance, expiration date and the service(s) allocated along with two buttons to edit the balance and to view all package uses
+The **Packages** tab in a client's profile lists every package allocated to that client.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-11 at 12.10.45 AM.png" alt=""><figcaption><p>The Client Packages tab</p></figcaption></figure>
+To open it, edit the client and select the **Packages** tab. For each package, you see:
+
+* Package name
+* Price
+* Quantity originally credited
+* Remaining balance
+* Expiration date
+* Service(s) allocated
+
+Each package also has two buttons: one to edit the balance and one to view all package uses.
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FIzUO1JMNBnpwYxFlAhRx%2FScreenshot%202024-07-11%20at%2012.10.45%E2%80%AFAM.png?alt=media&#x26;token=32d6f1be-1095-465d-af02-d91e20accb61" alt=""><figcaption><p>The client Packages tab</p></figcaption></figure>
+
+## Related
+
+* Manually Adjusting a Client's Package Balance
+* [Redeeming Packages](../packages/redeeming-packages.md)

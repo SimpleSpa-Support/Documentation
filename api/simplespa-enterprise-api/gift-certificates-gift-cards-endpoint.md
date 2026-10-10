@@ -1,12 +1,11 @@
 ---
+description: Gift cards API access is read-only
 icon: code
 ---
 
 # Gift Certificates/Gift Cards Endpoint
 
-> Note: API Beta Access — see
->
-> [API Terms of Use](https://docs.simplespa.net/simplespa-documentation/api/simplespa-enterprise-api/integrations/api-terms-of-use)
+> Note: API Beta Access, see [API Terms of Use](https://docs.simplespa.net/simplespa-documentation/api/simplespa-enterprise-api/integrations/api-terms-of-use)
 
 ***
 
@@ -43,7 +42,7 @@ Authorization: Bearer YOUR_API_KEY
 Content-Type: application/json
 ```
 
-eplace YOUR\_API\_KEY with your actual API key.
+> Replace YOUR\_API\_KEY with your actual API key.
 
 ***
 
@@ -160,10 +159,10 @@ curl -X POST https://my.simplespa.com/api/v1/giftcards.php \
 
 ### Rate Limiting
 
-Gift Cards API is limited to:
+The Gift Cards API is limited to:
 
 * 60 requests per minute per API key
-* Exceeding this returns: 429 Rate limit exceeded
+* Exceeding this limit returns: 429 Rate limit exceeded
 
 ***
 
@@ -185,4 +184,4 @@ Gift Cards API is limited to:
 }
 ```
 
-⚠️ IMPORTANT: Never expose your private API key in client-side JavaScript. Always use secure, server-side code to handle sensitive credentials.
+> ⚠️ IMPORTANT: Never expose your private API key in client-side JavaScript. Always use secure, server-side code to handle sensitive credentials.

@@ -1,9 +1,36 @@
+---
+description: >-
+  Require a resource such as a room, machine or piece of equipment for a service
+  to avoid double bookings.
+---
+
 # Assigning Resources to a Service
 
-If you have resources setup, you can quickly add those by toggling the Requires Resource checkbox. Once that has been toggled a new area will appear to add the available resources to the service. If a service has been set to require resource(s), then SimpleSpa will only allow bookings to be completed online if the resource is available. In the calendar you can create overbook with an already allocated resource, but SimpleSpa will bring up a warning and the color of the appointment will be in light red indicating that a resource is not available for the service. Resources are typically used for finite equipment, machines and rooms to avoid double bookings. When resources are available, you can quickly toggle a resource calendar view by clicking on the View Dropdown in the appointments page
+This page explains how you require resources for a service so that finite equipment, machines and rooms are not double booked.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-09 at 5.35.28 PM.png" alt=""><figcaption><p>The Requires Resource toggle found in the Edit Service prompt</p></figcaption></figure>
+## Adding resources to a service
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-09 at 5.35.45 PM.png" alt=""><figcaption><p>The Resource area, which appears when Requires Resource is toggle on</p></figcaption></figure>
+If you have resources set up, you can add them to a service:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-09 at 5.36.06 PM.png" alt=""><figcaption><p>The Resource assignment/allocation prompt</p></figcaption></figure>
+1. In the **Edit Service** prompt, check the **Requires Resource** checkbox.
+2. In the new area that appears, add the available resources to the service.
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2F2RQz89QiJK6WpHhgsKu0%2FScreenshot%202024-07-09%20at%205.35.28%E2%80%AFPM.png?alt=media&#x26;token=ea437513-7a26-405c-a5b4-934a0a76bdbc" alt=""><figcaption><p>The Requires Resource toggle in the Edit Service prompt</p></figcaption></figure>
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FkChZnhvYPXTytLBGgWYO%2FScreenshot%202024-07-09%20at%205.35.45%E2%80%AFPM.png?alt=media&#x26;token=4e39a082-253e-4aff-b78f-da57b7054708" alt=""><figcaption><p>The Resource area, which appears when Requires Resource is turned on</p></figcaption></figure>
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FLDfw8K77KQ6SM3GrcMJv%2FScreenshot%202024-07-09%20at%205.36.06%E2%80%AFPM.png?alt=media&#x26;token=69bf09ae-6478-48d0-b345-2ac239f28c02" alt=""><figcaption><p>The Resource assignment/allocation prompt</p></figcaption></figure>
+
+## How resources affect booking
+
+* **Online booking:** If a service requires resource(s), SimpleSpa only allows the booking to be completed online when the resource is available.
+* **Calendar:** You can still overbook an already allocated resource in the calendar. SimpleSpa shows a warning, and the appointment appears in light red to indicate that a resource is not available for the service.
+
+{% hint style="info" %}
+When resources are available, you can switch to a resource calendar view from the **View** dropdown on the appointments page.
+{% endhint %}
+
+## Related
+
+* [Fields and Service Settings](fields-and-service-settings.md)
+* [Calendar](../appointments/calendar.md)

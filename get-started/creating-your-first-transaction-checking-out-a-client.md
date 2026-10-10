@@ -1,12 +1,42 @@
+---
+description: How to check out a client and record payment for a scheduled appointment.
+---
+
 # Creating your first Transaction/Checking out a Client
 
-#### Appointment Checkout Process
+After you schedule an appointment, the next step is to check out the client and take payment.
 
-After your appointment is scheduled, the next step involves checking out the client. Here’s how to do it:
+## Appointment checkout
 
-1. **Select the Appointment**: Click on the scheduled appointment.
-2. **Payment**: In the appointment window, click on **Pay Now** to access the Point of Sale (POS) system.
-3. **Choose Payment Type**: At the top of the POS, select your preferred payment method.
-4. **Complete Transaction**: Press the **Green Save button** to finalize the transaction.
+{% stepper %}
+{% step %}
+### Select the appointment
 
-Upon completion, a prompt displaying the receipt details will appear. If the payment is associated with an appointment, the appointment status will be automatically updated to "Paid."
+Click the scheduled appointment.
+{% endstep %}
+
+{% step %}
+### Open the POS
+
+In the appointment window, click **Pay Now** to open the Point of Sale (POS).
+{% endstep %}
+
+{% step %}
+### Choose the payment type
+
+At the top of the POS, select the payment method.
+{% endstep %}
+
+{% step %}
+### Complete the transaction
+
+Click the green **Save** button to finalize the transaction.
+{% endstep %}
+{% endstepper %}
+
+When the transaction is complete, a prompt shows the receipt details. If the payment is linked to an appointment, the appointment status changes to **Paid** automatically.
+
+## Related
+
+* [Appointment Checkout](../daily-operations/appointments/appointment-checkout.md)
+* [Video: Using the POS & completing an appointment](../extras/video-walkthroughs/using-the-pos-and-completing-an-appointment.md)

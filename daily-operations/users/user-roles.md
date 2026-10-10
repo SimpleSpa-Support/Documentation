@@ -1,37 +1,27 @@
+---
+description: What each SimpleSpa user role can access, from Viewer to Admin.
+---
+
 # User Roles
 
-We have made multiple roles for the most common scenarios
+This page describes the user roles in SimpleSpa, which cover the most common scenarios.
 
-## Viewer
+| Role                     | Access                                                                         |
+| ------------------------ | ------------------------------------------------------------------------------ |
+| **Viewer**               | Restricted view of the appointments page.                                      |
+| **Front Desk**           | Can only view and book/check out appointments for all staff.                   |
+| **Front Desk+**          | All functionality except users, reports & settings.                            |
+| **Staff (restricted)**   | Can view and book only their own scheduled slots (restricted client details).  |
+| **Staff**                | Can view and book/check out only their own scheduled slots.                    |
+| **Manager (restricted)** | All functionality for a single location, except reports, marketing & settings. |
+| **Manager**              | All functionality for a single location.                                       |
+| **Admin**                | Access to all locations in a business.                                         |
 
-Has restricted view of the appointments page
+{% hint style="info" %}
+When you sign up for SimpleSpa, a default admin user is created with your sign-up information.
+{% endhint %}
 
-## Front Desk
+## Related
 
-Can only view and book/checkout appointments for all staff
-
-## Front Desk+
-
-All functionality besides users, reports & settings
-
-## Staff (restricted)
-
-Can view and book only their own scheduled slots (restricted client details)
-
-## Staff
-
-Can view and book/checkout only their own scheduled slots
-
-## Manager (restricted)
-
-All functionality for a single location, besides reports, marketing & settings
-
-## Manager
-
-All functionality for a single location
-
-## Admin
-
-Access to all locations in a business
-
-When you signup for SimpleSpa a default admin user is created with your signed up information
+* [Managing Users](managing-users.md)
+* [Staff Login](../staff/staff-login.md)

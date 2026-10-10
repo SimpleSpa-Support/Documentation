@@ -7,7 +7,7 @@ icon: pen-to-square
 
 # Appointment Editor
 
-When the New UI is on, clicking an appointment on the calendar opens the Appointment Editor. Everything about the booking is in one window, organised in tabs.
+When the New UI is on, clicking an appointment on the calendar opens the Appointment Editor. Everything about the booking is in one window, organized in tabs.
 
 {% hint style="info" %}
 To turn on the editor, use the wizard toggle in the calendar toolbar. See [Switching to the New UI](../../get-started/new-ui.md).
@@ -25,7 +25,7 @@ To turn on the editor, use the wizard toggle in the calendar toolbar. See [Switc
 
 ## Change the status
 
-Click the status pill at the top of the editor. A row of coloured status chips appears. Click one to change the status instantly.
+Click the status pill at the top of the editor. A row of colored status chips appears. Click one to change the status instantly.
 
 ## Contact the client
 

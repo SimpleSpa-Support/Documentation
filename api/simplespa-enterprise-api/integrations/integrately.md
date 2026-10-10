@@ -20,13 +20,13 @@ icon: code
 
 ## Set up the Webhook Request (HTTP Request)
 
-| Field        | What to put                                                                                            |
-| ------------ | ------------------------------------------------------------------------------------------------------ |
-| Method       | POST (or GET if you change your API to accept GET)                                                     |
-| Webhook URL  | https://my.simplespa.com/api/appointments.php                                                          |
-| Headers      | <p>Add 2 headers:  </p><p>Authorization: Bearer YOUR_API_KEY </p><p>Content-Type: application/json</p> |
-| Body Type    | Raw (application/json)                                                                                 |
-| Request Body | JSON like:                                                                                             |
+| Field        | What to put                                                                                         |
+| ------------ | --------------------------------------------------------------------------------------------------- |
+| Method       | POST (or GET if you change your API to accept GET)                                                  |
+| Webhook URL  | https://my.simplespa.com/api/appointments.php                                                       |
+| Headers      | <p>Add 2 headers:</p><p>Authorization: Bearer YOUR_API_KEY</p><p>Content-Type: application/json</p> |
+| Body Type    | Raw (application/json)                                                                              |
+| Request Body | JSON like:                                                                                          |
 
 ```json
 {
@@ -53,7 +53,7 @@ icon: code
 | Send SMS              | Map client mobile field to Twilio or SMS App  |
 | Send Email            | Map appointment details to Email Automation   |
 
-## Summary Steps:
+## Summary Steps
 
 1. Create Automation
 2. Choose Webhook > Custom Webhook
@@ -64,6 +64,6 @@ icon: code
 7. Test
 8. Connect to next app (Google Sheets, Email, Slack, CRM, etc.)
 
-## Bonus Tip:
+## Bonus Tip
 
-If you want to schedule it, Integrately lets you “Run Every Hour”, or “Every Day”, without needing a Cronjob.
+If you want to schedule it, Integrately lets you “Run Every Hour” or “Every Day” without needing a cron job.

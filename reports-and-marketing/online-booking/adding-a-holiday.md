@@ -1,28 +1,54 @@
+---
+description: >-
+  Add recurring or one-time holidays so online booking marks those dates as
+  unavailable.
+---
+
 # Adding a Holiday
 
-**Adding Holidays to Your SimpleSpa Schedule**
+This page shows you how to add holidays to your SimpleSpa schedule so it accurately reflects the days you're closed.
 
-Managing holidays in your SimpleSpa system is simple and efficient. Follow the steps below to ensure your schedule accurately reflects holiday periods:
+## Add a holiday
 
-1. **Navigate to Settings:**
-   * Log in to your SimpleSpa account.
-   * From the main dashboard, go to **Settings**.
-   * Select **Locations** from the tab menu.
-   * Choose the specific location where you want to apply the holiday.
-2. **Access Location Hours:**
-   * In the popup window that appears, click on **Location Hours** tab.
-   * Click on the **Add Holiday** button to begin configuring your holiday settings.
-3. **Configure Holiday Details:**
-   * **Type of Holiday:** Select whether the holiday is **Recurring** (e.g., annually) or **One-Time**.
-   * **Date Selection:** Enter the specific date range for the holiday.
-   * **Name:** Provide a label/name related to the holiday.
-4. **Finalize and Save:**
-   * Review the holiday details to ensure accuracy.
-   * Click **Save** to apply the holiday to your schedule.
+{% stepper %}
+{% step %}
+### Open your location settings
 
-**Impact on Booking Availability:**
+1. Log in to your SimpleSpa account.
+2. From the main dashboard, go to **Settings → Locations**.
+3. Choose the location where you want to add the holiday.
+{% endstep %}
 
-* **Online Booking:** Once a holiday is added, the online booking system will automatically mark these dates as unavailable, preventing clients from scheduling appointments on those days.
-* **SimpleSpa App:** Availability will still be visible within the SimpleSpa app, allowing your staff to manually add appointments if necessary during the holiday period.
+{% step %}
+### Open Location Hours
 
-If you encounter any issues or require further assistance, please do not hesitate to contact our support team. We are here to help ensure your scheduling needs are seamlessly met.
+1. In the popup window, click the **Location Hours** tab.
+2. Click **Add Holiday**.
+{% endstep %}
+
+{% step %}
+### Enter the holiday details
+
+* **Type of Holiday:** choose **Recurring** (e.g., annually) or **One-Time**.
+* **Date Selection:** enter the date range for the holiday.
+* **Name:** enter a label or name for the holiday.
+{% endstep %}
+
+{% step %}
+### Save
+
+Review the holiday details, then click **Save** to apply the holiday to your schedule.
+{% endstep %}
+{% endstepper %}
+
+## How holidays affect booking availability
+
+* **Online Booking:** once you add a holiday, online booking automatically marks those dates as unavailable, so clients can't book appointments on those days.
+* **SimpleSpa app:** availability is still visible in the SimpleSpa app, so your staff can manually add appointments during the holiday period if needed.
+
+If you run into any issues or need help, please contact our support team.
+
+## Related
+
+* [Limiting How Far Ahead Clients Can Book](limiting-how-far-ahead-clients-can-book.md)
+* [Your Custom Booking URL](your-custom-booking-url.md)

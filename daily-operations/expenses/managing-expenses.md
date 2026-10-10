@@ -1,47 +1,48 @@
+---
+description: Add and delete simple business expenses and view them in the Expenses report.
+---
+
 # Managing Expenses
 
-The expenses in SimpleSpa provides an easy way to track simple expenses your business may have
+This page explains how to add and delete expenses and where to view expense reports.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-14 at 7.57.24 PM.png" alt=""><figcaption><p>The Expenses page in SimpleSpa</p></figcaption></figure>
+The Expenses page gives you an easy way to track simple expenses your business may have.
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FLSDPvxY4nYXNztsElcmL%2FScreenshot%202024-07-14%20at%207.57.24%E2%80%AFPM.png?alt=media&#x26;token=ffa563ff-1c22-49c3-91bc-e1e798caa15a" alt=""><figcaption><p>The Expenses page in SimpleSpa</p></figcaption></figure>
 
 ## Add Expense
 
-To add an expense in SimpleSpa visit the Expenses page, there click on the +Expense button
+To add an expense, go to the **Expenses** page and click the **+Expense** button.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-14 at 7.46.19 PM.png" alt=""><figcaption><p>The Add Expense button</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FF63QKTysrP6tcnv2JUc1%2FScreenshot%202024-07-14%20at%207.46.19%E2%80%AFPM.png?alt=media&#x26;token=c119ae87-cf0f-417e-a88e-ba1e3b4620c7" alt=""><figcaption><p>The Add Expense button</p></figcaption></figure>
 
-This will bring up the Add Expense prompt to add a simple expense, the fields included will are
+The **Add Expense** prompt opens with these fields:
 
-### Date
+| Field           | Description                                                                         |
+| --------------- | ----------------------------------------------------------------------------------- |
+| **Date**        | The date the expense was made. It is filled in automatically with the current date. |
+| **Name**        | The name of the expense.                                                            |
+| **Price**       | The amount paid for this expense.                                                   |
+| **Description** | A description of this expense.                                                      |
 
-This is automatically populated with the current date, identifying the date the expense was made
-
-### Name
-
-The name of the expense
-
-### Price
-
-The amount paid of this expense
-
-### Description
-
-The description of this expense
-
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-14 at 7.48.37 PM.png" alt=""><figcaption><p>The Add Expense prompt in SimpleSpa</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2F3kViaekvYnI1Y2PWmN3X%2FScreenshot%202024-07-14%20at%207.48.37%E2%80%AFPM.png?alt=media&#x26;token=ba2c3d05-ba06-4839-a6ca-d5e7c065fd8f" alt=""><figcaption><p>The Add Expense prompt in SimpleSpa</p></figcaption></figure>
 
 ## Delete Expense
 
-To delete an expense press the red delete icon on the right of any expense item that would you would like to remove
+To delete an expense, press the red delete icon to the right of the expense you want to remove.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-14 at 7.48.10 PM.png" alt=""><figcaption><p>The Delete Expense button in the Expenses page</p></figcaption></figure>
-
-
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2F0Wm4OXScl9GoAiYkURlo%2FScreenshot%202024-07-14%20at%207.48.10%E2%80%AFPM.png?alt=media&#x26;token=2716b751-b0fe-4f75-a845-f458aaec38cd" alt=""><figcaption><p>The Delete Expense button in the Expenses page</p></figcaption></figure>
 
 ## Expense Reports
 
-To view reports for expenses on any time period visit the Reports > Revenue > Expenses
+To view expense reports for any time period, go to **Reports → Revenue → Expenses**.
 
-Expenses are currently available in the reports for the past 12m
+{% hint style="info" %}
+Expenses are currently available in reports for the past 12m.
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-14 at 7.58.05 PM.png" alt=""><figcaption><p>The Expenses Report</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2Fg8SLo6I6Kv9gNTVXJyg3%2FScreenshot%202024-07-14%20at%207.58.05%E2%80%AFPM.png?alt=media&#x26;token=d252f4dd-88d3-4291-b7bc-570abfbfa412" alt=""><figcaption><p>The Expenses Report</p></figcaption></figure>
+
+## Related
+
+* [Revenue & Sales Reports](../../reports-and-marketing/reports/revenue-and-sales-reports.md)

@@ -1,12 +1,39 @@
+---
+description: >-
+  Online booking slots depend on service duration, business location hours and
+  staff hours.
+---
+
 # My online booking hours show different availability than what I have set in the staff page
 
-Your booking hours will show availability based on the duration of the service, along with the available slots within the opening and ending time of your business. For example, if your work hours are set for your staff from 9am - 5pm and your business hours have been also set the same hours, a client selecting a service from your online booking that has a duration of 1 hour and 30 minutes will be able to find availability until 3:30pm to book that appointment.
+Online booking shows availability based on the duration of the service and the open slots between your business's opening and closing times.
 
-To manage your available hours you will need to adjust this in two places:
+## Example
 
-1. Business Location Hours: Visit the Settings > Locations > selecr your location > Location Hours\
-   this will set the hours that your business is open
-2. Staff Hours: Visit the staff page > select the staff by pressing the edit (pencil) button and set the hours available\
-   this will set the hours the staff is working which can be within the business hours
+Your staff's work hours are 9am - 5pm, and your business hours are set to the same hours. A client who selects a service that lasts 1 hour and 30 minutes will find availability until 3:30pm, so the appointment can finish by closing time.
 
-When the above two are correctly setup bookings will not occur outside your regular bookings hours and SimpleSpa will present slots within the hours both the business is open and the staff is working
+## Set your available hours
+
+You need to set your hours in two places.
+
+{% stepper %}
+{% step %}
+### Set your business location hours
+
+Go to **Settings → Locations → (your location) → Location Hours**. This sets the hours your business is open.
+{% endstep %}
+
+{% step %}
+### Set your staff hours
+
+Go to the **Staff** page, select the staff member by clicking the edit (pencil) button, and set their available hours. This sets the hours the staff member works, which can be within the business hours.
+{% endstep %}
+{% endstepper %}
+
+When both are set up correctly, bookings will not occur outside your regular booking hours. SimpleSpa shows only the slots when your business is open and the staff member is working.
+
+## Related
+
+* [My online booking is not showing availability although I am available in my calendar](my-online-booking-is-not-showing-availability-although-i-am-available-in-my-calendar.md)
+* [My staff will work on a different schedule on a specific date, can SimpleSpa handle this?](my-staff-will-work-a-different-schedule-on-a-specific-date.-can-simplespa-handle-this.md)
+* [Weekly schedule tab](../../daily-operations/staff/weekly-schedule-tab.md)

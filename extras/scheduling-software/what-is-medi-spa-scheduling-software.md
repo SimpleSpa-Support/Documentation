@@ -1,7 +1,13 @@
+---
+description: >-
+  What medi-spa scheduling software is, and how it helps you manage
+  appointments, forms and before/after images.
+---
+
 # What is Medi-Spa Scheduling Software
 
-**Medi Spa Appointment Scheduling Software** empowers businesses and healthcare professionals to efficiently manage appointment scheduling and bookings within their practices. This versatile software category is also commonly referred to as appointment booking software and online booking software.
+**Medi-spa appointment scheduling software** helps businesses and healthcare professionals efficiently manage appointment scheduling and bookings in their practices. This versatile software category is also commonly called appointment booking software or online booking software.
 
-The integration of Medical Scheduling software proves invaluable when operating a busy Medi Spa, offering the capability to seamlessly manage daily schedules, appointment bookings, and inventory with just a simple click. Integrated forms and the option to capture before or after images reduce a business's reliance on paper processes. Medical scheduling software also allows patients to conveniently book their appointments online any day of the week and at a time that suits their convenience, greatly enhancing the overall customer experience offered by your business. Furthermore, the incorporation of automated reminders, such as Email and SMS notifications, has the potential to significantly reduce no-shows by up to 70%.
+Medical scheduling software is invaluable when you run a busy medi-spa, making it easy to manage daily schedules, appointment bookings and inventory with a simple click. Integrated forms and the option to capture before or after images reduce your reliance on paper processes. Medical scheduling software also lets patients book their appointments online on any day of the week, at a time that suits them, which greatly improves the overall customer experience at your business. Automated reminders, such as email and SMS notifications, can also reduce no-shows by up to 70%.
 
-SimpleSpa stands as the premier Customer Relationship Management (CRM) and scheduling system for your business. Featuring an intuitive interface, our software provides comprehensive visibility into not only your team's schedules but also your entire business operations.
+SimpleSpa is the premier Customer Relationship Management (CRM) and scheduling system for your business. With an intuitive interface, our software gives you complete visibility into your team's schedules and your entire business operation.

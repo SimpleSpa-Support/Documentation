@@ -1,43 +1,54 @@
+---
+description: >-
+  How SimpleSpa shows a cached, read-only copy of today's schedule when your
+  internet connection drops.
+---
+
 # Offline Mode
 
-SimpleSpa includes a built-in offline caching mode that helps you continue operating even if your internet connection is temporarily unavailable.
+SimpleSpa has a built-in offline caching mode that helps you keep operating if your internet connection is temporarily unavailable.
 
-While on the Dashboard or Appointments page when SimpleSpa detects that your device is offline, the system automatically switches to offline mode and displays a clear notification.
+When you are on the **Dashboard** or **Appointments** page and SimpleSpa detects that your device is offline, it switches to offline mode automatically and shows a clear notification.
 
-**What happens when you’re offline**
+## What happens when you’re offline
 
-* A banner appears indicating that you are offline
-* A “View cached schedule” option becomes available
-* Your dashboard and appointments page show cached data for the current day
-* Cached data is clearly labeled so you always know what you’re viewing
+* A banner appears telling you that you are offline.
+* A **View cached schedule** option becomes available.
+* Your dashboard and appointments page show cached data for the current day.
+* Cached data is clearly labeled, so you always know what you’re viewing.
 
-**What data is available offline**
+## What data is available offline
 
-While offline, you can still access:
+While offline, you can still see:
 
 * Today’s appointment schedule
 * Client names and appointment details
-* Service, duration, and assigned staff
-* Appointment status (e.g. new, walk-in)
+* Service, duration and assigned staff
+* Appointment status (for example, new or walk-in)
 
-This allows front-desk staff to:
+This lets front-desk staff:
 
 * View upcoming appointments
-* Continue operating normally until connectivity is restored
+* Keep operating normally until the connection is restored
 
-**When data is refreshed**
+## When data is refreshed
 
-* Cached data is automatically refreshed when your internet connection returns
-* You can manually trigger a refresh using “Refresh from server”
-* The last updated time is always displayed for transparency
+* Cached data refreshes automatically when your internet connection returns.
+* You can refresh manually with **Refresh from server**.
+* The last updated time is always displayed.
 
-**Important notes**
+## Important notes
 
-* Offline mode is read-only and designed for continuity, not data entry
-* Once reconnected, all live features resume automatically
+{% hint style="info" %}
+* Offline mode is read-only. It is designed for continuity, not data entry.
+* Once you are reconnected, all live features resume automatically.
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-01-02 at 11.16.22 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FIb7B7yEjWg1PXGjMlp0A%2FScreenshot%202026-01-02%20at%2011.16.22%E2%80%AFAM.png?alt=media&#x26;token=cf2d420b-88ce-4231-8f6d-a8b728b732b7" alt=""><figcaption></figcaption></figure>
 
-No action is required, the system handles detection and recovery for you
+No action is required. The system handles detection and recovery for you.
 
-***
+## Related
+
+* [Installing the PWA](../../get-started/installing-pwa.md)
+* [Calendar](calendar.md)

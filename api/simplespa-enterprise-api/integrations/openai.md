@@ -1,10 +1,11 @@
 ---
+description: Example integration flow for using OpenAI with the SimpleSpa API
 icon: code
 ---
 
 # OpenAI
 
-Here is an easy integration flow to start using OpenAI with the SimpleSpa API
+Here is an easy integration flow to start using OpenAI with the SimpleSpa API.
 
 ## Flow
 
@@ -134,7 +135,7 @@ function App() {
 export default App;
 ```
 
-## What This React App Does:
+## What This React App Does
 
 | Step | Action                                                       |
 | ---- | ------------------------------------------------------------ |
@@ -144,7 +145,7 @@ export default App;
 
 ## PHP
 
-To do this directly on your webserver you can also create a PHP file that generates this message
+To do this directly on your web server, you can also create a PHP file that generates this message:
 
 ```php
 <?php
@@ -246,4 +247,3 @@ function generateBirthdayMessage($clientName, $openaiKey, $model) {
 }
 ?>
 ```
-

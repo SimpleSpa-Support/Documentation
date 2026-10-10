@@ -1,7 +1,26 @@
+---
+description: >-
+  Add your logo to your online booking page and email reminders, and customize
+  your notification wording.
+---
+
 # Can I brand SimpleSpa with my logo?
 
-You can put your logo on SimpleSpa, so it shows on your online booking page and on all your email reminders, and quickly customize your email notifications and text/sms notifications with any verbiage/text you want, so that your clients always know that it was your business that contacted them
+Yes. You can add your logo to SimpleSpa so it shows on your online booking page and on all your email reminders.
 
-To update the logo on your SimpleSpa account, visit the Settings page. If this is a multi-location business on an Enterprise plan, a custom logo can be set for each location when toggling a new location and updating the logo
+You can also quickly customize your email and text/SMS notifications with any wording you want, so your clients always know it was your business that contacted them.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-15 at 2.11.47 PM.png" alt=""><figcaption><p>The Logo selection in the Settings page</p></figcaption></figure>
+## Update your logo
+
+1. Go to the **Settings** page.
+2. Update the logo.
+
+If you have a multi-location business on an Enterprise plan, you can set a custom logo for each location: switch to that location, then update the logo.
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FSZqoPyJktQ8PUqjXzajp%2FScreenshot%202024-07-15%20at%202.11.47%E2%80%AFPM.png?alt=media&#x26;token=9041d618-46c4-48ec-a5e0-38d5e3000a85" alt=""><figcaption><p>The Logo selection in the Settings page</p></figcaption></figure>
+
+## Related
+
+* [Does SimpleSpa send appointment reminders?](does-simplespa-send-appointment-reminders.md)
+* [Does SimpleSpa support multiple business locations?](does-simplespa-support-multiple-business-locations.md)
+* [Email notifications](../../reports-and-marketing/notifications/email-notifications.md)

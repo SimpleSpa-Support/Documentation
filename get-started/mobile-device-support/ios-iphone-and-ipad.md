@@ -1,16 +1,46 @@
+---
+description: How to add SimpleSpa to the Home Screen on an iPhone or iPad using Safari.
+---
+
 # iOS (iPhone & iPad)
 
+Follow these steps to add SimpleSpa to the Home Screen on your iPhone or iPad.
 
+{% stepper %}
+{% step %}
+### Open Safari
 
-To get SimpleSpa on your iOS/iPadOS device, please then follow these steps to add to your Home Screen:<br>
+Launch **Safari** on your device.
+{% endstep %}
 
-* Launch Safari
-* Navigate to the SimpleSpa login page at [https://my.simplespa.com](https://my.simplespa.com/)
-* Click the Share button (icon with the arrow on the Safari menu)
-* Select Add to Home Screen
-* Press Add and SimpleSpa will appear in your iOS HomeScreen
-* _\* instructions can also be found by pressing the PWA link in the login screen from your mobile device_
+{% step %}
+### Go to the SimpleSpa login page
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-10 at 12.02.41 AM.png" alt=""><figcaption><p>The PWA instructions found at the SimpleSpa login page when accessing from an iPhone or iPad device</p></figcaption></figure>
+Go to [https://my.simplespa.com](https://my.simplespa.com/).
+{% endstep %}
+
+{% step %}
+### Tap Share
+
+Tap the **Share** button (the icon with the arrow in the Safari menu).
+{% endstep %}
+
+{% step %}
+### Add to Home Screen
+
+Select **Add to Home Screen**, then tap **Add**. SimpleSpa now appears on your Home Screen.
+{% endstep %}
+{% endstepper %}
+
+{% hint style="info" %}
+You can also find these instructions by tapping the PWA link on the login screen from your mobile device.
+{% endhint %}
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FPMT7hD7d9ZeT7xniVDbX%2FScreenshot%202024-07-10%20at%2012.02.41%E2%80%AFAM.png?alt=media&#x26;token=7ecfadc8-e2a6-466c-99a6-fb7041e7906b" alt=""><figcaption><p>The PWA instructions found at the SimpleSpa login page when accessing from an iPhone or iPad device</p></figcaption></figure>
 
 {% embed url="https://youtu.be/IzOUT7dNBUM" %}
+
+## Related
+
+* [Installing PWA](../installing-pwa.md)
+* [Android](android.md)

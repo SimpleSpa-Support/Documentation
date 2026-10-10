@@ -1,45 +1,36 @@
+---
+description: The question and field types you can add to a SimpleSpa form.
+---
+
 # Additional Questions (Form Editor)
 
-SimpleSpa supports rich text editing so you can customize your form header, descriptions and questions to look any way you like; After you have added a form on SimpleSpa the next step is to add questions for your clients to respond to, SimpleSpa Forms offers the following fields
+This page describes the question types you can add to a form in the Form Editor.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-13 at 6.12.17 PM.png" alt=""><figcaption><p>The Add Question/Form Field button</p></figcaption></figure>
+After you add a form, the next step is to add the questions your clients will answer. SimpleSpa supports rich text editing, so you can style your form header, descriptions and questions any way you like.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-13 at 6.12.28 PM.png" alt=""><figcaption><p>The Add Form Field prompt</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FTNbrTe3JPOS6h4kmmDZZ%2FScreenshot%202024-07-13%20at%206.12.17%E2%80%AFPM.png?alt=media&#x26;token=9153f2c6-5c27-4e77-84f7-d788abcfaeba" alt=""><figcaption><p>The Add Question/Form Field button</p></figcaption></figure>
 
-## Header
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FNcFpoW9VDbRD8tsp3cWl%2FScreenshot%202024-07-13%20at%206.12.28%E2%80%AFPM.png?alt=media&#x26;token=ecd0d857-d69d-4bf2-a9e4-fe207d7ce094" alt=""><figcaption><p>The Add Form Field prompt</p></figcaption></figure>
 
-A header section clearly depicts what questions you will be asking
+## Field Types
 
-## Description
+| Field            | What it does                                                          | Example                                 |
+| ---------------- | --------------------------------------------------------------------- | --------------------------------------- |
+| **Header**       | A section heading that makes clear what questions you are asking.     |                                         |
+| **Description**  | General information about the form that is displayed to the client.   |                                         |
+| **Short Answer** | A text input field. This is the most commonly used field.             | What is your name?                      |
+| **Date**         | Accepts a date using a date picker.                                   | Enter your birthday.                    |
+| **Checkbox**     | A simple question the client can check.                               | Are you over 18?                        |
+| **Yes/No**       | Shows radio buttons with Yes and No when you need an explicit answer. |                                         |
+| **Range/Scale**  | A radio list where the client picks an option from 0 to 10.           | How likely are you to use this product? |
+| **Terms**        | Terms that the respondent must accept.                                |                                         |
+| **Signature**    | A space where your client draws a digital signature.                  |                                         |
 
-General information about the form that will be displayed
+{% hint style="info" %}
+You can set any field as required. The form can't be submitted until all required fields are answered.
+{% endhint %}
 
-## Short Answer
+## Related
 
-Customer input field, that is most commonly used; i.e. What is your name?
-
-## Date
-
-This field accepts a date with a date-picker; i.e. Enter your birthday?
-
-## Checkbox
-
-Here you should ask a simple question; i.e. Are you over 18?
-
-## Yes/No
-
-If you require an explicit Yes/No reply, this field will show a radio button with those two options
-
-### Range/Scale
-
-A radio list of a selectable option from 0-10 i.e. How likely are you you use this product?
-
-## Terms
-
-Here you can write terms that will need to be accepted by the respondent
-
-## Signature
-
-Accept a digital signature from your client, here your client will have a space to draw their signature
-
-Any field can be set as required so a form will not be submitted until the field has been answered
+* [Managing Forms](managing-forms.md)
+* [Additional Settings](additional-settings.md)

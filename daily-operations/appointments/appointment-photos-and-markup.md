@@ -54,7 +54,7 @@ Open a photo and use the markup tools:
 | **Numbered marker** | Number treatment points in order. |
 | **Eraser**          | Remove part of your markup.       |
 
-Choose a colour and size for each tool. Use **Undo** to step back or **Clear** to start again, then save. Your markup is saved together with the photo.
+Choose a color and size for each tool. Use **Undo** to step back or **Clear** to start again, then save. Your markup is saved together with the photo.
 
 When viewing a photo, use the markup switch to show or hide your drawings. To delete a photo, click delete and confirm.
 

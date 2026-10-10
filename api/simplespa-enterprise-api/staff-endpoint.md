@@ -14,7 +14,7 @@ coverY: 0
 
 ## Overview
 
-The Staff API allows Enterprise accounts to retrieve a list of active staff offered at their business location, including service details like name, contact information, and general staff work hours.
+The Staff API allows Enterprise accounts to retrieve a list of active staff at their business location, including details like name, contact information, and general staff work hours.
 
 ## Authentication
 
@@ -26,8 +26,6 @@ Content-Type: application/json
 ```
 
 > Replace YOUR\_API\_KEY with your SimpleSpa Enterprise API Key.
-
-## Appointments API
 
 ## Endpoint
 
@@ -134,18 +132,9 @@ Example Response
 
 ## Notes
 
-*   Working Hours:
-
-    Only the first time range per day is returned. Days without hours are skipped.
-*   Pagination:
-
-    Default per\_page is 100 if not specified. Maximum allowed is 1000.
-*   Filtering Inactive Staff:
-
-    Only staff with active = 1 are returned (deleted staff are flagged with "deleted": true).
-*   Rate Limiting:
-
-    It is recommended to query no faster than once per minute
+* Working Hours: Only the first time range per day is returned. Days without hours are skipped.
+* Pagination: Default per\_page is 100 if not specified. Maximum allowed is 1000.
+* Filtering Inactive Staff: Only staff with active = 1 are returned (deleted staff are flagged with "deleted": true).
+* Rate Limiting: It is recommended to query no faster than once per minute.
 
 > ⚠️ IMPORTANT: Never expose your private API key in client-side JavaScript. Always use secure, server-side code to handle sensitive credentials.
-

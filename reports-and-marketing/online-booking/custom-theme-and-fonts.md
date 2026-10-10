@@ -1,7 +1,7 @@
 ---
 description: >-
-  Match your online booking page to your brand with custom colours, fonts,
-  corner styles and CSS for each location.
+  Match your online booking page to your brand with custom colors, fonts, corner
+  styles and CSS for each location.
 icon: paintbrush
 ---
 
@@ -13,7 +13,7 @@ Each location can have its own online booking theme, so the booking page matches
 
 | Setting           | What it changes                                                                              |
 | ----------------- | -------------------------------------------------------------------------------------------- |
-| **Colours**       | Buttons, highlights, backgrounds and text.                                                   |
+| **Colors**        | Buttons, highlights, backgrounds and text.                                                   |
 | **Fonts**         | Headings and body text. You can use any font from [Google Fonts](https://fonts.google.com/). |
 | **Corner radius** | How rounded buttons and cards are, from square to fully rounded.                             |
 | **Custom CSS**    | Any further styling for advanced changes.                                                    |
@@ -28,7 +28,7 @@ Locations without a custom theme keep the standard SimpleSpa look. Nothing chang
 {% step %}
 ### Gather your brand details
 
-Note your brand colours (as hex codes such as `#185FA5`), the Google Fonts you use, and how rounded you'd like buttons to be.
+Note your brand colors (as hex codes such as `#185FA5`), the Google Fonts you use, and how rounded you'd like buttons to be.
 {% endstep %}
 
 {% step %}

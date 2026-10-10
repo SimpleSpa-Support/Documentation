@@ -1,21 +1,47 @@
+---
+description: >-
+  Add tips in the POS by percentage or amount, show an on-screen tip prompt,
+  send a prompt to the terminal, or add a tip-only line item.
+---
+
 # Prompting and Collecting Tips
 
-## Tip Menu
+This page explains the ways to add and collect tips in the SimpleSpa POS.
 
-To access the tip menu in the POS, press the +Tip button, this will open up the tip section in the POS. Here you can select the percentage of tip to be applied, under there is a tip adjust (half moon button), if the terminals support tip prompting there will be dedicated terminal buttons to send the tip prompt to the terminal, and then there is a tip prompt button (windows button), which will show an in app tip prompt. Tips as calculated and assigned per tippable items (services), but manually you can set any tip amount by entering it directly in the tip input area
+## Tip menu
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+Press the **+Tip** button in the POS to open the tip section. It includes:
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+* **Tip percentages:** Select the percentage of tip to apply.
+* **Tip adjust (half-moon button):** Below the percentages. See [Tip adjust](prompting-and-collecting-tips.md#tip-adjust).
+* **Terminal buttons:** If your terminal supports tip prompting, dedicated buttons send the tip prompt to the terminal.
+* **Tip prompt (window button):** Shows an in-app tip prompt.
 
-## Tip Prompt
+Tips are calculated and assigned per tippable item (services). You can also set any tip amount manually by entering it directly in the tip input area.
 
-In the POS there is an option to show an on screen tip prompt which will show the cart total along with the items being sold, with large buttons selecting the tippable amount to be applied. To access this prompt press the window buttons in the Tip section
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FYZIRnu5ValL4hFrfkPOj%2Fimage.png?alt=media&#x26;token=8fa1c0d4-92db-469f-8868-9bfd77134056" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2F5Dk7QGIk5Y5xlxxybhup%2Fimage.png?alt=media&#x26;token=e53ba5ef-62f2-42c5-a9a5-5ee4524e7354" alt=""><figcaption></figcaption></figure>
 
-## Tip Adjust
+## Tip prompt
 
-If you need to collect a tip for a staff/provider without selling a service or product, SimpleSpa has a tip adjust line item that can be added to your cart. This is a 0 value item that you can assign a staff, and under set the tip amount, to add this item press the "Half Moon" icon, and then set the tip amount directly, i.e. in the cart under the tip adjust has been added and the tip amount is set to 25.00
+The POS can show an on-screen tip prompt with the cart total and the items being sold, plus large buttons for choosing the tip to apply. To open this prompt, press the window button in the tip section.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FtobfzGTKvqnFdoQGhjgQ%2Fimage.png?alt=media&#x26;token=c98e0ca0-31dc-4062-a284-8ea6e31194f3" alt=""><figcaption></figcaption></figure>
+
+## Tip adjust
+
+If you need to collect a tip for a staff member/provider without selling a service or product, add a tip adjust line item to the cart. This is a zero-value item that you assign to a staff member, with the tip amount set underneath it.
+
+1. Press the **half-moon** icon to add the tip adjust item.
+2. Assign the staff member.
+3. Set the tip amount directly.
+
+In the example below, a tip adjust item has been added to the cart and the tip amount is set to 25.00.
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FsMd3VYEHuy86nRFgy0bY%2Fimage.png?alt=media&#x26;token=83eb5cf0-420c-4de1-8517-03676ab0bddf" alt=""><figcaption></figcaption></figure>
+
+## Related
+
+* [Checkout Kiosk](../../appointments/checkout-kiosk.md)
+* [Assigning Staff During Checkout](assigning-staff-during-checkout.md)

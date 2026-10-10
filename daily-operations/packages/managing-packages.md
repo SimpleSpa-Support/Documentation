@@ -1,17 +1,38 @@
+---
+description: >-
+  Add and edit service packages, including services, credit quantity, price and
+  expiration.
+---
+
 # Managing Packages
 
-When creating a package, you can set the specifics of that package in the system including the services, the quantity (shortened to QTY) to credit, name, price, expiration and notes along with other settings listed listed bellow
+This page explains how to add and edit packages.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-15 at 2.23.43 PM.png" alt=""><figcaption><p>The Packages page in SimpleSpa</p></figcaption></figure>
+When you create a package, you can set its details, including the services, the quantity (QTY) of credits, name, price, expiration and notes, along with the other settings described below.
 
-## Adding Package
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FUnLtIpzePztPuJr7GvEX%2FScreenshot%202024-07-15%20at%202.23.43%E2%80%AFPM.png?alt=media&#x26;token=dee32480-540d-4193-a610-06fab6a29b5f" alt=""><figcaption><p>The Packages page in SimpleSpa</p></figcaption></figure>
 
-To add a package press the respective ![](<../../.gitbook/assets/Package Button.webp>) and from the popup you can build your package
+## Adding a Package
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-15 at 2.25.00 PM.png" alt=""><figcaption><p>The Add Package prompt after pressing the +Package button</p></figcaption></figure>
+To add a package, press the ![](https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2F9EhJqkixxLtyjIEw6G39%2FPackage%20Button.webp?alt=media\&token=f20c868b-d84d-471f-916f-9018912b747f) button and build your package in the popup.
 
-## Editing Package
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FbGW3Zx1Qd9bsnWyz5RyO%2FScreenshot%202024-07-15%20at%202.25.00%E2%80%AFPM.png?alt=media&#x26;token=dd952994-7a66-440c-9ca3-6614739529c7" alt=""><figcaption><p>The Add Package prompt after pressing the +Package button</p></figcaption></figure>
 
-To edit a package, press the ![](<../../.gitbook/assets/Pencil Button 02.webp>) button, the new popup will allow you to adjust price, qty, duration/expiration, description and the auto-deduct setting. Please note that Services cannot be added or removed from editing, and if you do require to add or remove services you will need to create a new package that will include a new set of services. Any changes made while editing will affect future packages i.e. if Package A has an original QTY set to 10 and it is sold to a client, editing the package and changing the QTY to 5 will not deduct from the package clients have on file (the same applies for expirations and price), changes affect transactions going forward
+## Editing a Package
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-15 at 2.25.39 PM.png" alt=""><figcaption><p>The Edit Package prompt after selecting a package to edit</p></figcaption></figure>
+To edit a package, press the ![](https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FsVkYSv2n1ZIDDJCx5qWv%2FPencil%20Button%2002.webp?alt=media\&token=0519b972-51ea-4143-ab13-899b82280f8f) button. In the popup, you can adjust the price, QTY, duration/expiration, description and the auto-deduct setting.
+
+{% hint style="warning" %}
+You can't add or remove services when editing a package. If you need a different set of services, create a new package.
+{% endhint %}
+
+{% hint style="info" %}
+Changes you make only affect packages sold from now on. For example, if Package A has a QTY of 10 and is sold to a client, changing the QTY to 5 does not reduce the package the client already has on file. The same applies to expiration and price.
+{% endhint %}
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FIzIrBATxYOMlawzd4W9S%2FScreenshot%202024-07-15%20at%202.25.39%E2%80%AFPM.png?alt=media&#x26;token=732c4219-8aa0-470f-b934-fdb7eb7316c3" alt=""><figcaption><p>The Edit Package prompt after selecting a package to edit</p></figcaption></figure>
+
+## Related
+
+* [Selling Packages](selling-packages.md)
+* [Memberships](memberships.md)

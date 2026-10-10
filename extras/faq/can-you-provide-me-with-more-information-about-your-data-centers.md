@@ -1,8 +1,14 @@
+---
+description: >-
+  SimpleSpa is hosted in secure Tier 4 data centers in Washington and, for
+  European clients, Frankfurt.
+---
+
 # Can you provide me with more information about your data centers?
 
+SimpleSpa co-locates with secure, Tier 4 data centers in Washington and, for our European clients, in Frankfurt. Each data center is monitored 24/7, 365 days a year, by skilled and experienced IT professionals.
 
-
-SimpleSpa co-locates with secure, Tier 4 data centers in Washington and for our European Clients in Frankfurt. Each data center is monitored 24/7, 365 days a year by skilled and experienced IT professionals:
+Data center features include:
 
 * SSAE Type II and Type III compliant
 * Zone 4 earthquake-rated reinforced structure
@@ -12,3 +18,8 @@ SimpleSpa co-locates with secure, Tier 4 data centers in Washington and for our 
 * A Very Early Smoke Detection Alarm (VESDA) with pre-action dry pipe fire suppression systems
 * Multiple fiber route entrances to structures
 * Access control systems (biometric scans and Personal Identification Number (PIN) access)
+
+## Related
+
+* [How is the data on the SimpleSpa network protected?](how-is-the-data-on-the-simplespa-network-protected.md)
+* [SimpleSpa HIPAA](simplespa-hipaa.md)

@@ -1,17 +1,40 @@
+---
+description: >-
+  Use deposits for a single appointment item and client balances for carts with
+  several items or payment methods.
+---
+
 # Multiple Payment Methods
 
-SimpleSpa supports both deposits and balances
+SimpleSpa supports both deposits and balances. This page explains when to use each one.
 
 ## Deposits
 
-Deposits should be used for a single line item and not with multiple items in a cart, this feature is intended for deposits against an appointment, to collect a deposit you can do so from the POS by pressing PAY NOW in the appointment and then pressing the Accept Deposit on the lower right. Enter the amount to collect and the remaining amount will be on file to be collected for that appointment
+Use deposits for a single line item, not for a cart with multiple items. This feature is meant for deposits against an appointment.
+
+1. Press **PAY NOW** in the appointment to open the POS.
+2. Press **Accept Deposit** in the lower right.
+3. Enter the amount to collect.
+
+The remaining amount stays on file to be collected for that appointment.
 
 ## Balances
 
-For more complex carts (2 or more items or multiple payment methods), from the POS press the orange button under the Amount Due, this will close out the cart on the clients balance
+For more complex carts (2 or more items, or multiple payment methods), press the orange button under **Amount Due** in the POS. This closes out the cart on the client's balance.
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FxGRmAfQOAQeoxRFKRDDC%2Fimage.png?alt=media&#x26;token=1d346509-dd29-4b32-9d14-599ed4b08db8" alt=""><figcaption></figcaption></figure>
 
-Once completed the receipt popup will show a quick balance prompt, here you can either Collect the full amount (pressing the green button), or set the amount by pressing the Set button, here you can set a smaller amount than the total balance, and once the payment is processed, continue again to collect more either in total or Set again another amount against that balance until it is has been paid off for
+When it is completed, the receipt popup shows a quick balance prompt. You can:
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+* **Collect the full amount** by pressing the green button.
+* **Set a smaller amount** than the total balance by pressing the **Set** button.
+
+After each payment is processed, you can keep collecting, either the full remaining amount or another amount with **Set**, until the balance is paid off.
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FOxfDq1IkLY4mwK25FB8i%2Fimage.png?alt=media&#x26;token=63680406-5d11-4047-91b8-86b0c56ed52b" alt=""><figcaption></figcaption></figure>
+
+## Related
+
+* [Balances and Deposits](balances-and-deposits.md)
+* [Accepting Multiple Payments](common-checkouts-and-tutorial-walkthroughs/accepting-multiple-payments.md)
+* [Accepting Appointment Deposits](common-checkouts-and-tutorial-walkthroughs/accepting-appointment-deposits.md)

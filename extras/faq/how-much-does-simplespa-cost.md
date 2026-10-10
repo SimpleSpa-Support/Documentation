@@ -1,3 +1,17 @@
+---
+description: Start with a free 14-day trial, then choose a SimpleSpa plan.
+---
+
 # How much does SimpleSpa cost?
 
-There is no cost to sign up and get started with a 14 day SimpleSpa trial; no credit card is required to sign up for a trial. In most cases we will also be able to load your existing clients, services, products, gift certificates for free as well. After your trial period, please see our [Plans](https://www.simplespa.com/plans)
+It costs nothing to sign up and get started with a 14-day SimpleSpa trial, and you don't need a credit card to sign up.
+
+In most cases, we can also load your existing clients, services, products and gift certificates for free.
+
+After your trial period, see our [Plans](https://www.simplespa.com/plans) for pricing.
+
+## Related
+
+* [How do I convert my SimpleSpa free trial to a paid subscription?](how-do-i-convert-my-simplespa-free-trial-to-a-paid-subscription.md)
+* [Can I import my existing data to SimpleSpa?](can-i-import-my-existing-data-to-simplespa.md)
+* [Do plans have a minimum contract?](do-plans-have-a-minimum-contract.md)

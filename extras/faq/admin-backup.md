@@ -1,10 +1,16 @@
+---
+description: >-
+  How to export your SimpleSpa data (logs, reports, clients, products, services
+  and gift certificates) to CSV/Excel for backup.
+---
+
 # Admin Backup
 
-You can export various types of data from your SimpleSpa account, usually via the CSV/Excel export icons located on most data tables. Some tables also include a Copy button, allowing you to easily paste the data into any spreadsheet tool.
+You can back up your SimpleSpa data by exporting it to CSV/Excel from the data tables in your account.
 
-***
+Most data tables have CSV/Excel export icons. Some tables also include a **Copy** button, so you can easily paste the data into any spreadsheet tool.
 
-#### 📚 Logs
+## 📚 Logs
 
 You can export logs such as:
 
@@ -12,97 +18,91 @@ You can export logs such as:
 * Transaction Logs (also accessible from the Reports section)
 * Appointments
 
-> These are exported per page. Use the export icons or copy buttons available on the table toolbar. Transactions & Appointments are limited to a start/end intervals of 90 days.
+{% hint style="info" %}
+These are exported per page. Use the export icons or copy buttons on the table toolbar. Transactions and Appointments are limited to a start/end interval of 90 days.
+{% endhint %}
 
-***
-
-#### 📊 Reports
+## 📊 Reports
 
 All tabular reports include a CSV/Excel export icon at the top right of the table.
 
 * Exports are limited to the currently viewable page.
-* Use pagination controls to navigate and export additional pages if needed.
+* Use the pagination controls to move to and export additional pages if needed.
 
-> 📌 Repeat the export process for each page if your data spans multiple pages.
+{% hint style="info" %}
+📌 Repeat the export process for each page if your data spans multiple pages.
+{% endhint %}
 
-***
-
-#### 👥 Clients
+## 👥 Clients
 
 To export client data:
 
-1. Go to the Marketing page.
-2. Apply a filter (or select LIMIT ALL and click Filter).
-3. Once your filter is applied, use the Copy or CSV button to export.
+1. Go to the **Marketing** page.
+2. Apply a filter (or select **LIMIT ALL** and click **Filter**).
+3. Once your filter is applied, use the **Copy** or **CSV** button to export.
 
-> For Clients with Packages
+### Clients with packages
 
-* Visit the Clients Page
-* Navigate to the Clients / Packages tab
-* Here you can export the viewable rows as a CSV
+1. Go to the **Clients** page.
+2. Open the **Clients / Packages** tab.
+3. Export the viewable rows as a CSV.
 
-> For Clients with Memberships
+### Clients with memberships
 
-* Visit the Clients Page
-* Navigate to the Clients / Memberships tab
-* On the table menu bar, click Export and CSV to download a CSV file with all memberships
+1. Go to the **Clients** page.
+2. Open the **Clients / Memberships** tab.
+3. On the table menu bar, click **Export** and then **CSV** to download a CSV file with all memberships.
 
-> For larger exports:
+### Larger exports
 
-* Change the row limit from Show 25 Rows to Show 5000 Rows.
+* Change the row limit from **Show 25 Rows** to **Show 5000 Rows**.
 * Export each page separately to download all results.
 
-> 📌 Repeat the export process for each page if your data spans multiple pages.
+{% hint style="info" %}
+📌 Repeat the export process for each page if your data spans multiple pages.
+{% endhint %}
 
-***
+## 🛍️ Products
 
-#### 🛍️ Products
+1. Go to the **Products** page.
+2. Click the **CSV** button to export the product list for the current page.
+3. To export more data, increase the row limit using **Show More Rows**.
 
-1. Visit the Products page.
-2. Click the CSV button to export the product list for the current page.
-3. To export more data, increase the row limit using Show More Rows.
+{% hint style="info" %}
+📌 Repeat the export process for each page if your data spans multiple pages.
+{% endhint %}
 
-> 📌 Repeat the export process for each page if your data spans multiple pages.
+## 💇 Services
 
-***
+1. Go to the **Services** page.
+2. Open the **Service Category** dropdown.
+3. Scroll to the bottom and select the **CSV** button to export all services.
 
-#### 💇 Services
+## 🎁 Gift Certificates
 
-1. Go to the Services page.
-2. Open the Service Category dropdown.
-3. Scroll to the bottom and select the CSV button to export all services.
+To export data related to gift certificates:
 
-***
+1. Go to the **Gift Certificates** page.
+2. Select a certificate and switch to the **Gift Certificates Sold** tab.
+3. Expand the row limit to show more entries if needed.
+4. You can export details such as:
+   * Date Sold
+   * Issued Code
+   * Initial Balance
+   * Current Balance
+5. Use the **CSV** or **Copy** button to export the data for the **currently visible page**.
 
-🎁 Gift Certificates
+{% hint style="info" %}
+📌 Repeat the export process for each page if your data spans multiple pages.
+{% endhint %}
 
-To export data related to Gift Certificates:
+## 📌 Notes & sensitive data
 
-1\. Navigate to the \*\*Gift Certificates\*\* page.
+* Client notes and forms must be exported from each individual client profile.
+* Credit cards are not stored on SimpleSpa and are managed securely by the connected payment processor.
 
-2\. Select a certificate and switch to the \*\*Gift Certificates Sold\*\* tab.
+## Related
 
-3\. Expand the row limit to show more entries if needed.
-
-4\. You will be able to export details such as:
-
-&#x20;  \- Date Sold
-
-&#x20;  \- Issued Code
-
-&#x20;  \- Initial Balance
-
-&#x20;  \- Current Balance
-
-5\. Use the **CSV** or **Copy** button to export the data for the **currently visible page**
-
-> 📌 Repeat the export process for each page if your data spans multiple pages.
-
-***
-
-#### 📌 Notes & Sensitive Data
-
-* Client Notes & Forms must be exported per individual client profile.
-* Credit Cards are not stored on SimpleSpa and are managed securely by the connected payment processor.
-
-***
+* [Revenue and sales reports](../../reports-and-marketing/reports/revenue-and-sales-reports.md)
+* [Exporting clients to email tools](../../reports-and-marketing/marketing/exporting-clients-to-email-tools.md)
+* [Can I import my existing data to SimpleSpa?](can-i-import-my-existing-data-to-simplespa.md)

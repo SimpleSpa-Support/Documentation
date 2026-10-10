@@ -1,14 +1,52 @@
+---
+description: >-
+  Sell a gift card or gift certificate in the SimpleSpa POS, with a custom code
+  or amount if needed.
+---
+
 # Selling Gift Cards/Certificates
 
-In the SimpleSpa POS navigate to your Gift Cards and select the Gift Card you would like to sell. If your client will want to purchase a Gift Card for a different amount than what you have set just use the template as mentioned above. Add the Gift Certificate and hit the ![](<../../.gitbook/assets/Pencil Button 02.webp>) button, there you can edit the Gift Certificate code, which is very handy if you have your own internal numbering, and the next field you can adjust the price to any price you like, hit update and the Gift Certificate is now ready to be purchased. If you have not set a custom number, SimpleSpa will automatically generate a Gift Certificate number for you
+This page explains how to sell a gift card or gift certificate in the SimpleSpa POS.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-13 at 6.01.25 PM.png" alt=""><figcaption><p>The POS Gift Certificates Tab</p></figcaption></figure>
+{% stepper %}
+{% step %}
+### Select the gift certificate
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-13 at 6.01.52 PM.png" alt=""><figcaption><p>A selected Gift Certificate added to the cart for checkout</p></figcaption></figure>
+In the SimpleSpa POS, go to your gift cards and select the one you want to sell. If your client wants a different amount than the ones you have set up, use your template gift certificate (see [Gift Cards & Gift Certificates](gift-cards-and-gift-certificates.md)).
+{% endstep %}
 
-Editing a Gift Certificate can be for multiple reasons:
+{% step %}
+### Edit the code or price (optional)
 
-1. Assigning your own custom code rather than have SimpleSpa automatically issue one, this allows for Gift Cards with pre-assigned codes to be loaded in the system
-2. Changing the value of the Gift Certificate if the amount the client wants is different from the template, this will remove a Cost/Value differences and the price will be the same for both, if you wish to make a discount please use the +Discount button to apply a discount after changing the value here
+After adding the gift certificate, press the ![](https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FsVkYSv2n1ZIDDJCx5qWv%2FPencil%20Button%2002.webp?alt=media\&token=0519b972-51ea-4143-ab13-899b82280f8f) button. Here you can:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-13 at 6.02.12 PM.png" alt=""><figcaption><p>Editing a Gift Certificate added to the cart for checkout</p></figcaption></figure>
+* Edit the gift certificate code. This is handy if you use your own internal numbering.
+* Change the price to any amount you like.
+{% endstep %}
+
+{% step %}
+### Update and complete the sale
+
+Press **Update**. The gift certificate is now ready to be purchased.
+{% endstep %}
+{% endstepper %}
+
+{% hint style="info" %}
+If you don't set a custom number, SimpleSpa automatically generates a gift certificate number for you.
+{% endhint %}
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FgAOgUgEMGSfJbpyjOqiG%2FScreenshot%202024-07-13%20at%206.01.25%E2%80%AFPM.png?alt=media&#x26;token=d2349376-baa7-4e2b-afa4-9b40257aa09e" alt=""><figcaption><p>The POS Gift Certificates tab</p></figcaption></figure>
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FPCkwR0XaPNW6uZcedRFE%2FScreenshot%202024-07-13%20at%206.01.52%E2%80%AFPM.png?alt=media&#x26;token=e81a8c3b-ac9e-46ae-9a5e-93bebab3f742" alt=""><figcaption><p>A selected gift certificate added to the cart for checkout</p></figcaption></figure>
+
+## Why Edit a Gift Certificate?
+
+1. **To assign your own custom code** instead of letting SimpleSpa issue one. This lets you load gift cards that already have pre-assigned codes into the system.
+2. **To change the value** when the amount your client wants differs from the template. This removes any difference between cost and value, so both become the same price. If you want to give a discount, change the value here first, then use the **+Discount** button to apply the discount.
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FPDAStedDhkm1yaGDPAks%2FScreenshot%202024-07-13%20at%206.02.12%E2%80%AFPM.png?alt=media&#x26;token=2b4968d4-32ad-440c-a63d-30666031dbe8" alt=""><figcaption><p>Editing a gift certificate added to the cart for checkout</p></figcaption></figure>
+
+## Related
+
+* [Sending Gift Cards/Certificates](sending-gift-cards-certificates.md)
+* [Applying Discounts](../discounts/applying-discounts.md)

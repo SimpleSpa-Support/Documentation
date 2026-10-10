@@ -1,12 +1,25 @@
+---
+description: The web browsers SimpleSpa supports.
+---
+
 # Browser Support
 
-SimpleSpa is optimized to be compatible with the most up-to-date versions of the following web browsers:
+This page lists the web browsers SimpleSpa supports.
+
+SimpleSpa works best with the latest versions of these browsers:
 
 * Google Chrome
 * New Microsoft Edge (2020 or newer)
 * Mozilla Firefox
 * Apple Safari
 
-Additionally, SimpleSpa delivers a seamless experience on iOS devices.
+SimpleSpa also works smoothly on iOS devices.
 
-\*Please note that extended translation support is available for Google Chrome and Mozilla Firefox.
+{% hint style="info" %}
+Extended translation support is available in Google Chrome and Mozilla Firefox.
+{% endhint %}
+
+## Related
+
+* [Mobile Device Support](mobile-device-support/)
+* [Installing PWA](installing-pwa.md)

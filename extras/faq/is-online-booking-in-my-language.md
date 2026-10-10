@@ -1,3 +1,12 @@
+---
+description: Online booking automatically appears in your client's browser language.
+---
+
 # Is online booking in my language?
 
-When a client visits the online booking SimpleSpa will detect your visitors browser language settings, and online booking will be in their language automatically without needing to manually toggle any language changes.
+Online booking automatically appears in your client's language. When a client visits your online booking page, SimpleSpa detects their browser language settings, so they don't need to change the language manually.
+
+## Related
+
+* [What countries do you support?](what-countries-do-you-support.md)
+* [Does SimpleSpa have online booking?](does-simplespa-have-online-booking.md)

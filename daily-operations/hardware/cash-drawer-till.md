@@ -1,18 +1,56 @@
+---
+description: >-
+  Using a printer-connected cash drawer with SimpleSpa, including setup steps
+  for Star TSP100/TSP113/TSP143 printers.
+---
+
 # Cash drawer / Till
 
-SimpleSpa will work with a cash drawer that connects to the printer and pops open when a receipt is sent to print. Please verify with your hardware vendor that your cash drawer will work like that.
+This page explains how a cash drawer works with SimpleSpa and how to set one up with a Star TSP100-series printer.
 
-#### How to set up a cash drawer for Star TSP100 / TSP 113 / TSP143 printers
+SimpleSpa works with a cash drawer that connects to your receipt printer and pops open when a receipt is sent to print. Check with your hardware vendor that your cash drawer works this way.
 
-A cash drawer can also be connected to your the Star TSP100/TSP113/TSP143 printer. You can then ask the printer to open the cash drawer, whenever a receipt is printed.
+## Set up a cash drawer for Star TSP100 / TSP 113 / TSP143 printers
 
-1. Connect the connector cable (the one that looks similar to a phone line) from the cash drawer into the receipt printer.
-2. Connect the printer to the computer (via USB)
-3. Open the Control Panel and select Devices and Printers.
-4. Right click the Star TSP100/TSP113/TSP143 printer (depending on which you have) and select Properties.
-5. Click the Device Settings tab.
-6. Under Peripheral Unit Type, select Cash Drawer from the list
-7. Under Peripheral Unit 1, select Document Top from the list
-8. Click OK to complete the process. Test a print out on from the printer to see if the drawer opens.
+You can connect a cash drawer to your Star TSP100/TSP113/TSP143 printer and have the printer open the drawer whenever a receipt prints.
 
-### [POS Terminal](https://www.simplespa.com/documentation/hardware/#pos-terminal)
+{% stepper %}
+{% step %}
+### Connect the cash drawer to the printer
+
+Plug the connector cable from the cash drawer (the one that looks like a phone line) into the receipt printer.
+{% endstep %}
+
+{% step %}
+### Connect the printer to your computer
+
+Connect the printer to the computer via USB.
+{% endstep %}
+
+{% step %}
+### Open the printer properties
+
+Open the **Control Panel** and select **Devices and Printers**. Right-click your Star TSP100/TSP113/TSP143 printer and select **Properties**.
+{% endstep %}
+
+{% step %}
+### Set the peripheral options
+
+Click the **Device Settings** tab, then:
+
+* Under **Peripheral Unit Type**, select **Cash Drawer**.
+* Under **Peripheral Unit 1**, select **Document Top**.
+{% endstep %}
+
+{% step %}
+### Save and test
+
+Click **OK** to finish. Print a test page from the printer to check that the drawer opens.
+{% endstep %}
+{% endstepper %}
+
+## Related
+
+* [POS Terminal](https://www.simplespa.com/documentation/hardware/#pos-terminal)
+* [Receipt Printer Setup](receipt-printer-setup.md)
+* [Cash Reconciliation](../dashboard/cash-reconciliation.md)

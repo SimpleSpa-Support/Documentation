@@ -18,25 +18,23 @@ Enterprise users can connect SimpleSpa to over 5,000 other applications using Za
 
 1. Trigger App: Webhooks by Zapier
 2. Trigger Event: Retrieve Poll
-3. Your configuration should be similar to the following
+3. Your configuration should be similar to the following:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-29 at 2.14.39 AM.png" alt=""><figcaption><p>Zapier with the SimpleSpa Appointments API</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FJwtZGcn1aDoAgGNkPBqm%2FScreenshot%202025-04-29%20at%202.14.39%E2%80%AFAM.png?alt=media&#x26;token=e9d3fe32-6077-45cd-94a1-44d184758e9b" alt=""><figcaption><p>Zapier with the SimpleSpa Appointments API</p></figcaption></figure>
 
-
-
-Let's do another example here to send a Happy Birthday to clients that may have not visited prior to April 30th, 2025 and have no future visits scheduled:
+Here is another example that sends a Happy Birthday email to clients who have not visited since April 30th, 2025 and have no future visits scheduled:
 
 1. Select "Webhooks by Zapier" > "Retrieve Poll"
 
-Populate the fields as shown here, make sure to use your API Key
+Populate the fields as shown here. Make sure to use your API key.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-30 at 1.06.52 PM.png" alt=""><figcaption><p>Webhook setup by Zapier with the SimpleSpa API</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FGF7vjHrtAr6iQJEbddW3%2FScreenshot%202025-04-30%20at%201.06.52%E2%80%AFPM.png?alt=media&#x26;token=53b55afb-0609-4e1f-81e7-cc1c244806bf" alt=""><figcaption><p>Webhook setup by Zapier with the SimpleSpa API</p></figcaption></figure>
 
 2. Add "Email by Zapier"
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-30 at 1.06.19 PM.png" alt=""><figcaption><p>Email by Zapier using the SimpleSpa API</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FmmkEq80pzQNNtoGSro9q%2FScreenshot%202025-04-30%20at%201.06.19%E2%80%AFPM.png?alt=media&#x26;token=fe2037e0-a2ea-4cd0-ad5c-dd32fc8535bd" alt=""><figcaption><p>Email by Zapier using the SimpleSpa API</p></figcaption></figure>
 
-Here is a basic HTML template you can use for these campaigns
+Here is a basic HTML template you can use for these campaigns:
 
 ```html
 <!DOCTYPE html>
@@ -121,11 +119,11 @@ Here is a basic HTML template you can use for these campaigns
 </html>
 ```
 
-Test the integration out to see that it works, it will send out an email if you have results in your API call
+Test the integration to make sure it works. It will send out an email if your API call returns results.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-30 at 1.10.41 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2Fh5Ux6yyifumU198bwv64%2FScreenshot%202025-04-30%20at%201.10.41%E2%80%AFPM.png?alt=media&#x26;token=9eb23f6e-cb04-4998-a061-7e3687264cf8" alt=""><figcaption></figcaption></figure>
 
-
+## Tips
 
 * Use pagination (page and per\_page) to avoid timeouts on large datasets.
 * Use the status filter to target only specific types of appointments (e.g., only Confirmed).

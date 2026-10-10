@@ -19,7 +19,7 @@ icon: code
 
 ## Configure the HTTP Request
 
-Here’s how to fill it:
+Here’s how to fill in the request body:
 
 ```json
 {
@@ -29,30 +29,28 @@ Here’s how to fill it:
 }
 ```
 
-Example API Request: Retrieve Clients with July Birthdays
+**Example API Request: Retrieve Clients with July Birthdays**
 
-This API request helps you identify clients with birthdays in July, making it a powerful tool for personalized outreach
+This API request helps you identify clients with birthdays in July, making it a powerful tool for personalized outreach.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-30 at 10.36.20 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2Fu18tSREd7BVoq8fRRjOz%2FScreenshot%202025-04-30%20at%2010.36.20%E2%80%AFAM.png?alt=media&#x26;token=8b2c54a0-430f-4f17-b136-58dab408f2b0" alt=""><figcaption></figcaption></figure>
 
-Take this even further and consider adding more variables later on to improve retention, i.e. reaching out to clients that have their upcoming birthday and also haven't visited for while i.e. here is a scenario where the Client has their birthday in July and has not visited prior to 2024-10-30
+Take this even further by adding more variables later to improve retention, for example, reaching out to clients who have an upcoming birthday and also haven't visited for a while. Here is a scenario where the client has a birthday in July and has not visited since 2024-10-30:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-30 at 10.47.49 AM.png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FxOVnkzr2jFN3mjnfw9Zf%2FScreenshot%202025-04-30%20at%2010.47.49%E2%80%AFAM.png?alt=media&#x26;token=b04febcf-a0a2-4fe6-b1c0-210df03a5f38" alt=""><figcaption></figcaption></figure>
 
 ## Run Once to Test
 
 * Click Run Once (big button at the bottom).
 * Make.com will send the request and show you the response data.
 
-If your API is good, it will say:
+If your API call is successful, it will say:
 
 * success: true
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-30 at 10.37.52 AM.png" alt=""><figcaption><p>A successful test API call using Make.com</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FTyNeVKLMzFy3aoWxocNa%2FScreenshot%202025-04-30%20at%2010.37.52%E2%80%AFAM.png?alt=media&#x26;token=5e675c74-4798-459f-af0f-b105e8fdc65d" alt=""><figcaption><p>A successful test API call using Make.com</p></figcaption></figure>
 
-From the Output section, expand Data to review & verify the results&#x20;
+From the **Output** section, expand **Data** to review and verify the results.
 
 ## Add More Steps (optional)
 
@@ -66,18 +64,18 @@ Now you can:
 
 ## Taking this one step further
 
-Let's do one more step to see how this would work to send an email with a simple Gmail connection
+Let's add one more step to send an email with a simple Gmail connection:
 
 * Select Gmail > Send an Email
 * Connect your account
-* Populate the following fields
+* Populate the following fields:
   * To
   * Subject
   * Content
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-30 at 12.50.50 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FeoFRZOrLbTwIv9MiOvS3%2FScreenshot%202025-04-30%20at%2012.50.50%E2%80%AFPM.png?alt=media&#x26;token=46cb9845-7632-45dd-9dd7-d863f5b77753" alt=""><figcaption></figcaption></figure>
 
-We have created a simple template for you to edit and paste in the Content section
+We have created a simple template for you to edit and paste into the Content section:
 
 ```html
 <!DOCTYPE html>
@@ -162,15 +160,15 @@ We have created a simple template for you to edit and paste in the Content secti
 </html>
 ```
 
-Save and then you can "Run Once" to send out the email(s)
+Save, and then click "Run Once" to send out the email(s).
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-30 at 12.53.56 PM.png" alt=""><figcaption><p>This is what the email will look like, you can customize the HTML and set your own look &#x26; feel to it</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2Fu06KWfO59VQRHx9OEdiy%2FScreenshot%202025-04-30%20at%2012.53.56%E2%80%AFPM.png?alt=media&#x26;token=282c3722-585c-4364-905d-739cbe82a24c" alt=""><figcaption><p>This is what the email will look like. You can customize the HTML and set your own look &#x26; feel to it</p></figcaption></figure>
 
 ## Important Tips
 
 * Authorization must be exact → Authorization: Bearer YOUR\_API\_KEY
-* Body must be valid JSON if you are using POST
-*   If you want, you can also switch to GET and pass parameters in URL like:
+* Body must be valid JSON if you are using POST.
+*   If you want, you can also switch to GET and pass parameters in the URL like this:
 
     https://my.simplespa.com/api/v1/appointments.php?start=2025-04-01\&end=2025-04-30\&page=1\&per\_page=100
 * Make will automatically _parse JSON_ for you after the request.

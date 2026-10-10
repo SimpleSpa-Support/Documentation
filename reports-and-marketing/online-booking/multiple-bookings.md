@@ -1,3 +1,18 @@
+---
+description: >-
+  Allow clients to book multiple services online, including parallel bookings
+  with two staff members.
+---
+
 # Multiple Bookings
 
-SimpleSpa lets you adjust if you would like to allow multiple bookings, we currently support one multiple booking, with the ability to schedule parallel bookings i.e. a booking for a Manicure/Pedicure service at a Nail Spa with SimpleSpa is not only fast but efficient, your clients will select the service they want and the time & we intelligently allow those two services to be booked in parallel with two staff rather then one after the other.
+This page explains how multiple bookings and parallel bookings work in online booking.
+
+You can choose whether to allow multiple bookings. We currently support one multiple booking, with the ability to schedule parallel bookings.
+
+For example, at a nail spa, a client can book a manicure and a pedicure quickly and efficiently. Your client selects the services they want and the time, and SimpleSpa intelligently books the two services in parallel with two staff members, rather than one after the other.
+
+## Related
+
+* [Accepting Deposits for Bookings](accepting-deposits-for-bookings.md)
+* [Your Custom Booking URL](your-custom-booking-url.md)

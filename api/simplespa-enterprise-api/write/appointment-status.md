@@ -120,8 +120,8 @@ These status codes align with the main Appointment Endpoint:
 
 ### Notes
 
-* This endpoint only updates status for an existing appointment. It does not create appointments or change times, staff, or services.
+* This endpoint only updates the status of an existing appointment. It does not create appointments or change times, staff, or services.
 * Rate Limiting: This endpoint is strictly rate limited. Excessive updates may result in HTTP 429 responses. We recommend keeping status updates to no more than 10 requests per minute per API key.
-* Pagination is not applicable for this endpoint (single appointment update per call).<br>
+* Pagination is not applicable for this endpoint (single appointment update per call).
 
 > ⚠️ IMPORTANT: Never expose your private API key in client-side JavaScript, mobile apps, or public code repositories. Always perform API calls from secure, server-side code.

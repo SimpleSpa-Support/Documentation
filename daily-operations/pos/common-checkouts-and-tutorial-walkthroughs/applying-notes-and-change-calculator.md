@@ -1,18 +1,30 @@
+---
+description: >-
+  Add notes to a transaction receipt and use the change calculator for cash
+  payments in the POS.
+---
+
 # Applying Notes & Change Calculator
 
-## Receipt Notes
+This page explains how to add notes to a receipt and how to use the change calculator for cash payments.
 
-Notes can be easily added to a transaction receipt by pressing the discrete notes button, this will expand an area to write out any notes to save with the receipt
+## Receipt notes
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+Press the discreet notes button to open an area where you can write notes to save with the transaction receipt.
 
-## Change Calculator
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FVvt6PXVDximYrTrtFyiY%2Fimage.png?alt=media&#x26;token=8a3c1d2e-3b5e-478a-81da-5f5462038c5d" alt=""><figcaption></figcaption></figure>
 
-Pressing the calculator button will expand an area to enter the paper bill that has been provided, this will calculate the change that should be returned to the client
+## Change calculator
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+Press the calculator button to open an area where you enter the paper bill the client gave you. It calculates the change to return to the client.
 
-I.e. this will simulate an $100 bill given and the change that needs to be returned for a $78 total, the value shown here of $22 is not saved and is only for reference
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2F49RGvqQi7oiClgt7fjMX%2Fimage.png?alt=media&#x26;token=f6bb77c6-f839-44f7-bfbf-6fdf234e8c1b" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+For example, this simulates a $100 bill given for a $78 total. The change shown here, $22, is not saved and is for reference only.
 
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FXantfiOHpo7YGLkVFc2z%2Fimage.png?alt=media&#x26;token=61c0830d-9ad8-4b49-ac39-1f37cbe0e2a2" alt=""><figcaption></figcaption></figure>
+
+## Related
+
+* [Cash Drawer / Till](../../hardware/cash-drawer-till.md)
+* [Recording a Sale](../recording-a-sale.md)

@@ -1,10 +1,13 @@
 ---
+description: >-
+  Integrate the SimpleSpa Clients API with OpenAI and automate it daily using
+  Node.js and cron
 icon: code
 ---
 
 # OpenAI & Cron Jobs
 
-The SimpleSpa Clients API is very powerful and ideal for Scheduled Tasks; let's properly integrate the SimpleSpa Clients API with OpenAI, and also automate it on a daily basis using Node.js with CRON.
+The SimpleSpa Clients API is very powerful and ideal for scheduled tasks. This page shows how to integrate the SimpleSpa Clients API with OpenAI and automate it on a daily basis using Node.js with cron.
 
 | Step | Purpose                                                              | Technology               |
 | ---- | -------------------------------------------------------------------- | ------------------------ |
@@ -13,7 +16,7 @@ The SimpleSpa Clients API is very powerful and ideal for Scheduled Tasks; let's 
 | 3    | Store or send the messages (e.g., save to file or trigger SMS/email) | Node.js                  |
 | 4    | Schedule this script to run every day at 8 AM using node-cron        | Node.js (cron jobs)      |
 
-## 1. Setup Node.js Project
+## 1. Set Up a Node.js Project
 
 ```bash
 mkdir simplespa-ai-messages
@@ -30,7 +33,7 @@ CLIENTS_API_URL=https://my.simplespa.com/api/v1/clients.php
 CLIENTS_API_KEY=your_simplespa_api_key_here
 ```
 
-## 2. Here’s the Node.js Script(scheduler.js)
+## 2. Here’s the Node.js Script (scheduler.js)
 
 ```jsx
 require('dotenv').config();
@@ -125,7 +128,7 @@ runScheduler(); // Run immediately on startup
 node scheduler.js
 ```
 
-✅ fetchClients() calls from the SimpleSpa API /api/clients.php with a real API KEY
+✅ fetchClients() calls the SimpleSpa API /api/clients.php with a real API key
 
 ✅ It automatically filters and fetches active clients
 

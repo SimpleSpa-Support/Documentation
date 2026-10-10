@@ -1,5 +1,5 @@
 ---
-description: Prouducts API access is read-only
+description: Products API access is read-only
 icon: code
 cover: >-
   https://images.unsplash.com/photo-1594904351111-a072f80b1a71?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxjb2RlfGVufDB8fHx8MTc0NTk0MDEyNXww&ixlib=rb-4.0.3&q=85
@@ -14,7 +14,7 @@ coverY: 0
 
 ## Overview
 
-The Services API allows Enterprise accounts to retrieve a list of active products offered at their business location, including product details like name, stock, price, and categorization.
+The Products API allows Enterprise accounts to retrieve a list of active products offered at their business location, including product details like name, stock, price, and categorization.
 
 ## Endpoint
 
@@ -67,7 +67,7 @@ curl -X POST https://my.simplespa.com/api/v1/services.php \
 
 ## Response Format
 
-The API responds with a JSON object containing the list of services and pagination information.
+The API responds with a JSON object containing the list of products and pagination information.
 
 Example Response
 
@@ -120,7 +120,7 @@ Example Response
 
 * Pagination: Default per\_page is 100 if not specified. Maximum allowed is 1000.
 * Prices:
-  * If the service has a special discounted price, both price and special\_price will be shown.
+  * If the product has a special discounted price, both price and special\_price will be shown.
   * If no special price exists, special\_price may be null.
 * Rate Limiting: Please ensure reasonable usage to avoid throttling. It is recommended to poll no faster than once per minute.
 

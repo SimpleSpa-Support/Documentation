@@ -1,3 +1,0 @@
-# I am already paying for SMS Notifications is SMS Marketing included in my package?
-
-At SimpleSpa we believe that your campaigns need high delivery so we take extra measures to ensure that we follow the industry standards when sending out bulk SMS and Emails for marketing, this entails a cost on our end via Carriers and also load on our Servers; ultimately you should be able to make as many campaigns as you want and we will quote you with very low rates so you can reach and engage with your desired customers. SMS/Text Appointment notifications are allocated for automated appointment notifications to be used with your SimpleSpa plan, Marketing SMS/Texts are charged separately per campaign.

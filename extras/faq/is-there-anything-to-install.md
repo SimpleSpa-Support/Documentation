@@ -1,3 +1,19 @@
+---
+description: >-
+  SimpleSpa is cloud-based, so there is nothing to install and updates are
+  automatic.
+---
+
 # Is there anything to install?
 
-SimpleSpa is a cloud-based service that simplifies booking and managing spa appointments. Your clients have the flexibility to book appointments online any time, day or night, throughout the week. Additionally, you can access SimpleSpa from any device, be it a computer, tablet, or smartphone, ensuring complete mobility and convenience. There's no need for any installations, allowing you to start using the service immediately. Furthermore, you benefit from automatic updates, ensuring you always have access to the latest features and improvements without any additional effort.
+No. SimpleSpa is a cloud-based service, so there is nothing to install and you can start using it right away.
+
+* **Use any device:** Access SimpleSpa from a computer, tablet or smartphone.
+* **Online booking around the clock:** Your clients can book appointments online any time, day or night, every day of the week.
+* **Automatic updates:** You always have the latest features and improvements, with no extra effort.
+
+## Related
+
+* [What kind of computer do I need?](what-kind-of-computer-do-i-need.md)
+* [Browser support](../../get-started/browser-support.md)
+* Mobile device support

@@ -4,7 +4,7 @@ icon: gear-code
 
 # Product Inventory
 
-Note: API Beta Access, see [API Terms of Use](https://docs.simplespa.net/simplespa-documentation/api/simplespa-enterprise-api/integrations/api-terms-of-use)
+> Note: API Beta Access, see [API Terms of Use](https://docs.simplespa.net/simplespa-documentation/api/simplespa-enterprise-api/integrations/api-terms-of-use)
 
 ***
 
@@ -140,7 +140,7 @@ In this example:
 
 ### Error Responses
 
-Missing or Invalid Authorization
+#### Missing or Invalid Authorization
 
 ```json
 { "error": "Missing or invalid Authorization header" }
@@ -184,7 +184,7 @@ Missing or Invalid Authorization
 ### Notes
 
 * Use the Products Endpoint (/api/v1/products.php) to fetch product lists, labels, and current stock before writing.
-* This endpoint is idempotent per call in the sense that each call records a separate inventory movement; it does notoverwrite stock, it adjusts it.
+* This endpoint is idempotent per call in the sense that each call records a separate inventory movement; it does not overwrite stock; it adjusts it.
 * Inventory writes are per business location. The API key’s lid determines which location’s stock is affected.
 * Always store your API key securely on the server side.
 * Do not expose your API key to client-side JavaScript, mobile apps, or public environments.

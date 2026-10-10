@@ -1,8 +1,12 @@
+---
+description: >-
+  How to scan product barcodes and QR codes in the POS using your device camera
+  or a USB scanner.
+---
+
 # Barcode Scanning
 
-## Barcode Scanning (Point of Sale)
-
-SimpleSpa’s Point of Sale includes built-in barcode scanning for fast product lookup. Use the Scan button in the search bar to connect your device's camera.
+SimpleSpa’s Point of Sale includes built-in barcode scanning for fast product lookup. Use the **Scan** button in the search bar to connect your device's camera.
 
 The scanner uses the device’s native camera (phone, tablet, or laptop) and does not require any special hardware to get started.
 
@@ -10,18 +14,18 @@ This makes it easy to scan retail products, gift cards, or internal labels direc
 
 ***
 
-### How Barcode Scanning Works
+## How Barcode Scanning Works
 
-* The POS activates your device’s camera when you tap the barcode scan icon
+* The POS turns on your device’s camera when you tap the barcode scan icon
 * Point the camera at the barcode or QR code
 * Once detected, the code is automatically entered and used for product search
 * The scanner closes automatically after a successful scan
 
-No pairing, drivers, or configuration required.
+No pairing, drivers, or configuration is required.
 
 ***
 
-### Supported Devices
+## Supported Devices
 
 Barcode scanning works on:
 
@@ -37,7 +41,7 @@ For best results, we recommend:
 
 ***
 
-### Smart Camera Selection (Mac & Desktop)
+## Smart Camera Selection (Mac & Desktop)
 
 On desktop and laptop computers, SimpleSpa automatically chooses the best available camera for scanning:
 
@@ -47,11 +51,13 @@ On desktop and laptop computers, SimpleSpa automatically chooses the best availa
 
 This makes barcode scanning seamless even on desktop setups without a dedicated camera.
 
-> 💡 Many merchants run the POS on a Mac or desktop computer and use a phone as a quick, handheld scanner — no extra hardware required.
+{% hint style="info" %}
+Many merchants run the POS on a Mac or desktop computer and use a phone as a quick, handheld scanner — no extra hardware required.
+{% endhint %}
 
 ***
 
-#### Recommended Workflow (Desktop + Phone)
+### Recommended Workflow (Desktop + Phone)
 
 1. Run the POS on your Mac or desktop
 2. Keep a phone nearby (iOS or Android)
@@ -63,17 +69,15 @@ This setup works especially well at busy counters and front desks.
 
 ***
 
-### Supported Barcode & QR Code Formats
+## Supported Barcode & QR Code Formats
 
 SimpleSpa supports the most common retail and inventory barcode standards:
 
-#### 2D Codes
+### 2D Codes
 
-*   QR Code
+* QR Code – Used for digital gift cards, vouchers, and mobile-based codes
 
-    Used for digital gift cards, vouchers, and mobile-based codes
-
-#### 1D Barcodes
+### 1D Barcodes
 
 * UPC-A – Standard retail barcode (US & Canada)
 * UPC-E – Compact UPC used on small retail items
@@ -83,12 +87,11 @@ SimpleSpa supports the most common retail and inventory barcode standards:
 * Code 39 – Common for internal labels and membership cards
 * ITF / ITF-14 – Used for cartons and case packaging
 
-\
 Most retail products sold in salons, spas, and clinics are supported out of the box.
 
 ***
 
-### Product Lookup with Barcodes
+## Product Lookup with Barcodes
 
 When a barcode is scanned in the POS:
 
@@ -101,7 +104,7 @@ This allows fast checkout and accurate inventory tracking.
 
 ***
 
-### Camera & Privacy Notes
+## Camera & Privacy Notes
 
 * Camera access is only used while scanning
 * No images or video are stored
@@ -109,16 +112,16 @@ This allows fast checkout and accurate inventory tracking.
 
 ***
 
-### Troubleshooting
+## Troubleshooting
 
-Barcode won’t scan?
+### Barcode won’t scan?
 
 * Make sure the barcode is not damaged or blurry
 * Improve lighting conditions
 * Hold the camera steady and centered
 * Try a different angle or distance
 
-No camera detected?
+### No camera detected?
 
 * Ensure camera permissions are allowed in your browser
 * Try a different browser (Chrome or Safari recommended)
@@ -126,10 +129,15 @@ No camera detected?
 
 ***
 
-### Technical Notes (For Advanced Users)
+## Technical Notes (For Advanced Users)
 
 * Scanning is powered by the HTML5 QR Code library
 * The system prefers the environment (rear) camera when available
 * Barcode detection uses native browser capabilities when supported for better accuracy
 
-No additional plugins or na~~t~~ive apps are required.
+No additional plugins or native apps are required.
+
+## Related
+
+* [Managing Products](../products/managing-products.md)
+* [Recording a Sale](../pos/recording-a-sale.md)

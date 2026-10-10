@@ -1,21 +1,56 @@
+---
+description: >-
+  Send form links to clients automatically by email and review completed forms
+  in the appointment.
+---
+
 # Sending a Form
 
-Creating forms is easy, and after they have been assigned to a service you will want your customers to fill them out. SimpleSpa makes it easy for you to automatically attach form links for your clients to fill out when they book an appointment.
+This page explains how to send forms to your clients automatically and review their responses.
 
-First you should add the **\[FORMS]** tag in the email notifications you will want your forms to automatically show up in the emails (Online Booking & Email Reminders)
+Once your forms are assigned to a service, SimpleSpa can automatically include form links for your clients to fill out when they book an appointment.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-10-28 at 7.37.27 PM.png" alt=""><figcaption><p>Email Template with the [FORMS] tag</p></figcaption></figure>
+{% stepper %}
+{% step %}
+### Add the \[FORMS] tag to your email notifications
 
-Second when an appointment is booked online your clients will receive their automatic notification with the forms as links for them to fill out, if you have added the appointment then you should hit the "Send Email" button so you can send out the automated email (\*same as online booking email) with the forms showing up automatically for the service that was booked
+Add the **\[FORMS]** tag to each email notification you want your forms to appear in (Online Booking and Email Reminders).
 
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FNBKrc4iuatNa3p5wOUHh%2FScreenshot%202024-10-28%20at%207.37.27%E2%80%AFPM.png?alt=media&#x26;token=b9ff27f2-7e9f-4872-a8df-17a0d20034c1" alt=""><figcaption><p>Email template with the [FORMS] tag</p></figcaption></figure>
+{% endstep %}
 
+{% step %}
+### Clients receive the form links
 
-Finally when your client has filled out the form, the Orange Form button in the appointment will show up as Blue and you can click and review their response
+When an appointment is booked online, your client automatically receives a notification with the forms as links to fill out.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-10-28 at 7.40.55 PM.png" alt=""><figcaption><p>Orange non-completed form buttons</p></figcaption></figure>
+If you added the appointment yourself, press the **Send Email** button to send the automated email (the same as the online booking email). The forms for the booked service are included automatically.
+{% endstep %}
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-10-28 at 7.42.00 PM.png" alt=""><figcaption><p>Blue completed form button</p></figcaption></figure>
+{% step %}
+### Review the completed form
 
-Clicking Orange button will bring up a new tab/window for the form to be completed
+When your client has filled out the form, the orange **Form** button in the appointment turns blue. Click it to review their response.
 
-Clicking on the Blue button will bring up the completed form to review the response provided, completed forms are accessible only within the business and not by the end user/client that has completed the form
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2F8Pzn9BKaNDRhexx8hJuy%2FScreenshot%202024-10-28%20at%207.40.55%E2%80%AFPM.png?alt=media&#x26;token=7f1ce66a-7b75-4032-b093-15df0e26bbe5" alt=""><figcaption><p>Orange non-completed form buttons</p></figcaption></figure>
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FXtyIjCQL0JIm0uS4tevX%2FScreenshot%202024-10-28%20at%207.42.00%E2%80%AFPM.png?alt=media&#x26;token=23cd140b-4f7a-477b-9be4-2540fda30bba" alt=""><figcaption><p>Blue completed form button</p></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+## Form Button Colors
+
+| Button                     | What happens when you click it                                |
+| -------------------------- | ------------------------------------------------------------- |
+| **Orange** (not completed) | Opens the form in a new tab or window so it can be completed. |
+| **Blue** (completed)       | Opens the completed form so you can review the responses.     |
+
+{% hint style="info" %}
+Completed forms can only be accessed within your business. The client who completed the form cannot access it.
+{% endhint %}
+
+## Related
+
+* [Email Notifications](../../reports-and-marketing/notifications/email-notifications.md)
+* [Assigning to a Service](assigning-to-a-service.md)
+* [Client Forms](../clients/forms.md)

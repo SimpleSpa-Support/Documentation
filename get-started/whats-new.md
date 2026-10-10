@@ -29,7 +29,7 @@ Some of the newest screens (the new dashboard, calendar look, booking wizard and
 * **Campaigns list** with headline numbers, status filters and a one-click **Duplicate**.
 * **New Campaign checklist**: To, Subject, Email, Text message and Send for review, each with a clear status. Email and text are both optional.
 * **Audience cards**: Haven't visited lately, Birthdays this month, Top spenders, Most frequent and Everyone, each with a live count.
-* **Block email designer** with layouts, brand colour, images and a phone preview.
+* **Block email designer** with layouts, brand color, images and a phone preview.
 * **15 ready-made templates** and a **Before you send** check that catches leftover sample text and wrong links.
 * **Revenue report** now uses live numbers that match the dashboard Daily Report.
 
@@ -125,7 +125,7 @@ A new dashboard and a cleaner calendar are available under the **New UI** toggle
 {% update date="2026-07-01" %}
 ## Custom theme for online booking
 
-* Give each location's online booking page its own colours, fonts, corner style and custom CSS, including Google Fonts.
+* Give each location's online booking page its own colors, fonts, corner style and custom CSS, including Google Fonts.
 * When you move an appointment to a time its resource is busy, you can now keep the change instead of having it snap back.
 
 [Custom Theme & Fonts](../reports-and-marketing/online-booking/custom-theme-and-fonts.md) · [Calendar](../daily-operations/appointments/calendar.md)

@@ -1,25 +1,50 @@
+---
+description: >-
+  How to view the day's receipts from the Dashboard, share receipt permalinks,
+  and edit or refund completed receipts.
+---
+
 # Viewing Transactions
 
-On the bottom right you will notice two boxes depicting receipts/transactions and revenue, in green revenue box clicking on the orange VIEW RECEIPTS button will show you a list of all the receipts made for the current selected date on the dashboard&#x20;
+This page explains how to view, share, edit, and refund receipts from the Dashboard.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-04 at 3.51.07 PM.png" alt=""><figcaption><p>The Dashboard Daily Report section, the View Receipts button is towards the top right</p></figcaption></figure>
+## Viewing receipts
+
+At the bottom right of the Dashboard, two boxes show your receipts/transactions and revenue. In the green revenue box, click the orange **VIEW RECEIPTS** button to see a list of all receipts for the date selected on the Dashboard.
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2Fo0V241MkzZMddWNirK06%2FScreenshot%202024-07-04%20at%203.51.07%E2%80%AFPM.png?alt=media&#x26;token=fc3703ae-f71d-40e1-9bba-8ef2e7b41839" alt=""><figcaption><p>The Dashboard Daily Report section. The View Receipts button is toward the top right.</p></figcaption></figure>
 
 ## Permalink
 
-Each receipt has a unique permalink, which can be used to share to anyone without needing to login to SimpleSpa to view it, clicking on the :link: icon will bring up a prompt with a permalink that you can copy and then share. Permalinks can be found in the View Receipts for any receipt next to the print buttons, directly from an Appointment Popup > Transactions Tab, and also in the clients page by selecting a Client > Transactions tab
+Each receipt has a unique permalink. Anyone can view the receipt through this link without logging in to SimpleSpa. Click the :link: icon to open a prompt with the permalink, then copy and share it.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-04 at 3.57.23 PM.png" alt=""><figcaption><p>Permalink Button after pressing the View Receipts</p></figcaption></figure>
+You can find the permalink in these places:
 
-## Editing Transaction
+* In **View Receipts**, next to the print buttons for any receipt
+* In the appointment popup, on the **Transactions** tab
+* On the **Clients** page: select a client, then open the **Transactions** tab
 
-For each receipt line, a few buttons are available adjust the completed receipt:
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FcGxoxB8FvbNArTiWZLMA%2FScreenshot%202024-07-04%20at%203.57.23%E2%80%AFPM.png?alt=media&#x26;token=e7d5bb57-6d6f-4792-906a-687b6952cdb9" alt=""><figcaption><p>Permalink Button after pressing the View Receipts</p></figcaption></figure>
 
-* Payment Type: Clicking the discrete payment type icon will allow you to edit the first payment type can be updated from the payment method that was used, i.e. if checked out via Check, you can change the payment method to Cash quickly by clicking on this icon where popup will give you the option to change to a different method of payment that was used.
-* Refund: A receipt can be refunded in full, this will create a void refund receipt. For merchants using Integrated Payment Terminals the refund can be sent to the terminal (note that some terminals may require the physical card used to be entered again, manually or entered via the chip reader for the refund to be completed)
-* Edit: Receipts can be edited up to the following values, assigning a Staff, the Staff Commission & Staff Tip for each line item sold. Tips are limited to the total allocated tip on the receipt which has not been allocated to another staff.
+## Editing a transaction
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-04 at 3.57.56 PM.png" alt=""><figcaption><p>Edit Button in the View Receipts</p></figcaption></figure>
+Each receipt line has a few buttons you can use to adjust a completed receipt:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-04 at 4.00.07 PM.png" alt=""><figcaption><p>Available Editable changes: Staff, Commission, and Tip if a tip was applied in the receipt</p></figcaption></figure>
+* **Payment type:** Click the small payment type icon to change the first payment method on the receipt. For example, if the client was checked out with Check, you can quickly change it to Cash. A popup lets you choose the payment method that was actually used.
+* **Refund:** You can refund a receipt in full. This creates a void refund receipt. If you use an integrated payment terminal, the refund can be sent to the terminal.
+* **Edit:** You can edit the assigned staff member, staff commission, and staff tip for each line item sold. Tips are limited to the receipt's total tip that hasn't already been allocated to another staff member.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-04 at 4.01.25 PM.png" alt=""><figcaption><p>This editable receipt shows: Staff, Tip &#x26; Commission which are editable</p></figcaption></figure>
+{% hint style="info" %}
+Some payment terminals may require the original card again, entered manually or through the chip reader, to complete a refund.
+{% endhint %}
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2F8M8qe6XvcNGsrXuyXo4O%2FScreenshot%202024-07-04%20at%203.57.56%E2%80%AFPM.png?alt=media&#x26;token=2f78ede7-5ac4-45f6-bcb3-15cc96c225c5" alt=""><figcaption><p>Edit Button in the View Receipts</p></figcaption></figure>
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FinxloQ2LYayHe5ZxZnqb%2FScreenshot%202024-07-04%20at%204.00.07%E2%80%AFPM.png?alt=media&#x26;token=00260832-6533-4538-b0c2-c62245373cfc" alt=""><figcaption><p>Available Editable changes: Staff, Commission, and Tip if a tip was applied in the receipt</p></figcaption></figure>
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FwKoMT3HVCYrn5aSJpgcZ%2FScreenshot%202024-07-04%20at%204.01.25%E2%80%AFPM.png?alt=media&#x26;token=b517d211-9f2b-471e-9a90-16bf183c7247" alt=""><figcaption><p>This editable receipt shows: Staff, Tip &#x26; Commission which are editable</p></figcaption></figure>
+
+## Related
+
+* [Cash Reconciliation](cash-reconciliation.md)
+* [Making a Sale](making-a-sale.md)

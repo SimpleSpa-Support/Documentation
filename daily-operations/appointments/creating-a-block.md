@@ -1,15 +1,37 @@
+---
+description: >-
+  Block out time on the appointment calendar so those slots are unavailable for
+  online booking.
+---
+
 # Creating a Block
 
-Block out slots in the appointment calendar by simply selecting two or more slots directly on the calendar (to select two or more slots click and drag from the start slot to the desired end slot), a popup will appear prompting to either block or create an appointment. Once a block has been set these slots will no longer be available for your online bookings. Within SimpleSpa using the appointment wizard to schedule a new appointment during the allocated times will show as being occupied with an option to overbook.
+This page explains how to block out time on the appointment calendar and how to move or resize a block.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-04 at 2.15.19 PM.png" alt=""><figcaption><p>The Block Prompt with a notes section, pressing the BLOCK button will create a block for the selected slots</p></figcaption></figure>
+## Blocking out slots
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-04 at 2.15.35 PM.png" alt=""><figcaption><p>In the appointment wizard there is a discrete BLOCK button, this will create a 15min (or default slot duration) block in the calendar for the selected staff/provider</p></figcaption></figure>
+1. On the calendar, click the start slot and drag to the end slot to select two or more slots.
+2. A popup asks whether you want to block the time or create an appointment. Add any notes, then press **BLOCK**.
 
+Once a block is set, those slots are no longer available for online bookings. If you use the appointment wizard to schedule a new appointment during the blocked time, the time shows as occupied, with an option to overbook.
 
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FqEVfA1eiWz94TUBaGbpa%2FScreenshot%202024-07-04%20at%202.15.19%E2%80%AFPM.png?alt=media&#x26;token=0fe8c284-d434-4825-b554-1710977503e4" alt=""><figcaption><p>The Block prompt with a notes section. Pressing the BLOCK button creates a block for the selected slots.</p></figcaption></figure>
 
-Note that Blocks can be setup to allocate up to an entire single calendar day, blocks do not span over a single day period. To create multiple day blocks you can consider cloning the block (see Cloning a Block)
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FZq7QAYKy3PQgpLMCeae9%2FScreenshot%202024-07-04%20at%202.15.35%E2%80%AFPM.png?alt=media&#x26;token=39c4ec73-cd94-4243-8844-8fa6d7b1b01d" alt=""><figcaption><p>The appointment wizard has a discreet BLOCK button. It creates a 15-minute (or default slot duration) block on the calendar for the selected staff/provider.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-04 at 2.17.30 PM.png" alt=""><figcaption><p>Visually a block will be gray</p></figcaption></figure>
+{% hint style="info" %}
+A block can cover up to one full calendar day. Blocks do not span more than a single day. To block multiple days, clone the block (see [Cloning a Block](cloning-a-block.md)).
+{% endhint %}
 
-Blocks can be moved around like an appoimtment, and notes can be added with any information about the block. To change the duration of the block, press and drag the = on the lower end of this slot to increase or decrease the time accordingly.
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2Ffj0bTid0symJuePqHA19%2FScreenshot%202024-07-04%20at%202.17.30%E2%80%AFPM.png?alt=media&#x26;token=8ac2cfe0-023a-461f-9820-737e8d348466" alt=""><figcaption><p>Blocks appear gray on the calendar</p></figcaption></figure>
+
+## Moving and resizing a block
+
+* You can move a block around just like an appointment.
+* You can add notes with any information about the block.
+* To change the block's duration, press and drag the **=** at the bottom of the block to increase or decrease the time.
+
+## Related
+
+* [Cloning a Block](cloning-a-block.md)
+* [Block Hours on Calendar](../staff/block-hours-on-calendar.md)

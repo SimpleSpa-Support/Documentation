@@ -1,25 +1,52 @@
+---
+description: >-
+  How SimpleSpa's card-present and card-not-present integrations reduce your PCI
+  compliance scope.
+---
+
 # PCI Compliance
 
+This page explains how SimpleSpa's card-present (terminal) and card-not-present (online) integrations keep card data secure and reduce your PCI compliance scope.
 
+## Card present
 
-## **Card Present**
+SimpleSpa partners with the largest merchant services providers. Our integration lets you process payments on a physical terminal, so you can accept credit cards quickly and efficiently. You use one of our certified terminals with SimpleSpa to process credit card transactions securely.
 
-SimpleSpa partners with the largest merchant services, and our unique integration allows you to process using a physical terminal so you can accept a credit card quickly and efficiently, this solution allows you to use one of our certified terminals with SimpleSpa and securely process credit card transactions with SimpleSpa. Our solution is Semi-Integrated, PCI compliance is reduced and in some cases not in scope as no sensitive card account data is sent to the SimpleSpa POS that drives the semi-integrated terminal.\
-\
-_\*_ Card Present transactions are exclusively facilitated for accounts directly referred to by SimpleSpa _via:_
+Our solution is semi-integrated. No sensitive card account data is sent to the SimpleSpa POS that drives the semi-integrated terminal, so your PCI compliance scope is reduced and, in some cases, not in scope at all.
 
-* [_CloverConnect/First Data by Fiserv_](https://isvpartner.fiserv.com/signup/simplespa) _(complete this form to speak with a representative for the SimpleSpa / Clover Integration)_
-* [_PlatinumRelations_](https://platinumrelations.com/simplespa-scheduling-software/) _(complete this form to speak with a representative for the SimpleSpa / PlatinumRelations Integration) if you would like to board directly on PlatinumRelations use_ [_this form_](https://portal.platinumrelations.com/form/information-simplespa-merchant) _to get started and submit all your merchant information - this integration supports SPIn Terminals by Dejavoo_
-* _Legacy Integrations include, TSYS, Vantiv/WorldPay, EVO Payments, Global_
+{% hint style="info" %}
+Card-present transactions are available only for accounts referred directly by SimpleSpa via:
 
-## **Card Not Present**
+* [_CloverConnect/First Data by Fiserv_](https://isvpartner.fiserv.com/signup/simplespa) — complete this form to speak with a representative about the SimpleSpa / Clover integration.
+* [_PlatinumRelations_](https://platinumrelations.com/simplespa-scheduling-software/) — complete this form to speak with a representative about the SimpleSpa / PlatinumRelations integration. If you would like to board directly with PlatinumRelations, use [_this form_](https://portal.platinumrelations.com/form/information-simplespa-merchant) to get started and submit all your merchant information. This integration supports SPIn terminals by Dejavoo.
+* Legacy integrations include TSYS, Vantiv/WorldPay, EVO Payments and Global.
+{% endhint %}
 
-With our card not present approach you can securely accept credit card transactions, all the heavy lifting is handled directly with our CNP partners ensuring that no card data touches your computer and your SimpleSpa account but directly sent to our CNP partners, this ensures the protection of your customers card information. All our CNP merchants need to complete a SAQ A and Attestation of Compliance (AoC), and for your convenience this may be pre-filled and ready for submission depending on the integration partner you are using.
+## Card not present
 
-_Card Not Present transactions are supported for connected accounts via_ [_Stripe_](https://stripe.com/) _to board & connect your Stripe Account please visit the Settings > Locations > select your location > Payments & Tax Rates Tab and scroll to the bottom to connect your SimpleSpa account with Stripe, if you do not have a Stripe account you will be able to create a new one with a very quick boarding process, for existing Stripe accounts you can login to get started immediately_\
-_Card Present is supported via Stripe with the SimpleSpa Stripe Terminal Integration, supported devices are the_&#x20;
+With our card-not-present (CNP) approach, you can accept credit card transactions securely. Our CNP partners handle all the heavy lifting: card data is sent directly to them and never touches your computer or your SimpleSpa account. This protects your customers' card information.
+
+All our CNP merchants need to complete an SAQ A and an Attestation of Compliance (AoC). For your convenience, these may be pre-filled and ready to submit, depending on the integration partner you use.
+
+### Connecting Stripe
+
+Card-not-present transactions are supported for accounts connected via [_Stripe_](https://stripe.com/).
+
+To board and connect your Stripe account, go to **Settings → Locations → (your location) → Payments & Tax Rates** and scroll to the bottom to connect your SimpleSpa account with Stripe.
+
+* If you do not have a Stripe account, you can create one with a very quick boarding process.
+* If you already have a Stripe account, log in to get started immediately.
+
+### Stripe Terminal
+
+Card-present payments are also supported via Stripe with the SimpleSpa Stripe Terminal integration. Supported devices are:
 
 * [_Stripe Reader S700_](https://stripe.com/terminal)
 * [_BBPOS WisePOS E_](https://stripe.com/terminal)
 
 [_https://stripe.com/terminal_](https://stripe.com/terminal)
+
+## Related
+
+* [Processing Credit Cards](processing-credit-cards.md)
+* [POS Terminal](../hardware/pos-terminal.md)

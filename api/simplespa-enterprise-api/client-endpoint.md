@@ -135,7 +135,7 @@ curl -X GET "https://my.simplespa.com/api/v1/clients.php?birthday_month=7&birthd
 -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
-## Response Format
+## Example Birthday Search Response
 
 ```json
 {
@@ -185,7 +185,7 @@ curl -X POST https://my.simplespa.com/api/v1/clients.php \
 }'
 ```
 
-GET&#x20;
+GET
 
 ```bash
 https://my.simplespa.com/api/v1/clients.php?last_visit_before=2025-04-30&no_future_visits=true&page=1&per_page=100
@@ -217,13 +217,13 @@ https://my.simplespa.com/api/v1/clients.php?last_visit_before=2025-04-30&no_futu
 * **Remind inactive clients** (e.g., "last\_visit\_before": "2023-01-01")
 * **Create birthday campaigns** (extend API with birthday field if needed)
 * **Target VIP clients** who spend more frequently
-* Target Clients with the most accumulated loyalty points
+* **Target clients** with the most accumulated loyalty points
 * **Export segmented client lists** to Mailchimp or any email platform
 * **Trigger SMS** via Twilio for last-minute promos
 
 ## Notes
 
-* Important:  for polling-based setup, all new records will be fetched together, which could lead to duplication unless filtered appropriately, please keep a record of those that have been contacted if you are using this for notifications
+* Important: For a polling-based setup, all new records are fetched together, which could lead to duplicates unless you filter them appropriately. Please keep a record of the clients you have contacted if you use this for notifications.
 * `dob_year`, `dob_month`, and `dob_day` are separate fields.
 * Search Behavior: The search field performs a partial match across first name, last name, email, and mobile phone.
 * Dates must be in `YYYY-MM-DD` format.
@@ -231,4 +231,3 @@ https://my.simplespa.com/api/v1/clients.php?last_visit_before=2025-04-30&no_futu
 * Rate Limiting: Please ensure reasonable usage to avoid throttling. It is recommended to poll no faster than once per minute.
 
 > ⚠️ IMPORTANT: Never expose your private API key in client-side JavaScript. Always use secure, server-side code to handle sensitive credentials.
-

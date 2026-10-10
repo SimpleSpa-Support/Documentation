@@ -1,26 +1,42 @@
+---
+description: >-
+  Use AI to generate a campaign subject line, SMS text and promotional email in
+  seconds.
+---
+
 # AI Campaign Generator
 
-SimpleSpa’s AI Campaign Generator helps you create compelling marketing campaigns in seconds. Powered by OpenAI, this tool generates subject lines, SMS texts, and beautiful promotional emails—ready to send.
+SimpleSpa’s AI Campaign Generator helps you create compelling marketing campaigns in seconds. Powered by OpenAI, it generates subject lines, SMS texts and promotional emails that are ready to send.
 
 ***
 
-### 🚀 How It Works
+## 🚀 How It Works
 
-1.  Click “Generate with AI”
+{% stepper %}
+{% step %}
+### Click "Generate with AI"
 
-    You’ll find this button under the _New Campaign_ tab in your Marketing Tools.
-2.  Describe Your Campaign
+You’ll find the **Generate with AI** button under the **New Campaign** tab in your Marketing Tools.
+{% endstep %}
 
-    Type what you want to promote—like a special offer or an announcement. You can also pick from helpful examples.
-3.  Preview & Edit
+{% step %}
+### Describe your campaign
 
-    The AI will generate:
+Type what you want to promote, such as a special offer or an announcement. You can also pick one of the sample prompts.
+{% endstep %}
 
-    * A subject line (for your email)
-    * An SMS message (max 160 characters)
-    * A responsive HTML email (pre-filled and styled)
+{% step %}
+### Preview and edit
 
-### 📋 Example Prompts
+The AI generates:
+
+* A subject line (for your email)
+* An SMS message (max 160 characters)
+* A responsive HTML email (pre-filled and styled)
+{% endstep %}
+{% endstepper %}
+
+## 📋 Example Prompts
 
 Here are some pre-written ideas you can use:
 
@@ -36,23 +52,23 @@ Here are some pre-written ideas you can use:
 | Gift Card Deal        | Promote a bonus gift card offer—e.g. get $10 free for every $100 spent.      |
 | Client Appreciation   | Thank loyal clients with a special appreciation week offer.                  |
 
-### ⚠️ Best Practices
+## ⚠️ Best Practices
 
-* Keep it simple: Prompts should be under 200 characters.
-* Stay specific: Mention the service, timing, or reason for your promotion.
-* Edit before submitting: AI-generated content is editable—make it personal!
+* **Keep it simple:** keep prompts under 200 characters.
+* **Be specific:** mention the service, timing or reason for your promotion.
+* **Edit before submitting:** AI-generated content is editable, so make it personal.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-10 at 7.59.24 PM.png" alt=""><figcaption><p>AI Generate with AI button in the SimpleSpa Makreting Tools</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2Fl9RXMI3Loi8R1LG8LXzv%2FScreenshot%202025-05-10%20at%207.59.24%E2%80%AFPM.png?alt=media&#x26;token=014aea92-ce46-4af8-8c6c-e5273c9da9ff" alt=""><figcaption><p>The Generate with AI button in the SimpleSpa Marketing Tools</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-10 at 7.59.11 PM.png" alt=""><figcaption><p>AI Prompt Screen, here you can either select one of the sample campaigns available or enter your own description</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2Fahys4Umz1M2thcnT6YVa%2FScreenshot%202025-05-10%20at%207.59.11%E2%80%AFPM.png?alt=media&#x26;token=f9dd56f7-0ccd-4e6a-b379-40acb52cae33" alt=""><figcaption><p>The AI prompt screen. Select one of the sample campaigns or enter your own description.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-10 at 7.59.35 PM.png" alt=""><figcaption><p>AI Generated response for Subject and SMS/Text fields</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FlRsCSomYGBYZCAF4cKsU%2FScreenshot%202025-05-10%20at%207.59.35%E2%80%AFPM.png?alt=media&#x26;token=7e8899d8-9c11-416b-bdfa-4b0d2e4ea757" alt=""><figcaption><p>AI-generated Subject and SMS/Text fields</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-10 at 8.00.01 PM (1).png" alt=""><figcaption><p>AI Generated Email Campaign</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FROrJGFRVX41EvQcwIEws%2FScreenshot%202025-05-10%20at%208.00.01%E2%80%AFPM.png?alt=media&#x26;token=e7d49ffe-9f06-4748-a741-6390be1bc696" alt=""><figcaption><p>AI-generated email campaign</p></figcaption></figure>
 
 ***
 
-### 🧠 How It’s Personalized
+## 🧠 How It’s Personalized
 
 The AI uses:
 
@@ -64,12 +80,18 @@ The AI uses:
 
 ***
 
-### 📦 Output Format
+## 📦 Output Format
 
 The generated email uses a responsive template with:
 
-* Logo + Business Name
+* Logo + business name
 * A headline + greeting
 * Image placeholder
-* A styled “Book Now” button
-* Footer with location, address, and contact details
+* A styled **Book Now** button
+* Footer with location, address and contact details
+
+## Related
+
+* [Creating a New Campaign](creating-a-new-campaign.md)
+* [Email Designer](email-designer.md)
+* [Campaign Templates](campaign-templates.md)

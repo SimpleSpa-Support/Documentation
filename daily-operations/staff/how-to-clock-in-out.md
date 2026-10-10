@@ -1,11 +1,47 @@
+---
+description: How staff clock in and out of SimpleSpa from the dashboard.
+---
+
 # How to Clock In/Out
 
-Staff can clock in/out from SimpleSpa using their own credentials from the dashboard. Staff should be first created and then provided user level access (toggle the Can Login option to grant staff access to SimpleSpa). On the top right area there will be a clock button ![](<../../.gitbook/assets/Clock Button.webp>) once clicked the staff that is logged in can Clock In or Out of the system. If Staff has clocked in, there will be an option to clock out, and then sequentially staff can also clock back in again to accommodate for any breaks during the day.
+This page explains how staff clock in and out of SimpleSpa using their own credentials from the dashboard.
 
-If required Administrator and Manager level users have access to override hours recorded by staff in the staff settings from the staff page.
+## Before you start
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-05 at 12.00.30 AM.png" alt=""><figcaption><p>Clock In Prompt showing the Clock In button</p></figcaption></figure>
+The staff member must first be created and then given user-level access. To grant access, turn on the **Can Login** option for the staff member. See [Staff Login](staff-login.md).
 
-After a staff has clocked in there will be a clock out button in red to quickly clock out at the end of the shift, to clock back in if needed opening up this prompt will show a grey button to add a new clock in entry
+## Clocking in and out
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-05 at 12.00.53 AM.png" alt=""><figcaption><p>Clock In Prompt showing the clock back in button</p></figcaption></figure>
+{% stepper %}
+{% step %}
+### Open the clock
+
+While logged in, click the clock button ![](https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FKDu5ua7SpAHPngQ6VjaX%2FClock%20Button.webp?alt=media\&token=44c0aeb9-ad30-4219-985d-69ec5ad1c993) in the top-right area.
+{% endstep %}
+
+{% step %}
+### Clock in
+
+Click the **Clock In** button.
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FHtfY9sJz6KpHkJtrXMbL%2FScreenshot%202024-07-05%20at%2012.00.30%E2%80%AFAM.png?alt=media&#x26;token=aee5499e-f9a8-4ec0-8e46-f6f64e6bd8bc" alt=""><figcaption><p>The Clock In prompt showing the Clock In button</p></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Clock out
+
+After clocking in, a red clock out button appears so you can quickly clock out at the end of your shift.
+{% endstep %}
+
+{% step %}
+### Clock back in (optional)
+
+To clock back in, for example after a break during the day, open the prompt again. A grey button lets you add a new clock in entry.
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FgC1IOkzWhEgt7MXgKg00%2FScreenshot%202024-07-05%20at%2012.00.53%E2%80%AFAM.png?alt=media&#x26;token=2af93061-9ab0-47a6-adb7-1a7e94c184bf" alt=""><figcaption><p>The Clock In prompt showing the clock back in button</p></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+{% hint style="info" %}
+If required, Administrator and Manager level users can override the hours staff recorded. They do this in the staff settings on the **Staff** page. See [Clock In/Out Tab](clock-in-out-tab.md).
+{% endhint %}

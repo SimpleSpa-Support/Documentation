@@ -1,33 +1,36 @@
+---
+description: >-
+  How the Reconcile Drawer modal works, how expected cash is calculated, and how
+  to read drawer entries.
+---
+
 # Cash Reconciliation
 
-This guide explains how the Reconcile Drawer modal works in SimpleSpa, how expected cash is calculated, and how to interpret the entries.
+This guide explains how the **Reconcile Drawer** modal works in SimpleSpa, how expected cash is calculated, and how to read the entries.
 
 ***
 
-### 📋 Overview
+## 📋 Overview
 
-The Cash Drawer Reconciliation feature allows businesses to:
+Cash drawer reconciliation lets you:
 
-* Open and close their cash drawer
+* Open and close your cash drawer
 * Track cash amounts at opening and closing
-* See how much cash should be on hand based on daily transactions
+* See how much cash should be on hand based on the day's transactions
 * Identify cash overages or shortages
 
 ***
 
-### 🔄 Drawer Entry Types
+## 🔄 Drawer entry types
 
-Each drawer action is logged as an entry with the following types:
+Each drawer action is logged as an entry. There are two entry types:
 
-Opening Entry
+* **Opening Entry**
+* **Closing Entry**
 
-Closing Entry
+## How expected cash is calculated
 
-### How Expected Cash is Calculated
-
-The system uses the most recent valid opening to determine what the expected cash should be at closing.
-
-
+SimpleSpa uses the most recent valid opening entry to work out how much cash you should have at closing.
 
 Formula:
 
@@ -35,15 +38,13 @@ Formula:
 Expected Closing Cash = Opening Amount + Cash Received Today
 ```
 
-If a closing entry exists after that opening, it will also be displayed for comparison.
+If a closing entry exists after that opening, it is also displayed for comparison.
 
 ***
 
-### 📘 Example Entries
+## 📘 Example entries
 
-
-
-Here’s an example set of entries for a day:
+Here’s an example set of entries for one day:
 
 ```
 [
@@ -52,7 +53,7 @@ Here’s an example set of entries for a day:
 ]
 ```
 
-In this case:
+In this example:
 
 * Opening Cash: $100.00
 * Cash Received Today: $50.00
@@ -62,30 +63,35 @@ In this case:
 
 ***
 
-### 🧾 Modal Breakdown
+## 🧾 What the modal shows
 
 When the modal opens, you’ll see:
 
-1. Opening Entry — time, amount, notes, and user
-2. Closing Entry _(if exists)_ — same details
-3. Expected Closing Cash — calculated using today’s transactions
-4. Difference — highlights any cash over/short
+1. **Opening Entry** — time, amount, notes, and user
+2. **Closing Entry** _(if one exists)_ — the same details
+3. **Expected Closing Cash** — calculated from today’s transactions
+4. **Difference** — highlights any cash over or short
 
 ***
 
-### 🔒 When Is the Drawer Considered Open?
+## 🔒 When is the drawer considered open?
 
-The system considers the drawer _open_ if:
+SimpleSpa considers the drawer _open_ if:
 
-* There is an opening entry
-* And no closing entry exists _after_ it
+* There is an opening entry, and
+* No closing entry exists _after_ it
 
-This controls whether the “Close Drawer” tab is enabled.
+This controls whether the **Close Drawer** tab is enabled.
 
 ## Accessing the Reconciliation Modal
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-06-04 at 4.42.53 PM (1).png" alt=""><figcaption><p>Easily access the reconciliation modal by pressing the cash drawer icon in the Daily Report in the Dashboard</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FT08pPFmKSBjYo0kJfGOW%2FScreenshot%202025-06-04%20at%204.42.53%E2%80%AFPM.png?alt=media&#x26;token=d83dd6fc-a31f-43be-9011-6990097d9a2d" alt=""><figcaption><p>Open the reconciliation modal by clicking the cash drawer icon in the Daily Report on the Dashboard</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-06-04 at 4.44.03 PM.png" alt=""><figcaption><p>From the prompt you can Open / Close the register with the opening and closing amounts along with any notes</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FOf5vT5R4hBh0gnrO4ka1%2FScreenshot%202025-06-04%20at%204.44.03%E2%80%AFPM.png?alt=media&#x26;token=cc244d70-eb07-4ecc-b499-4625e6bcf673" alt=""><figcaption><p>From the prompt you can open or close the register with the opening and closing amounts, along with any notes</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-06-04 at 4.44.08 PM.png" alt=""><figcaption><p>Each entry will be listed above, and if the business has realized any cash revenue this will appear at the bottom showing the total closing amount with the difference</p></figcaption></figure>
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FYJcnr1rw0kcFZVHaPvh0%2FScreenshot%202025-06-04%20at%204.44.08%E2%80%AFPM.png?alt=media&#x26;token=a31c57be-7ea9-41fa-afc5-ece67867438a" alt=""><figcaption><p>Each entry is listed above. If the business has any cash revenue, it appears at the bottom with the total closing amount and the difference.</p></figcaption></figure>
+
+## Related
+
+* [Viewing Transactions](viewing-transactions.md)
+* [Cash drawer / Till](../hardware/cash-drawer-till.md)

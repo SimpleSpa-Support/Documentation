@@ -1,7 +1,13 @@
+---
+description: >-
+  What spa software is, and how it helps you manage scheduling, bookings and
+  inventory.
+---
+
 # What is Spa Software
 
-**Spa Software** empowers businesses and professionals to efficiently oversee spa scheduling, appointments, and bookings. This versatile software is also commonly referred to as appointment booking software and online booking software.
+**Spa software** helps businesses and professionals efficiently manage spa scheduling, appointments and bookings. This versatile software is also commonly called appointment booking software or online booking software.
 
-The integration of spa software proves to be a valuable asset when operating a bustling spa, facilitating seamless management of daily schedules, appointment bookings, and inventory control, all at the touch of a button. Embracing spa software grants your customers the convenience of booking appointments online, anytime during the week, and at their preferred time, significantly enhancing the overall customer experience provided by your spa. Furthermore, the implementation of automated reminders, such as Email and SMS notifications, has the potential to curtail no-shows by as much as 70%.
+Spa software is a valuable asset when you run a busy spa, making it easy to manage daily schedules, appointment bookings and inventory, all at the touch of a button. With spa software, your customers can book appointments online on any day of the week, at the time they prefer, which greatly improves the overall customer experience at your spa. Automated reminders, such as email and SMS notifications, can also reduce no-shows by as much as 70%.
 
-SimpleSpa emerges as the foremost scheduling system tailored for your business. With its user-friendly interface, our software not only provides comprehensive visibility into your team's schedule but also offers holistic oversight of your entire spa operation.
+SimpleSpa is the leading scheduling system for your business. With its user-friendly interface, our software gives you complete visibility into your team's schedule and full oversight of your entire spa operation.

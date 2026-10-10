@@ -1,26 +1,51 @@
+---
+description: >-
+  Take card payments in the SimpleSpa POS with an integrated terminal or with
+  Stripe.
+---
+
 # Processing Credit Cards
 
-**Integrated POS Terminal** - SimpleSpa has partnered with the leading credit card processors\* in the US to provide you the most competitive rates for processing credit cards directly with our checkout and POS. SimpleSpa is certified to work with a wide range of POS Terminals, allowing you to accept the new EMV standard for your business. [Contact us](https://www.simplespa.com/contact) to get a quote from our sales team for a integrated solution
+This page explains the two ways to take credit card payments in SimpleSpa: an integrated POS terminal or Stripe.
 
-Payments are automatically sent to your terminal when you press the ![](<../../.gitbook/assets/Use Terminal.webp>) button\
-\
-**TERMINAL MANUAL SALE OVERRIDE:**\
-Dejavoo Spin in the event that you would like to make a manual payment without recording it in SimpleSpa please follow these instructions on your terminal:
+## Integrated POS terminal
 
-* Tap on TURN SPIN BYPASS ON
-* The terminal will display CREDIT / SALE ... ENTER AMOUNT
-* Input the dollar amount and press OK
-* Insert the card
+SimpleSpa has partnered with leading credit card processors\* in the US to offer you competitive rates for processing credit cards directly in our checkout and POS. SimpleSpa is certified to work with a wide range of POS terminals, so your business can accept the new EMV standard. [Contact us](https://www.simplespa.com/contact) to get a quote from our sales team for an integrated solution.
 
-Clover For the Clover Terminal, Mini, Flex devices a manual transactions can be run using the Sale App.
+When you press the ![](https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2Fh1eqAWTN0FfIVSzeWmsG%2FUse%20Terminal.webp?alt=media\&token=fe7ca625-ecac-4442-b19b-4adabb2659cb) button, the payment is sent to your terminal automatically.
 
-\* If you have connected your SimpleSpa account with Stripe, you can process credit card payments fast and easy directly with SimpleSpa.
+### Terminal manual sale override
 
+**Dejavoo Spin:** To take a manual payment without recording it in SimpleSpa, follow these steps on your terminal:
 
+1. Tap **TURN SPIN BYPASS ON**.
+2. The terminal displays **CREDIT / SALE ... ENTER AMOUNT**.
+3. Enter the dollar amount and press **OK**.
+4. Insert the card.
 
-**Stripe** once your Stripe account has been connected, when you complete an appointment or make a sale in the POS, automatically Credit Card will be selected as a form of payment, and the ![](<../../.gitbook/assets/Use Stripe.webp>) button will automatically open a new window to enter the credit information for the transaction. Once the transaction is complete the receipt will depict both the Stripe transaction number along with the customer id. According to your Stripe settings an additional receipt may be sent to your client confirming the payment made via Stripe, and funds are available according to your Stripe Account\
-\* To use Stripe directly with SimpleSpa we charge a transaction fee of 0.10USD or local currency depending on where your Stripe account has been created, and the business physical presence
+**Clover:** On the Clover Terminal, Mini and Flex devices, you can run a manual transaction with the **Sale** app.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-04 at 3.55.18 PM.png" alt=""><figcaption><p>Capturing a Credit Card via the Stripe integration</p></figcaption></figure>
+\* If you have connected your SimpleSpa account with Stripe, you can process credit card payments quickly and easily directly in SimpleSpa.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-04 at 4.06.35 PM.png" alt=""><figcaption><p>Using a card on file via the Stripe Integration</p></figcaption></figure>
+## Stripe
+
+Once your Stripe account is connected, **Credit Card** is selected automatically as the payment method when you complete an appointment or make a sale in the POS.
+
+1. Press the ![](https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FNLfcO1rbcZnADzSU5e5X%2FUse%20Stripe.webp?alt=media\&token=b5896c0a-c730-49f1-8285-cd270b61fd57) button. A new window opens.
+2. Enter the card information for the transaction.
+
+When the transaction is complete, the receipt shows both the Stripe transaction number and the customer ID. Depending on your Stripe settings, Stripe may also send your client a receipt confirming the payment. Funds become available according to your Stripe account.
+
+{% hint style="info" %}
+To use Stripe directly with SimpleSpa, we charge a transaction fee of 0.10USD or local currency, depending on where your Stripe account was created and the business's physical presence.
+{% endhint %}
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FMzohCdmGIzjUjw0zuSqZ%2FScreenshot%202024-07-04%20at%203.55.18%E2%80%AFPM.png?alt=media&#x26;token=309c5e59-3005-4813-99d7-645c8767f515" alt=""><figcaption><p>Capturing a credit card via the Stripe integration</p></figcaption></figure>
+
+<figure><img src="https://695085455-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa9tSKQ7Cexg8YEba5Evb%2Fuploads%2FQLOsrLgitCYuXhxhGC5q%2FScreenshot%202024-07-04%20at%204.06.35%E2%80%AFPM.png?alt=media&#x26;token=35c63a8c-e777-4920-a970-89b25e2b9e14" alt=""><figcaption><p>Using a card on file via the Stripe integration</p></figcaption></figure>
+
+## Related
+
+* [Cards on File](cards-on-file.md)
+* [PCI Compliance](pci-compliance.md)
+* [POS Terminal](../hardware/pos-terminal.md)

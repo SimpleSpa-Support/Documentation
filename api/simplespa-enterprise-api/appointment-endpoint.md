@@ -14,15 +14,13 @@ coverY: 0
 
 ## Overview
 
-The Appointments API allows Enterprise accounts to retrieve a paginated list of their appointments for a selected time period, including creation date/time, appointment start-end date/time, client, staff and service details.
+The Appointments API allows Enterprise accounts to retrieve a paginated list of their appointments for a selected time period, including creation date/time, appointment start-end date/time, client, staff, and service details.
 
 ## Endpoint
 
 ```http
 POST https://my.simplespa.com/api/v1/appointments.php
 ```
-
-
 
 ## Authentication
 
@@ -149,8 +147,8 @@ curl -X POST https://my.simplespa.com/api/v1/appointments.php \
 
 ## Notes
 
-* Important:  for polling-based setup, all new records will be fetched together, which could lead to duplication unless filtered appropriately, please keep a record of those that have been contacted if you are using this for notifications
-* Limitation: Start/End date can range up to 92 days
+* Important: For a polling-based setup, all new records are fetched together, which could lead to duplicates unless you filter them appropriately. Please keep a record of the clients you have contacted if you use this for notifications.
+* Limitation: The start/end date range can be up to 92 days.
 * Pagination: Default per\_page is 100 if not specified. Maximum allowed is 1000 per page.
 * Rate Limiting: Please ensure reasonable usage to avoid throttling. It is recommended to poll no faster than once per minute.
 

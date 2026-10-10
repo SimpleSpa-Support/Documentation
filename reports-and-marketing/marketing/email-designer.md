@@ -1,7 +1,7 @@
 ---
 description: >-
   Design a campaign email by clicking blocks such as headlines, images, buttons
-  and offers, with your brand colour and a phone preview.
+  and offers, with your brand color and a phone preview.
 icon: palette
 ---
 
@@ -34,9 +34,9 @@ Start from **Simple**, **Offer**, **Photo** or **Newsletter**. You can switch la
 
 Upload an image, use your logo, or paste an image address. Add a short description to every image; it's shown when an email app blocks images.
 
-## Brand colour and preview
+## Brand color and preview
 
-Set your **brand colour** to style headlines and buttons. Switch between **Desktop** and **Phone** to see how the email looks on each.
+Set your **brand color** to style headlines and buttons. Switch between **Desktop** and **Phone** to see how the email looks on each.
 
 {% hint style="info" %}
 Your logo, business details and an unsubscribe link are added to every email automatically.
