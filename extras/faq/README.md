@@ -58,6 +58,10 @@ Find quick answers to the most common questions about SimpleSpa.
 * [I am a third party processor/reseller, can I work with SimpleSpa?](i-am-a-third-party-processor-reseller-can-i-work-with-simplespa.md)
 * [How can I disable Credit Card Auto-fill in Chrome?](how-can-i-disable-credit-card-auto-fill-in-chrome.md)
 
+## Connection problems
+
+* [SimpleSpa won't load: change your DNS to Cloudflare or Google](simplespa-wont-load-change-your-dns-to-cloudflare-or-google.md)
+
 ## Account, data and security
 
 * I am trying to log in but it redirects to SimpleSpa.com

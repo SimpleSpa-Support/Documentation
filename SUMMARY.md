@@ -215,6 +215,7 @@
   * [Can you provide me with more information about your data centers?](extras/faq/can-you-provide-me-with-more-information-about-your-data-centers.md)
   * [SimpleSpa iOS](extras/faq/simplespa-ios.md)
   * [Online Booking App](extras/faq/online-booking-app.md)
+  * [SimpleSpa won't load: change your DNS to Cloudflare or Google](extras/faq/simplespa-wont-load-change-your-dns-to-cloudflare-or-google.md)
 * [About Scheduling Software](extras/scheduling-software/README.md)
   * [What is Scheduling Software](extras/scheduling-software/what-is-scheduling-software.md)
   * [What is Salon Software](extras/scheduling-software/what-is-salon-software.md)
