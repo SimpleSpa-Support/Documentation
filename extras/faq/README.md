@@ -18,6 +18,7 @@ Find quick answers to the most common questions about SimpleSpa.
 * [How much does SimpleSpa cost?](how-much-does-simplespa-cost.md)
 * [Where can I get a SimpleSpa perpetual license?](where-can-i-get-a-simplespa-perpetual-license.md)
 * [How do I convert my SimpleSpa free trial to a paid subscription?](how-do-i-convert-my-simplespa-free-trial-to-a-paid-subscription.md)
+* [Managing your SimpleSpa subscription and billing](managing-your-simplespa-subscription-and-billing.md)
 * [Do plans have a minimum contract?](do-plans-have-a-minimum-contract.md)
 * [Can I downgrade my plan?](can-i-downgrade-my-plan.md)
 * [What countries do you support?](what-countries-do-you-support.md)
@@ -34,22 +35,23 @@ Find quick answers to the most common questions about SimpleSpa.
 * [Does SimpleSpa support parallel bookings?](does-simplespa-support-parallel-bookings.md)
 * [My online booking hours show different availability than what I have set in the staff page](my-online-booking-hours-show-different-availability-than-what-i-have-set-in-the-staff-page.md)
 * [My online booking is not showing availability although I am available in my calendar](my-online-booking-is-not-showing-availability-although-i-am-available-in-my-calendar.md)
-* My online booking page doesn't show some or all of my services
+* [My online booking page doesn't show some or all of my services](my-online-booking-page-doesnt-show-some-or-all-of-my-services.md)
 * [Google Analytics](google-analytics.md)
 
 ## Appointments and staff
 
 * [How can I view the timestamp an appointment was created?](how-can-i-view-the-timestamp-an-appointment-was-created.md)
-* My staff will work a different schedule on a specific date. Can SimpleSpa handle this?
+* [My staff will work a different schedule on a specific date. Can SimpleSpa handle this?](my-staff-will-work-a-different-schedule-on-a-specific-date.-can-simplespa-handle-this.md)
 
 ## Reminders, SMS and marketing
 
 * [Does SimpleSpa send appointment reminders?](does-simplespa-send-appointment-reminders.md)
+* [My client didn't get their reminder](../../reports-and-marketing/notifications/my-client-didnt-get-their-reminder.md)
 * [Does SimpleSpa send SMS/Text reminders?](does-simplespa-send-sms-text-reminders.md)
-* How much do SMS/Text notifications cost?
+* [How much do SMS/Text notifications cost?](how-much-do-sms-text-notifications-cost.md)
 * [How can I add SMS/Text Notifications to my account?](how-can-i-add-sms-text-notifications-to-my-account.md)
 * [Are the SimpleSpa Marketing Tools included in my plan?](are-the-simplespa-marketing-tools-included-in-my-plan.md)
-* I already pay for SMS notifications. Is SMS marketing included in my package?
+* [I already pay for SMS notifications. Is SMS marketing included in my package?](i-already-pay-for-sms-notifications.-is-sms-marketing-included-in-my-package.md)
 
 ## Payments
 
@@ -64,7 +66,7 @@ Find quick answers to the most common questions about SimpleSpa.
 
 ## Account, data and security
 
-* I am trying to log in but it redirects to SimpleSpa.com
+* [I am trying to log in but it redirects to SimpleSpa.com](i-am-trying-to-log-in-but-it-redirects-to-simplespa.com.md)
 * [Admin Backup](admin-backup.md)
 * [SimpleSpa HIPAA](simplespa-hipaa.md)
 * [How does SimpleSpa transmit data securely?](how-does-simplespa-transmit-data-securely.md)

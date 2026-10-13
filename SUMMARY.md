@@ -165,6 +165,7 @@
   * [Email Notifications](reports-and-marketing/notifications/email-notifications.md)
   * [SMS/Text Notifications](reports-and-marketing/notifications/sms-text-notifications.md)
   * [SMS Replies & Confirmations](reports-and-marketing/notifications/sms-replies-and-confirmations.md)
+  * [My client didn't get their reminder](reports-and-marketing/notifications/my-client-didnt-get-their-reminder.md)
 
 ## Extras
 
@@ -216,6 +217,7 @@
   * [SimpleSpa iOS](extras/faq/simplespa-ios.md)
   * [Online Booking App](extras/faq/online-booking-app.md)
   * [SimpleSpa won't load: change your DNS to Cloudflare or Google](extras/faq/simplespa-wont-load-change-your-dns-to-cloudflare-or-google.md)
+  * [Managing your SimpleSpa subscription and billing](extras/faq/managing-your-simplespa-subscription-and-billing.md)
 * [About Scheduling Software](extras/scheduling-software/README.md)
   * [What is Scheduling Software](extras/scheduling-software/what-is-scheduling-software.md)
   * [What is Salon Software](extras/scheduling-software/what-is-salon-software.md)
