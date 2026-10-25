@@ -61,6 +61,7 @@
     * [Assigning Staff During Checkout](daily-operations/pos/common-checkouts-and-tutorial-walkthroughs/assigning-staff-during-checkout.md)
     * [Prompting and Collecting Tips](daily-operations/pos/common-checkouts-and-tutorial-walkthroughs/prompting-and-collecting-tips.md)
     * [Applying Discounts During Checkout](daily-operations/pos/common-checkouts-and-tutorial-walkthroughs/applying-discounts-during-checkout.md)
+    * [Redeeming Loyalty Points During Checkout](daily-operations/pos/common-checkouts-and-tutorial-walkthroughs/redeeming-loyalty-points-during-checkout.md)
     * [Applying Notes & Change Calculator](daily-operations/pos/common-checkouts-and-tutorial-walkthroughs/applying-notes-and-change-calculator.md)
 * [Hardware](daily-operations/hardware/README.md)
   * [Receipt Printing](daily-operations/hardware/receipt-printing.md)
