@@ -14,6 +14,19 @@ Some of the newest screens (the new dashboard, calendar look, booking wizard and
 {% endhint %}
 
 {% updates format="full" %}
+{% update date="2026-10-26" %}
+## Redeem loyalty points at checkout
+
+* **Point redemption** is here. Set how many points equal how much off a sale in **Marketing → Loyalty**, for example 500 points = $10.00.
+* **In the POS**, a points button next to the client's balance lets you redeem points in whole blocks. It works like a discount, so tax goes down too.
+* **Client profile** has a new Loyalty points card with the balance, its value, progress to the next reward and recent activity.
+* **Client list** has a sortable **Points** column, with a gift icon for clients who can redeem.
+* **Client Loyalty report** shows points earned and redeemed, the value redeemed, your top clients and what clients still hold.
+* A full refund now returns redeemed points to the client.
+
+[Loyalty Points](../reports-and-marketing/marketing/loyalty-points.md) · [Redeeming Loyalty Points During Checkout](../daily-operations/pos/common-checkouts-and-tutorial-walkthroughs/redeeming-loyalty-points-during-checkout.md) · [Client Loyalty](../reports-and-marketing/reports/client-loyalty.md)
+{% endupdate %}
+
 {% update date="2026-10-07" %}
 ## Export clients to Mailchimp or any email tool
 

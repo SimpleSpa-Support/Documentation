@@ -142,6 +142,7 @@
   * [Forecast](reports-and-marketing/reports/forecast.md)
   * [Client Reports](reports-and-marketing/reports/client-reports.md)
   * [Client At-Risk](reports-and-marketing/reports/client-at-risk.md)
+  * [Client Loyalty](reports-and-marketing/reports/client-loyalty.md)
   * [Staff Reports](reports-and-marketing/reports/staff-reports.md)
 * [Marketing](reports-and-marketing/marketing/README.md)
   * [Campaigns](reports-and-marketing/marketing/campaigns.md)

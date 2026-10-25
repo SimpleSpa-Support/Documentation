@@ -1,5 +1,5 @@
 ---
-description: New clients, retention, client revenue and birthdays.
+description: New clients, retention, client revenue, birthdays and loyalty.
 icon: users
 ---
 
@@ -33,3 +33,7 @@ For the dashboard birthday list, see [Birthdays](../../daily-operations/dashboar
 ## Client At-Risk
 
 Regular clients who are overdue for their next visit. See [Client At-Risk](client-at-risk.md).
+
+## Client Loyalty
+
+Loyalty points earned and redeemed, the value redeemed, your top redeemers and earners, and what clients still hold. See [Client Loyalty](client-loyalty.md).

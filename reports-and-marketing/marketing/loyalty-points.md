@@ -82,6 +82,8 @@ At the top of the Loyalty tab you can see:
 
 Redeemable value and redeemed value only appear when redemption is on.
 
+For points earned and redeemed over any date range, with a list of every redemption and your top clients, see the [Client Loyalty](../reports/client-loyalty.md) report.
+
 ## Where clients' points show
 
 * **Client list** – the **Points** column shows each client's balance. Press the column header to sort by points. A green gift icon means the client has enough points to redeem.
@@ -96,4 +98,5 @@ Redeemable value and redeemed value only appear when redemption is on.
 ## Related
 
 * [Redeeming Loyalty Points During Checkout](../../daily-operations/pos/common-checkouts-and-tutorial-walkthroughs/redeeming-loyalty-points-during-checkout.md)
+* [Client Loyalty](../reports/client-loyalty.md)
 * [Marketing](./)
