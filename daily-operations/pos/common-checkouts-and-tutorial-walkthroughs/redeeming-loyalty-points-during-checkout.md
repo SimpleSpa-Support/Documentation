@@ -23,6 +23,8 @@ Select the client in the POS and add everything they are buying. Points can be u
 ### Press the points button
 
 Next to the client's balance and credit, a yellow **★ points** button shows how many points the client has. Press it to open **Redeem points**.
+
+![The points button next to the client's credit in the POS](../../../.gitbook/assets/pos-points-button.png)
 {% endstep %}
 
 {% step %}
@@ -35,6 +37,8 @@ Use **+** and **−** to change the amount. Points are used in whole blocks, for
 ### Apply
 
 Press **Apply**. A **Points Redemption** line is added to the cart with the number of points used.
+
+![The Points Redemption line in the POS cart](../../../.gitbook/assets/points-redemption-line.png)
 {% endstep %}
 
 {% step %}

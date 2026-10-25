@@ -75,6 +75,8 @@ Set either value to **0** and press **Save**. The label changes to **Off** and t
 
 At the top of the Loyalty tab you can see:
 
+![Program totals at the top of the Loyalty tab](../../.gitbook/assets/loyalty-program-totals.png)
+
 * **Clients with points** – how many clients have a points balance.
 * **Points outstanding** – the total points your clients hold.
 * **Redeemable value** – what those points would be worth if every client redeemed today.
