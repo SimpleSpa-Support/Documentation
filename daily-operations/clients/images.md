@@ -1,5 +1,5 @@
 ---
-description: The Images tab in a client's profile.
+description: The Images tab in a client's profile, where that client's photos are kept.
 ---
 
 # Images

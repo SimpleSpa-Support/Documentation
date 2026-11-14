@@ -1,5 +1,7 @@
 ---
-description: Gift cards API access is read-only
+description: >-
+  API endpoint to retrieve and query issued gift cards and gift certificates.
+  Read-only, Enterprise API beta.
 icon: code
 ---
 

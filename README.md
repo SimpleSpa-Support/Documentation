@@ -1,5 +1,8 @@
 ---
-description: Documentation & FAQ
+description: >-
+  Guides and FAQs for SimpleSpa, the spa, salon and med spa booking software:
+  setup, appointments, online booking, POS, clients, staff, marketing, reports
+  and the Enterprise API.
 ---
 
 # SimpleSpa Documentation

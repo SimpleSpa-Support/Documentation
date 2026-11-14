@@ -1,5 +1,7 @@
 ---
-description: The web browsers SimpleSpa supports.
+description: >-
+  The browsers SimpleSpa supports: the latest Chrome, Edge, Firefox and Safari,
+  plus iPhone and iPad.
 ---
 
 # Browser Support

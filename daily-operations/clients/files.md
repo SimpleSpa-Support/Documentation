@@ -1,5 +1,7 @@
 ---
-description: The Files tab in a client's profile.
+description: >-
+  The Files tab in a client's profile, where documents saved for that client are
+  kept.
 ---
 
 # Files

@@ -1,8 +1,11 @@
 ---
+description: >-
+  API endpoint for approved Enterprise accounts to change the status of an
+  existing appointment by its ID.
 icon: gear-code
 ---
 
-# Appointment Status
+# Update Appointment Status
 
 > Note: API Beta Access, see [API Terms of Use](https://docs.simplespa.net/simplespa-documentation/api/simplespa-enterprise-api/integrations/api-terms-of-use)
 

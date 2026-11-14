@@ -1,5 +1,7 @@
 ---
-description: Fields and Settings available per Product
+description: >-
+  Every setting for a product: category, SKU/barcode, retail and special price,
+  tax rate, commissions, online visibility and inventory.
 ---
 
 # Product Fields and Settings

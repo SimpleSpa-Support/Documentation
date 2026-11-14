@@ -1,8 +1,11 @@
 ---
+description: >-
+  API endpoint for Enterprise accounts to adjust product stock levels using the
+  same logic as the SimpleSpa back office.
 icon: gear-code
 ---
 
-# Product Inventory
+# Update Product Inventory
 
 > Note: API Beta Access, see [API Terms of Use](https://docs.simplespa.net/simplespa-documentation/api/simplespa-enterprise-api/integrations/api-terms-of-use)
 

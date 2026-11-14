@@ -1,5 +1,7 @@
 ---
-description: Integrate SimpleSpa with Zapier
+description: >-
+  Connect SimpleSpa to Zapier with the Enterprise API, for example to send new
+  appointments to Google Sheets or a CRM.
 icon: code
 ---
 

@@ -1,5 +1,7 @@
 ---
-description: Staff API access is read-only
+description: >-
+  API endpoint to list active staff at a location with names and contact
+  details. Read-only, Enterprise API beta.
 icon: code
 cover: >-
   https://images.unsplash.com/photo-1515879218367-8466d910aaa4?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw4fHxjb2RlfGVufDB8fHx8MTc0NTk0MDEyNXww&ixlib=rb-4.0.3&q=85

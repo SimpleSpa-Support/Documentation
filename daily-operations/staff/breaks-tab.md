@@ -1,5 +1,7 @@
 ---
-description: Set fixed breaks for a staff member.
+description: >-
+  Set fixed breaks for a staff member in the Breaks tab, which also removes that
+  time from online booking.
 ---
 
 # Breaks Tab

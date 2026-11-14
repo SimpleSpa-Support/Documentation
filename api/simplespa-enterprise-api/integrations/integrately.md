@@ -1,5 +1,7 @@
 ---
-description: Integrate SimpleSpa with Integrately
+description: >-
+  Connect the SimpleSpa Enterprise API to an Integrately automation using a
+  custom webhook.
 hidden: true
 icon: code
 ---

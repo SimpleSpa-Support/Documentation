@@ -1,5 +1,7 @@
 ---
-description: Printing a receipt (thermal printer)
+description: >-
+  Print a receipt formatted for a thermal receipt printer from the print popup
+  after a sale or appointment checkout.
 ---
 
 # Thermal Receipt

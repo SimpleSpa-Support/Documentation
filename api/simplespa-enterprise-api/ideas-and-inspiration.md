@@ -1,4 +1,7 @@
 ---
+description: >-
+  Ideas for using the Enterprise API with AI tools and Zapier, Make.com or
+  Integrately to automate workflows and marketing.
 icon: lightbulb
 ---
 

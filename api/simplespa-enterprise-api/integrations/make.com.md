@@ -1,5 +1,7 @@
 ---
-description: Integrate SimpleSpa with Make.com
+description: >-
+  Connect the SimpleSpa Enterprise API to a Make.com scenario using the HTTP
+  module, step by step.
 icon: code
 ---
 

@@ -1,5 +1,7 @@
 ---
-description: Package Redemption
+description: >-
+  How a client's package credits appear and are used when you book a service
+  included in their package.
 ---
 
 # Redeeming Packages

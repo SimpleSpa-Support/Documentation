@@ -1,5 +1,7 @@
 ---
-description: SimpleSpa is available by subscription only.
+description: >-
+  No. SimpleSpa is sold as a subscription only, with no perpetual or one-time
+  license.
 ---
 
 # Where can I get a SimpleSpa perpetual license?

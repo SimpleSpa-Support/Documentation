@@ -1,4 +1,7 @@
 ---
+description: >-
+  Terms that govern access to the SimpleSpa API, including the beta program,
+  eligibility and permitted use.
 icon: file-lines
 ---
 
@@ -68,7 +71,7 @@ You must handle all data obtained through the API in accordance with:
 * SimpleSpa’s [Privacy Policy](https://simplespa.net/privacy)
 * Industry best practices for security and access control
 
-## 7.  Monitoring, Rate Limits & Enforcement
+## 7. Monitoring, Rate Limits & Enforcement
 
 API usage is subject to monitoring, logging, and rate limiting.
 

@@ -1,5 +1,7 @@
 ---
-description: Printing a receipt (regular printer)
+description: >-
+  Print a receipt on a regular printer from the print popup that appears after a
+  sale or appointment checkout.
 ---
 
 # Receipt Printing

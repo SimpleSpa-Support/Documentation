@@ -1,5 +1,7 @@
 ---
-description: Clients API access is read-only
+description: >-
+  API endpoint to fetch client records with filters. Read-only, Enterprise API
+  beta.
 icon: code
 cover: >-
   https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxjb2RlfGVufDB8fHx8MTc0NTk0MDEyNXww&ixlib=rb-4.0.3&q=85

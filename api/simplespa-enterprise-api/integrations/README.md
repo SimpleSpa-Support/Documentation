@@ -1,4 +1,7 @@
 ---
+description: >-
+  Connect the SimpleSpa Enterprise API to no-code automation tools: Zapier,
+  Make.com and Integrately.
 icon: code
 cover: >-
   https://images.unsplash.com/photo-1537884944318-390069bb8665?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw3fHxjb2RlfGVufDB8fHx8MTc0NTk0MDEyNXww&ixlib=rb-4.0.3&q=85

@@ -1,5 +1,7 @@
 ---
-description: A video demo walkthrough of SimpleSpa.
+description: >-
+  A video tour of SimpleSpa's main screens for new users and anyone evaluating
+  the software.
 ---
 
 # Demo Walkthrough

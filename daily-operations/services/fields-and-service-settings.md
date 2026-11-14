@@ -1,5 +1,8 @@
 ---
-description: Fields and Settings available per Service
+description: >-
+  Every setting for a service: price, duration, commissions, per-minute pricing,
+  required resources and staff, downtime, forms, online visibility and AI
+  service descriptions.
 ---
 
 # Fields and Service Settings
