@@ -162,6 +162,7 @@
   * [Waitlist](reports-and-marketing/online-booking/waitlist.md)
   * [Limiting How Far Ahead Clients Can Book](reports-and-marketing/online-booking/limiting-how-far-ahead-clients-can-book.md)
   * [Custom Theme & Fonts](reports-and-marketing/online-booking/custom-theme-and-fonts.md)
+  * [Conversion Tracking](reports-and-marketing/online-booking/conversion-tracking.md)
 * [Your Website](reports-and-marketing/website.md)
 * [Notifications](reports-and-marketing/notifications/README.md)
   * [Email Notifications](reports-and-marketing/notifications/email-notifications.md)

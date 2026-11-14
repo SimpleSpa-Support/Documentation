@@ -14,6 +14,17 @@ Some of the newest screens (the new dashboard, calendar look, booking wizard and
 {% endhint %}
 
 {% updates format="full" %}
+{% update date="2026-11-14" %}
+## Google Ads conversion tracking for online booking
+
+* **Track bookings in Google Ads.** Add your Google Ads conversion ID and label, and every completed online booking is reported as a conversion with its value and a transaction ID.
+* **One field, everything together.** The URL Redirection field in Website Tools now holds a thank-you page URL, a GA4 Measurement ID and a Google Ads conversion at the same time, separated by spaces. Existing settings keep working.
+* **GA4 booking events.** Each completed booking is also recorded in Google Analytics as `sspa_booking_complete`, with value and services.
+* **Cross-domain ready.** Your thank-you page's domain is linked automatically, and the thank-you page receives a transaction ID (`sspa_tid`) so you can avoid counting a booking twice.
+
+[Conversion Tracking](../reports-and-marketing/online-booking/conversion-tracking.md) · [Google Analytics](../extras/faq/google-analytics.md)
+{% endupdate %}
+
 {% update date="2026-10-26" %}
 ## Redeem loyalty points at checkout
 

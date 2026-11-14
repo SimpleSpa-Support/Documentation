@@ -1,7 +1,7 @@
 ---
 description: >-
-  Add your Google Analytics Measurement ID to track visits to your SimpleSpa
-  online booking page.
+  Add your Google Analytics Measurement ID to track visits and bookings on your
+  SimpleSpa online booking page.
 ---
 
 # Google Analytics
@@ -10,17 +10,19 @@ This page shows how to add Google Analytics to your SimpleSpa online booking pag
 
 ## Is Google Analytics supported in the SimpleSpa online booking?
 
-Yes. Add your Google Analytics Measurement ID under **Settings → Locations → (your location) → Website Tools**. In the **Website Redirect** field, enter only the Measurement ID.
+Yes. Add your Google Analytics Measurement ID under **Settings → Locations → (your location) → Website Tools**, in the **URL Redirection** (Website Redirect) field.
 
-{% hint style="warning" %}
-Either Google Analytics tracking or a URL redirect will work, but not both.
-{% endhint %}
+The same field can also hold a thank-you page URL and a Google Ads conversion, separated by spaces, for example:
+
+```
+https://www.yoursite.com/thank-you G-XXXXXXXXXX
+```
+
+Each completed booking is recorded in GA4 as an `sspa_booking_complete` event with its value. See [Conversion Tracking](../../reports-and-marketing/online-booking/conversion-tracking.md) for the full setup, including Google Ads.
 
 ## Find your Measurement ID
 
 ### Google Analytics 4 (GA4)
-
-Most accounts today use GA4.
 
 {% stepper %}
 {% step %}
@@ -60,33 +62,16 @@ It looks like this:
 G-XXXXXXXXXX
 ```
 
-### Universal Analytics (Legacy UA)
-
-Google has phased out Universal Analytics, but if you still have an older property, your ID will look like UA-12345678-1.
-
-To find it:
-
-1. Go to **Admin** in Google Analytics.
-2. Under the **Property** column, select your UA property (it starts with “UA”).
-3. Click **Property Settings**.
-4. The Tracking ID is displayed at the top.
-
-Example:
-
-```
-UA-12345678-1
-```
-
-## Which one do I need?
-
-* ✅ If you see a GA4 ID (G-XXXXXXXXXX), use that.
-* ⚠️ If you only have a UA ID (UA-XXXXXX-X), you can still use it, but we recommend upgrading to GA4 for continued support.
+{% hint style="warning" %}
+**Universal Analytics (UA-) is no longer supported.** Google retired Universal Analytics, so IDs that look like `UA-12345678-1` are ignored. Use your GA4 Measurement ID (`G-`) instead.
+{% endhint %}
 
 ***
 
-👉 Once you have your ID, either add it as described above or send it to our team and we’ll connect it to your SimpleSpa booking page.
+👉 Once you have your ID, either add it as described above or send it to our team and we'll connect it to your SimpleSpa booking page.
 
 ## Related
 
+* [Conversion Tracking](../../reports-and-marketing/online-booking/conversion-tracking.md)
 * [Linking and embedding online booking](../../reports-and-marketing/online-booking/linking-and-embedding-online-booking.md)
 * [Your custom booking URL](../../reports-and-marketing/online-booking/your-custom-booking-url.md)
