@@ -54,7 +54,7 @@ When you add a client in the POS, or if the client is already filled in, SimpleS
 
 ### Online booking deposits
 
-Deposits are designed for single-service bookings made online. To enable them, go to **Settings → Locations → (your location) → Website Tools**. Stripe must be connected. There you can set the option to require payment for online bookings and set the deposit amount as a percentage.
+Clients can pay a deposit when they book online, for one service or several. To enable it, go to **Settings → Locations → (your location) → Website Tools**, turn on **require payment** for online bookings and set the deposit as a percentage of the booking total. Stripe or PayPal must be connected. See [Accepting Deposits for Bookings](../../reports-and-marketing/online-booking/accepting-deposits-for-bookings.md).
 
 ### Collecting a deposit in the POS
 

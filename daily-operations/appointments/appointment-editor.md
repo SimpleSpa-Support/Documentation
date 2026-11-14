@@ -42,10 +42,31 @@ Click the client's contact details to open the contact options: **Call**, **SMS*
 
 ## Package on file
 
-If the client has a package, a package card shows the credits remaining and the expiration date, with two actions:
+When an appointment is covered by a client's package, a package card shows:
 
-* **Charge Package Now** uses a package credit for this appointment.
-* **Add / Adjust Tip** adds a tip to the package charge.
+* The **package name**.
+* **Credits remaining**, and how many will be left after this visit.
+* The **expiry date** and the days remaining.
+
+The card follows the package's **auto-deduct** setting (see [Managing Packages](../packages/managing-packages.md)):
+
+| Auto-deduct | What the card shows                                                           |
+| ----------- | ----------------------------------------------------------------------------- |
+| **On**      | The time the package will be charged automatically. Nothing needs to be done. |
+| **Off**     | A reminder to charge the package at checkout.                                 |
+
+Two buttons sit on the card:
+
+* **Charge package** uses a package credit for this appointment. It's hidden when there are no credits left or the appointment is already paid.
+* **Tip** adds or adjusts a tip on the package charge.
+
+### Package warnings
+
+The card warns you when:
+
+* The client has **no credits left**.
+* The package **expires before** the appointment date.
+* An **auto-deduct** appointment is past its time but still unpaid, so you know to charge it manually.
 
 ## Change the client on an appointment
 
@@ -80,3 +101,4 @@ You can't change the client once the appointment has been paid or has a package 
 * [New Appointment Wizard](new-appointment-wizard.md)
 * [Appointment Status](appointment-status.md)
 * [Appointment Photos & Markup](appointment-photos-and-markup.md)
+* [Managing Packages](../packages/managing-packages.md)

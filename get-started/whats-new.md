@@ -25,6 +25,27 @@ Some of the newest screens (the new dashboard, calendar look, booking wizard and
 [Conversion Tracking](../reports-and-marketing/online-booking/conversion-tracking.md) · [Google Analytics](../extras/faq/google-analytics.md)
 {% endupdate %}
 
+{% update date="2026-11-10" %}
+## Smarter availability for multi-service bookings
+
+* When a client books services from different categories with **Any staff**, only times where a qualified staff member is free for **each** service (at the time that service takes place) are shown.
+* Before a deposit is taken, SimpleSpa checks that every service can be assigned a staff member. If not, no payment is taken and the client picks another time.
+* If someone else takes the time while the client is filling in their details, the client is taken back to choose a new time with a clear message.
+
+[Multiple Bookings](../reports-and-marketing/online-booking/multiple-bookings.md) · [Accepting Deposits for Bookings](../reports-and-marketing/online-booking/accepting-deposits-for-bookings.md)
+{% endupdate %}
+
+{% update date="2026-10-29" %}
+## Book two services at the same time (beta)
+
+* When turned on for a location, a client who books two services (for example a manicure and a pedicure) is booked into both at the same start time with **two different staff members**.
+* Any further services follow one after the other, starting when the longer of the two ends.
+* The cart and confirmation step show whether services run at the same time or one after another, with the exact time range.
+* Off by default. Contact support to turn it on.
+
+[Multiple Bookings](../reports-and-marketing/online-booking/multiple-bookings.md) · [Does SimpleSpa support parallel bookings?](../extras/faq/does-simplespa-support-parallel-bookings.md)
+{% endupdate %}
+
 {% update date="2026-10-26" %}
 ## Redeem loyalty points at checkout
 
@@ -36,6 +57,59 @@ Some of the newest screens (the new dashboard, calendar look, booking wizard and
 * A full refund now returns redeemed points to the client.
 
 [Loyalty Points](../reports-and-marketing/marketing/loyalty-points.md) · [Redeeming Loyalty Points During Checkout](../daily-operations/pos/common-checkouts-and-tutorial-walkthroughs/redeeming-loyalty-points-during-checkout.md) · [Client Loyalty](../reports-and-marketing/reports/client-loyalty.md)
+{% endupdate %}
+
+{% update date="2026-10-20" %}
+## Clearer package card in the appointment editor
+
+* Appointments covered by a package show the package name, credits remaining (and how many will be left after the visit) and the expiry date.
+* The card follows the package's **auto-deduct** setting: it shows when the package will be charged automatically, or asks you to charge it at checkout.
+* New warnings for no credits left, a package that expires before the appointment, and an auto-deduct appointment that is past its time but still unpaid.
+* **Charge package** and **Tip** buttons sit right on the card.
+
+[Appointment Editor](../daily-operations/appointments/appointment-editor.md) · [Managing Packages](../daily-operations/packages/managing-packages.md)
+{% endupdate %}
+
+{% update date="2026-10-16" %}
+## New online booking page design
+
+* A step bar (Services, Date & time, Your info, Confirm) shows clients where they are, and they can tap back to change services or time.
+* Your business name, address and today's hours sit in a compact header with call and directions buttons. Full hours, map and extra info open from the info button.
+* Service categories appear as buttons in your category order, then by how often they were booked in the last 90 days.
+* Returning clients can tick **Remember my details on this device** and use **Use saved** next time. **Not you? Forget** clears them on shared devices.
+* Larger buttons and a compact bottom bar on phones.
+
+[The Online Booking Page](../reports-and-marketing/online-booking/the-online-booking-page.md) · [Custom Theme & Fonts](../reports-and-marketing/online-booking/custom-theme-and-fonts.md)
+{% endupdate %}
+
+{% update date="2026-10-14" %}
+## Choose a different staff member for each service
+
+* Clients can pick a different staff member for each service in the same online booking, using the **With** picker on each selected service.
+* Only times that work for every chosen staff member, back to back, are offered.
+* Changing the staff member at the top of the page no longer clears the services already selected.
+* Days with no availability move the client to the next available day, or show a **Next available** button.
+
+[The Online Booking Page](../reports-and-marketing/online-booking/the-online-booking-page.md) · [Multiple Bookings](../reports-and-marketing/online-booking/multiple-bookings.md)
+{% endupdate %}
+
+{% update date="2026-10-10" %}
+## Online deposits are never lost
+
+* A deposit is recorded even if the client's page is interrupted after paying (for example, while approving in their banking app). If the appointment could not be created, you get an email with the booking details.
+* Clients are never charged twice if their time is taken or their connection drops.
+
+[Accepting Deposits for Bookings](../reports-and-marketing/online-booking/accepting-deposits-for-bookings.md) · [Balances & Deposits](../daily-operations/pos/balances-and-deposits.md)
+{% endupdate %}
+
+{% update date="2026-10-09" %}
+## Account security and two-factor sign-in
+
+* A new **Account security** page, in the menu under your name, to change your password and set up two-factor sign-in.
+* Use an **authenticator app** (Google Authenticator, Microsoft Authenticator, 1Password, Authy) or a text message code, with 10 recovery codes.
+* Admins and managers can reset a user's password or authenticator, and see when each user last changed their password.
+
+[Account Security](../daily-operations/users/account-security.md)
 {% endupdate %}
 
 {% update date="2026-10-07" %}
@@ -75,6 +149,26 @@ Some of the newest screens (the new dashboard, calendar look, booking wizard and
 A new **Forecast** tab in Reports projects next month's (or the rest of this month's) revenue and appointments, with a likely range and a confidence rating.
 
 [Forecast](../reports-and-marketing/reports/forecast.md)
+{% endupdate %}
+
+{% update date="2026-09-27" %}
+## Safer payment window for online bookings
+
+* The secure payment window stays open with a **Please wait, confirming your payment…** message during bank verification (3D Secure) or a Link sign-in, so a payment can no longer go through without the booking being saved.
+* Better compatibility with bank verification screens and Link one-time codes.
+* The same protections apply to online gift card and product purchases.
+
+[Accepting Deposits for Bookings](../reports-and-marketing/online-booking/accepting-deposits-for-bookings.md)
+{% endupdate %}
+
+{% update date="2026-09-19" %}
+## Custom payment options
+
+* Add your own payment options per location, such as Venmo, bank transfer, room charge or QR payment, with an icon. Up to 6 per location, in the location's accepted payment methods.
+* Each option gets its own button in the POS payment row. Sales are recorded under **Other** and tagged with the option used.
+* The daily summary, receipts and the printed daily report break down **Other** by option.
+
+[Custom Payment Options](../daily-operations/pos/custom-payment-options.md)
 {% endupdate %}
 
 {% update date="2026-09-17" %}

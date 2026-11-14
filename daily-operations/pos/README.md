@@ -13,6 +13,7 @@ This section covers checking out clients in the SimpleSpa POS, from recording a 
 * [Recording a Sale](recording-a-sale.md)
 * [Balances and Deposits](balances-and-deposits.md)
 * [Multiple Payment Methods](multiple-payment-methods.md)
+* [Custom Payment Options](custom-payment-options.md)
 * [Processing Credit Cards](processing-credit-cards.md)
 * [Cards on File](cards-on-file.md)
 * [PCI Compliance](pci-compliance.md)
