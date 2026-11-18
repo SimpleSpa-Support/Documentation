@@ -67,25 +67,30 @@ When an appointment has been completed or paid for, the appointment popup shows 
 
 This feature is available only if your client has an email address in their profile.
 
+## Rebooking Links
+
+Appointment confirmation and reminder emails end with a small **Book again · See open times** line, in your location's language, so clients (or their AI assistant) can book the same service again in one tap. The links are added only when the location takes bookings on the new online booking page. To place them inside your own message instead, use the `[BOOK_AGAIN]` tag. See [Rebooking Links in Emails](rebooking-links-in-emails.md).
+
 ## Supported Email Tags
 
-| Tag                | What it shows                                                                    |
-| ------------------ | -------------------------------------------------------------------------------- |
-| `[CLIENT_NAME]`    | The client's name                                                                |
-| `[STAFF_NAME]`     | The assigned staff member's name                                                 |
-| `[SERVICE_NAME]`   | The appointment's service name                                                   |
-| `[SERVICE_COST]`   | The service cost                                                                 |
-| `[BUSINESS]`       | The business name (found in **Settings**)                                        |
-| `[LOCATION]`       | The business location name (found in **Settings → Locations → (your location)**) |
-| `[LOCATION_PHONE]` | The location phone (found in **Settings → Locations → (your location)**)         |
-| `[LOCATION_EMAIL]` | The location email (found in **Settings → Locations → (your location)**)         |
-| `[PRETTY_DATE]`    | The date                                                                         |
-| `[DATE2]`          | The date in a different format                                                   |
-| `[DATETIME]`       | The date/time                                                                    |
-| `[TIME]`           | The time of the appointment                                                      |
-| `[CONFIRM]`        | A confirm button (only supported in the Email Reminder template)                 |
-| `[DURATION]`       | The duration of the scheduled appointment, in minutes                            |
-| `[FORMS]`          | All forms associated with the service for the scheduled appointment              |
+| Tag                | What it shows                                                                                               |
+| ------------------ | ----------------------------------------------------------------------------------------------------------- |
+| `[CLIENT_NAME]`    | The client's name                                                                                           |
+| `[STAFF_NAME]`     | The assigned staff member's name                                                                            |
+| `[SERVICE_NAME]`   | The appointment's service name                                                                              |
+| `[SERVICE_COST]`   | The service cost                                                                                            |
+| `[BUSINESS]`       | The business name (found in **Settings**)                                                                   |
+| `[LOCATION]`       | The business location name (found in **Settings → Locations → (your location)**)                            |
+| `[LOCATION_PHONE]` | The location phone (found in **Settings → Locations → (your location)**)                                    |
+| `[LOCATION_EMAIL]` | The location email (found in **Settings → Locations → (your location)**)                                    |
+| `[PRETTY_DATE]`    | The date                                                                                                    |
+| `[DATE2]`          | The date in a different format                                                                              |
+| `[DATETIME]`       | The date/time                                                                                               |
+| `[TIME]`           | The time of the appointment                                                                                 |
+| `[CONFIRM]`        | A confirm button (only supported in the Email Reminder template)                                            |
+| `[DURATION]`       | The duration of the scheduled appointment, in minutes                                                       |
+| `[FORMS]`          | All forms associated with the service for the scheduled appointment                                         |
+| `[BOOK_AGAIN]`     | Rebooking links for the service, placed here instead of the email footer (confirmation and reminder emails) |
 
 {% hint style="info" %}
 Each email type can show your business logo, as long as it is set in **Settings**. You can customize each message with the text and formatting you prefer.
@@ -95,3 +100,4 @@ Each email type can show your business logo, as long as it is set in **Settings*
 
 * [SMS/Text Notifications](sms-text-notifications.md)
 * [SMS Replies and Confirmations](sms-replies-and-confirmations.md)
+* [Rebooking Links in Emails](rebooking-links-in-emails.md)

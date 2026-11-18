@@ -14,6 +14,20 @@ Some of the newest screens (the new dashboard, calendar look, booking wizard and
 {% endhint %}
 
 {% updates format="full" %}
+{% update date="2026-11-17" %}
+## Online booking for AI assistants, and rebooking links in emails
+
+* **Readable by AI assistants.** ChatGPT, Claude and other assistants can now read your services, durations, prices (when shown), staff and opening hours from your booking page, and send clients there with the service already chosen.
+* **Direct booking links.** Open your booking page with a service, staff member, date or time already selected, for example `?svc=123&date=2026-12-05`.
+* **Open times page.** A simple page that lists a service's open times for up to 7 days, for assistants and for quick sharing.
+* **Rebooking links in emails.** Confirmation and reminder emails end with a small **Book again · See open times** line, in the location's language, so clients (or their AI assistant) can rebook in one tap. Use the new `[BOOK_AGAIN]` tag to place the links inside your own message instead.
+* **Booking sources.** Bookings made on the new booking page record where they came from, such as ChatGPT, Claude or an email link.
+
+These features need a custom booking URL and the new online booking page.
+
+[AI Assistants & Direct Booking Links](../reports-and-marketing/online-booking/ai-assistants-and-direct-booking-links.md) · [Rebooking Links in Emails](../reports-and-marketing/notifications/rebooking-links-in-emails.md) · [Email Notifications](../reports-and-marketing/notifications/email-notifications.md)
+{% endupdate %}
+
 {% update date="2026-11-14" %}
 ## Google Ads conversion tracking for online booking
 
