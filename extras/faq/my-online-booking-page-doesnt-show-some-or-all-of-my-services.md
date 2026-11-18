@@ -18,8 +18,13 @@ Once these are set, your service categories and services will show during online
 SimpleSpa only shows a service when a staff member is available, shown online and assigned to that service.
 {% endhint %}
 
+## Add-ons
+
+Services with **Add-On** ticked are not listed on their own. They appear as an **Enhance your treatment** option after a client picks a service in the same category, or any service if the add-on's category contains only add-ons. The same staff and **Show Online** settings above apply to add-ons. See [Service Add-Ons](../../reports-and-marketing/online-booking/service-add-ons.md).
+
 ## Related
 
 * [Managing services](../../daily-operations/services/managing-services.md)
 * [Assigning specialties](../../daily-operations/staff/assigning-specialties.md)
 * [My online booking is not showing availability although I am available in my calendar](my-online-booking-is-not-showing-availability-although-i-am-available-in-my-calendar.md)
+* [Service Add-Ons](../../reports-and-marketing/online-booking/service-add-ons.md)

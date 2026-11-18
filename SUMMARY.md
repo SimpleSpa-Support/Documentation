@@ -158,6 +158,7 @@
   * [The Online Booking Page](reports-and-marketing/online-booking/the-online-booking-page.md)
   * [Your Custom Booking URL](reports-and-marketing/online-booking/your-custom-booking-url.md)
   * [Multiple Bookings](reports-and-marketing/online-booking/multiple-bookings.md)
+  * [Service Add-Ons](reports-and-marketing/online-booking/service-add-ons.md)
   * [Accepting Deposits for Bookings](reports-and-marketing/online-booking/accepting-deposits-for-bookings.md)
   * [Linking & Embedding Online Booking](reports-and-marketing/online-booking/linking-and-embedding-online-booking.md)
   * [Adding a Holiday](reports-and-marketing/online-booking/adding-a-holiday.md)

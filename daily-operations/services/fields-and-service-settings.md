@@ -1,8 +1,8 @@
 ---
 description: >-
   Every setting for a service: price, duration, commissions, per-minute pricing,
-  required resources and staff, downtime, forms, online visibility and AI
-  service descriptions.
+  required resources and staff, downtime, add-ons, forms, online visibility and
+  AI service descriptions.
 ---
 
 # Fields and Service Settings
@@ -77,6 +77,12 @@ Downtime applies to multiple appointments booked online and is the amount of cli
 Other clients can book with that staff member during a client's downtime.
 {% endhint %}
 
+## Add-On
+
+Turn this on to make the service an optional extra in online booking, such as hot stones with a massage or a French tip with a manicure. An add-on is not listed as a stand-alone service online. Instead, it is offered after a client picks a service in the same category, or any service if the add-on's category contains only add-ons. **Show Online** must also be on.
+
+See [Service Add-Ons](../../reports-and-marketing/online-booking/service-add-ons.md).
+
 ## Forms
 
 See [Adding Form(s) to a Service](https://www.simplespa.com/documentation/services/#adding-forms-to-a-service).
@@ -89,3 +95,4 @@ Changing a service's price or duration affects appointments scheduled going forw
 
 * [Adding Form(s) to a Service](https://www.simplespa.com/documentation/services/#adding-forms-to-a-service)
 * [Managing Services](managing-services.md)
+* [Service Add-Ons](../../reports-and-marketing/online-booking/service-add-ons.md)

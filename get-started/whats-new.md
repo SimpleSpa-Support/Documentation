@@ -14,6 +14,20 @@ Some of the newest screens (the new dashboard, calendar look, booking wizard and
 {% endhint %}
 
 {% updates format="full" %}
+{% update date="2026-11-20" %}
+## Service add-ons for online booking
+
+* **Add-ons while booking.** After a client picks a service, an **Enhance your treatment** row suggests optional extras for it, such as hot stones with a massage or a French tip with a manicure, with the extra time and price (price only if you show prices online). One tap adds it to the booking.
+* **Offered where they fit.** Add-ons are offered with services in the same category. Add-ons in a category that contains only add-ons are offered with every service.
+* **Booked right after the service.** Each add-on is booked straight after its service with the same staff member, so the full time is blocked on your calendar, and it shows in your reports as its own service.
+* **Prices and deposits.** Add-on prices are included in the total, tax and any online deposit.
+* **Add-On option on the Services page.** Tick **Add-On** when adding or editing a service to turn it into an add-on.
+
+Add-ons need the new online booking page.
+
+[Service Add-Ons](../reports-and-marketing/online-booking/service-add-ons.md) · [Fields and Service Settings](../daily-operations/services/fields-and-service-settings.md)
+{% endupdate %}
+
 {% update date="2026-11-17" %}
 ## Online booking for AI assistants, and rebooking links in emails
 
