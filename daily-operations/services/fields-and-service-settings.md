@@ -81,6 +81,8 @@ Other clients can book with that staff member during a client's downtime.
 
 Turn this on to make the service an optional extra in online booking, such as hot stones with a massage or a French tip with a manicure. An add-on is not listed as a stand-alone service online. Instead, it is offered after a client picks a service in the same category, or any service if the add-on's category contains only add-ons. **Show Online** must also be on.
 
+Set the duration to **0** for an extra that takes no time, such as lounge access. It is booked with the service without adding time, and shown as a line inside the service's block on your calendar.
+
 See [Service Add-Ons](../../reports-and-marketing/online-booking/service-add-ons.md).
 
 ## Forms

@@ -14,6 +14,17 @@ Some of the newest screens (the new dashboard, calendar look, booking wizard and
 {% endhint %}
 
 {% updates format="full" %}
+{% update date="2026-11-23" %}
+## Add-ons that take no time
+
+* **0-minute add-ons.** Set an add-on's duration to 0 for an extra that needs no staff time, such as lounge access or aromatherapy oils. Clients add it to their treatment while booking, and the booking stays the same length.
+* **Shown inside the treatment on your calendar.** A 0-minute add-on appears as a line in the treatment's block, for example **+ Stillness Lounge: $15**, instead of taking its own space. Click the line to open it.
+* **Charged at checkout** with the treatment, as its own line.
+* **Add-ons on phones.** The **Enhance your treatment** buttons now display correctly on small screens.
+
+[Service Add-Ons](../reports-and-marketing/online-booking/service-add-ons.md)
+{% endupdate %}
+
 {% update date="2026-11-20" %}
 ## Service add-ons for online booking
 
